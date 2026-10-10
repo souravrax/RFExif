@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShutterDrop</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div>
+          <h1>ShutterDrop</h1>
+          <p>Drop CR3 / JPG / HIF — shutter count + full EXIF, 100% local.</p>
+        </div>
+        <button id="pick-btn" type="button">Open files…</button>
+      </header>
+
+      <section id="dropzone" class="dropzone" aria-label="Drop pictures here">
+        <div class="dz-inner">
+          <div class="dz-icon">◈</div>
+          <p><strong>Drop pictures here</strong> or click “Open files…”</p>
+          <p class="muted">Read-only — originals are never modified. ExifTool bundled.</p>
+        </div>
+      </section>
+
+      <section id="status" class="status muted"></section>
+      <section id="cards" class="cards"></section>
+
+      <footer class="foot muted">
+        R10 note: native EXIF has no ShutterCount — ShutterDrop reads experimental blob
+        offset <code>0xC93</code> (total mech + EFCS + electronic). ExifTool © Phil Harvey (Artistic License).
+      </footer>
+    </main>
+  </body>
+</html>

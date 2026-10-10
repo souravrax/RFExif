@@ -21,6 +21,11 @@ src-tauri/WixTools
 #   into src-tauri/binaries/ as exiftool-x86_64-pc-windows-msvc.exe
 src-tauri/binaries/
 
+# Web (SvelteKit static)
+web/.svelte-kit
+web/build
+web/node_modules
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

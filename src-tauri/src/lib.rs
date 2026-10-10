@@ -7,6 +7,9 @@ use std::collections::HashMap;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 use tauri::Manager;
+use tauri::window::{Effect, EffectsBuilder};
+#[cfg(target_os = "macos")]
+use tauri::window::EffectState;
 
 const R10_BLOB_LEN: usize = 4608;
 const R10_SHUTTER_OFF: usize = 3219; // 0xC93
@@ -270,6 +273,24 @@ pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
+        .setup(|app| {
+            // Without this, `transparent: true` is just a see-through hole.
+            // The OS compositor must be told to blur behind the window:
+            // Mica on Windows 11, vibrancy on macOS.
+            if let Some(window) = app.get_webview_window("main") {
+                #[cfg(target_os = "macos")]
+                window.set_effects(
+                    EffectsBuilder::new()
+                        .effects([Effect::Sidebar])
+                        .state(EffectState::Active)
+                        .radius(12.0)
+                        .build(),
+                )?;
+                #[cfg(target_os = "windows")]
+                window.set_effects(EffectsBuilder::new().effect(Effect::Mica).build())?;
+            }
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![analyze_files])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

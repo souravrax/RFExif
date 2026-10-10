@@ -1,6 +1,8 @@
-# ShutterDrop
+# ShutterDrop [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 Drop CR3 / JPG / HIF — shutter count + full EXIF, 100% local. No uploads, originals are never modified (read-only).
+
+**Web app:** https://souravrax.github.io/ShutterDrop/ · **Desktop:** [Releases](https://github.com/souravrax/ShutterDrop/releases) (Tauri, ExifTool bundled)
 
 ## Why it exists
 
@@ -74,3 +76,9 @@ and system `PATH`. They are compiled into the installer through
 - ExifTool © Phil Harvey — https://exiftool.org (own license, bundled with attribution)
 - R6/R6II offsets: ExifTool forum + community research
 - R10 `0xC93` offset: reverse-engineered from 14 consecutive R10 CR3/JPG pairs
+
+## Adding your camera
+
+Cameras are plugins — see [`web/CONTRIBUTING.md`](web/CONTRIBUTING.md).
+Copy `web/cameras/_template.js`, prove the offset with 3+ consecutive files
+(`node web/test/run.js`), open a PR. Apache-2.0, see [LICENSE](LICENSE).

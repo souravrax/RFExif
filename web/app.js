@@ -1,7 +1,6 @@
 /* ShutterDrop Web — all parsing happens locally in this file + r10.js. */
 (function () {
   "use strict";
-  var RATED = { "Canon EOS R10": 100000 };
   var dz = document.getElementById("dropzone");
   var input = document.getElementById("file-input");
   var cards = document.getElementById("cards");
@@ -13,22 +12,24 @@
   }
   function fmt(n) { return n.toLocaleString("en-US"); }
 
-  function cardHTML(name, model, shutter, experimental, rows) {
-    var rated = RATED[model];
+  function cardHTML(name, displayModel, hit, rows) {
+    var sh = hit.result, ext = hit.extractor;
+    var rated = ext.ratedLife || 0;
     var bar = "";
-    if (shutter != null && rated) {
-      var pct = Math.min(100, Math.round((shutter / rated) * 100));
+    if (rated > 0) {
+      var pct = Math.min(100, Math.round((sh.value / rated) * 100));
       bar = '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
         '<div class="pct">' + pct + '% used of ' + fmt(rated) + ' rated</div>';
     }
-    var badge = experimental ? '<span class="badge-exp">experimental R10 · total mech + electronic</span>' : '';
+    var badge = sh.experimental ? '<span class="badge-exp">experimental · ' + esc(sh.source) + '</span>' : '';
     var detail = rows.map(function (r) {
       return '<tr><td>' + esc(r[0]) + '</td><td>' + esc(r[1]) + '</td></tr>';
     }).join('');
-    return '<article class="card"><div class="model">' + esc(model) + '</div>' +
+    return '<article class="card"><div class="model">' + esc(displayModel) + '</div>' +
       '<span class="via">Via photo · ' + esc(name) + '</span>' +
-      '<div class="count">' + (shutter != null ? fmt(shutter) : '—') + '</div>' +
+      '<div class="count">' + fmt(sh.value) + '</div>' +
       '<div class="cap">Shutter count</div>' + bar + badge +
+      '<p class="muted small">' + esc(sh.note) + '</p>' +
       '<table>' + detail + '</table></article>';
   }
 
@@ -44,12 +45,11 @@
     reader.onload = function () {
       var bytes = new Uint8Array(reader.result);
       var R = window.ShutterDropR10;
-      var hit = R.findR10Shutter(bytes);
+      var Reg = window.ShutterDropCameraRegistry;
       var exif = R.readJpegExif(bytes);
-      var model = exif.Model || (/\.cr3$/i.test(file.name) ? "Canon EOS R10 (from CR3)" : "Unknown model");
+      var hit = Reg.read({ bytes: bytes, exif: exif, fileName: file.name });
       var html;
       if (hit) {
-        var isR10 = /R10/.test(model);
         var rows = [
           ["File", file.name + " (" + (file.size / 1048576).toFixed(1) + " MB)"],
           ["Checked", new Date().toLocaleString()]
@@ -59,10 +59,10 @@
         if (exif.ExposureTime) rows.push(["Shutter", "1/" + Math.round(1 / parseFloat(exif.ExposureTime)) + " s"]);
         if (exif.FNumber) rows.push(["Aperture", "f/" + exif.FNumber]);
         if (exif.FocalLength) rows.push(["Focal", exif.FocalLength]);
-        html = cardHTML(file.name, isR10 ? "Canon EOS R10" : model, hit.value, true, rows);
+        html = cardHTML(file.name, hit.extractor.label, hit, rows);
       } else {
         html = unsupportedHTML(file.name,
-          "No readable counter in this file. R10/R7 need an original CR3 or JPG straight from the camera — edited exports strip the MakerNote blob.");
+          "No readable counter in this file. Use an original CR3 or JPG straight from the camera — edited exports strip the MakerNote blob this reader needs.");
       }
       var div = document.createElement("div");
       div.innerHTML = html;

@@ -115,7 +115,23 @@ fn exiftool_bin(app: &tauri::AppHandle) -> PathBuf {
     if dev.exists() {
         return dev;
     }
-    // 3. System PATH.
+    // 3. Portable fallback: binaries/ next to the running exe
+    //    (release zip layout: ShutterDrop.exe + binaries/).
+    if let Ok(exe) = std::env::current_exe() {
+        if let Some(dir) = exe.parent() {
+            for name in [
+                "binaries/exiftool-x86_64-pc-windows-msvc.exe",
+                "binaries/exiftool-aarch64-apple-darwin",
+                "binaries/exiftool-x86_64-unknown-linux-gnu",
+            ] {
+                let p = dir.join(name);
+                if p.exists() {
+                    return p;
+                }
+            }
+        }
+    }
+    // 4. System PATH.
     PathBuf::from("exiftool")
 }
 

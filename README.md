@@ -19,6 +19,25 @@ behaves exactly like a total actuation counter:
 Shown in the UI with an **experimental** badge until cross-checked against a USB
 reading for your body.
 
+## Install
+
+- **Windows**: download `ShutterDrop_0.1.0_x64-setup.exe` (NSIS) or
+  `ShutterDrop_0.1.0_x64_en-US.msi` from
+  [Releases](https://github.com/souravrax/ShutterDrop/releases). ExifTool is
+  bundled — no setup needed.
+- **macOS**: clone and build locally (Apple Silicon or Intel):
+  ```sh
+  git clone https://github.com/souravrax/ShutterDrop.git
+  cd ShutterDrop
+  npm install
+  # place the macOS exiftool binary at:
+  #   src-tauri/binaries/exiftool-aarch64-apple-darwin  (Apple Silicon)
+  #   src-tauri/binaries/exiftool-x86_64-apple-darwin   (Intel)
+  # from https://exiftool.org ü then:
+  npm run tauri build
+  ```
+  The `.dmg` lands in `src-tauri/target/release/bundle/dmg/`.
+
 ## Dev
 
 ```sh

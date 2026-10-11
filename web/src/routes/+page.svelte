@@ -14,6 +14,49 @@
     return n.toLocaleString("en-US");
   }
 
+  function touch(id, patch) {
+    cards = cards.map(function (c) {
+      if (c.id !== id) return c;
+      var next = {};
+      for (var k in c) next[k] = c[k];
+      for (var p in patch) next[p] = patch[p];
+      return next;
+    });
+  }
+
+  // Progressive enrichment: full ExifTool-WASM decode after the instant card.
+  // Never breaks the fast-path result — failures just clear the spinner.
+  async function enrich(id, file, bytes, exif, fastHit) {
+    try {
+      var mod = await import("$lib/wasm/exiftool.js");
+      var full = await mod.parseFull(file);
+      var extra = mod.pickEnrichment(full.map);
+      var merged = {};
+      for (var k in exif) merged[k] = exif[k];
+      for (var g in full.map) merged[g] = full.map[g];
+      var rows = [];
+      if (extra.serial) rows.push(["Body S/N", extra.serial]);
+      if (extra.lens) rows.push(["Lens", extra.lens]);
+      // A native (non-experimental) count outranks an experimental fast hit.
+      var upgrade = registry.read({ bytes, exif: merged, fileName: file.name }, "web");
+      var patch = { enriching: false, engine: mod.ENGINE + " · " + full.tagCount + " tags" };
+      if (upgrade && !upgrade.result.experimental &&
+          (!fastHit || fastHit.result.experimental) && !upgrade.result.fileNumber) {
+        patch.shutter = upgrade.result.value;
+        patch.badge = null;
+        patch.note = upgrade.result.note;
+        patch.fileNumber = false;
+      }
+      if (rows.length) {
+        var card = cards.find(function (c) { return c.id === id; });
+        patch.rows = (card ? card.rows : []).concat(rows);
+      }
+      touch(id, patch);
+    } catch (e) {
+      touch(id, { enriching: false });
+    }
+  }
+
   async function handleFiles(list) {
     for (const file of list) {
       try {
@@ -39,12 +82,14 @@
         if (exif.ExposureTime) rows.push(["Shutter", "1/" + Math.round(1 / parseFloat(exif.ExposureTime)) + " s"]);
         if (exif.FNumber) rows.push(["Aperture", "f/" + exif.FNumber]);
         if (exif.FocalLength) rows.push(["Focal", exif.FocalLength]);
+        const id = file.name + Date.now() + Math.random().toString(16).slice(2);
         cards = [{
-          id: file.name + Date.now(), name: file.name, model: camera.label,
+          id, name: file.name, model: camera.label,
           shutter: result.value, fileNumber: !!result.fileNumber,
           badge: result.experimental ? `experimental · ${result.source}` : null,
-          note: result.note, rated, rows,
+          note: result.note, rated, rows, enriching: true, engine: "",
         }, ...cards];
+        enrich(id, file, bytes, exif, hit);
       } catch (e) {
         cards = [{
           id: file.name + Date.now(), name: file.name, model: file.name,
@@ -114,6 +159,8 @@
         {/if}
         {#if c.badge}<span class="badge-exp">{c.badge}</span>{/if}
         {#if c.note}<p class="muted small">{c.note}</p>{/if}
+        {#if c.enriching}<p class="muted small">reading full EXIF…</p>{/if}
+        {#if c.engine}<p class="muted small">Full EXIF via {c.engine}</p>{/if}
         <table>
           {#each c.rows as r}<tr><td>{r[0]}</td><td>{r[1]}</td></tr>{/each}
         </table>

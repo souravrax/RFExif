@@ -25,6 +25,7 @@ src-tauri/binaries/
 web/.svelte-kit
 web/build
 web/node_modules
+web/static/wasm
 
 # Editor directories and files
 .vscode/*

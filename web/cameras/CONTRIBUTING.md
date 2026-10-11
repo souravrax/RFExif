@@ -57,3 +57,18 @@ npm run build              # SvelteKit static export still compiles
 Include: body + firmware tested, vector table, USB-confirmed or not, and —
 for custom `web.js`/`rust.rs` — why declarative strategies weren't enough.
 CI runs `validate`, `matrix --check`, both vector harnesses.
+
+## Engines (why web and desktop can differ)
+
+- **Desktop**: bundled native ExifTool **13.59** — full MakerNotes, always.
+- **Web instant path**: mini-EXIF + byte scans (zero deps, milliseconds).
+- **Web enrichment**: lazy ExifTool-WASM **13.42** (`@uswriting/exiftool`
+  1.0.9, self-hosted `wasm/zeroperl.wasm`) — full MakerNotes after first
+  drop, ~1–2s. A native (non-experimental) count outranks an experimental
+  fast-path hit; file-number results are never "upgraded".
+
+Tag output can drift between ExifTool versions, so vectors record counts,
+never raw engine output. Committed tests stay on the fast path: the WASM
+package's Node entry is broken on Windows upstream (hardcoded CI path +
+bad drive-letter handling), while its browser entry — the one we ship —
+is verified working.

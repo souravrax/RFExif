@@ -1,6 +1,9 @@
-// Reads web/cameras/*/camera.toml and generates a static strategy table.
-// Single source of truth with the web app: same manifests, same vectors,
-// same behavior. Fails the build on contract violations.
+// Reads web/cameras/*/camera.toml and generates the desktop metadata table.
+// Single source of truth with the web app for body identity (id, label,
+// model matchers, rated life) plus declared USB counter descriptors.
+// File-reading strategies ([[strategy]]) belong to the web app and are
+// ignored here; USB descriptors ([[usb]]) are parsed and carried for
+// future transports.
 use std::path::PathBuf;
 
 fn main() {
@@ -64,8 +67,8 @@ fn emit_camera(doc: &toml::Value, dir: &str, where_: &str) -> String {
     let models = str_array(c.get("models"));
     let rated = c.get("rated_life").and_then(|v| v.as_integer()).unwrap_or(0) as u32;
     let version = c.get("version").and_then(|v| v.as_integer()).unwrap_or(1);
-    let mut s = format!(
-        "    v.push(CameraManifest {{ id: \"{id}\".into(), label: \"{label}\".into(), models: vec![{models}], rated_life: {rated}, version: {version}, strategies: vec![",
+    let s = format!(
+        "    v.push(CameraManifest {{ id: \"{id}\".into(), label: \"{label}\".into(), models: vec![{models}], rated_life: {rated}, version: {version}, usb: vec![{usb}] }});\n",
         id = esc(id),
         label = esc(label),
         models = models
@@ -75,16 +78,8 @@ fn emit_camera(doc: &toml::Value, dir: &str, where_: &str) -> String {
             .join(", "),
         rated = rated,
         version = version,
+        usb = emit_usb(doc.get("usb"), where_),
     );
-    let empty = vec![];
-    let strategies = doc.get("strategy").and_then(|v| v.as_array()).unwrap_or(&empty);
-    if strategies.is_empty() {
-        panic!("{where_}: need at least one [[strategy]]");
-    }
-    for st in strategies {
-        s.push_str(&emit_strategy(st, where_));
-    }
-    s.push_str("] });\n");
     s
 }
 
@@ -98,80 +93,32 @@ fn str_array(v: Option<&toml::Value>) -> Vec<String> {
     }
 }
 
-fn emit_strategy(st: &toml::Value, where_: &str) -> String {
-    let kind = st.get("kind").and_then(|v| v.as_str()).unwrap_or("");
-    let platforms = str_array(st.get("platforms"))
+fn emit_usb(v: Option<&toml::Value>, where_: &str) -> String {
+    let empty = vec![];
+    let descriptors = v.and_then(|v| v.as_array()).unwrap_or(&empty);
+    descriptors
         .iter()
-        .map(|p| format!("\"{p}\".to_string()"))
-        .collect::<Vec<_>>()
-        .join(", ");
-    let experimental = st.get("experimental").and_then(|v| v.as_bool()).unwrap_or(true);
-    let note = st.get("note").and_then(|v| v.as_str()).unwrap_or("");
-    let source = st
-        .get("source")
-        .and_then(|v| v.as_str())
-        .unwrap_or(kind);
-    let base = format!(
-        "Strategy {{ kind: {kind}, platforms: vec![{platforms}], experimental: {experimental}, note: \"{note}\".into(), source: \"{source}\".into(), ",
-        kind = match kind {
-            "blob-scan" => "StrategyKind::BlobScan",
-            "exif-tag" => "StrategyKind::ExifTag",
-            "filename" => "StrategyKind::Filename",
-            _ => panic!("{where_}: unknown strategy kind \"{kind}\""),
-        },
-        platforms = platforms,
-        experimental = experimental,
-        note = esc(note),
-        source = esc(source),
-    );
-    let tail = match kind {
-        "blob-scan" => {
-            let magic = st.get("magic").and_then(|v| v.as_str()).unwrap_or("");
-            let bytes = parse_hex(magic)
-                .unwrap_or_else(|| panic!("{where_}: bad magic hex"));
-            let offset = st.get("offset").and_then(|v| v.as_integer()).unwrap_or(-1);
-            if offset < 0 {
-                panic!("{where_}: bad offset");
+        .map(|d| {
+            let transport = d.get("transport").and_then(|v| v.as_str()).unwrap_or("");
+            if transport.is_empty() {
+                panic!("{where_}: [[usb]] needs a transport");
             }
-            let format = match st.get("format").and_then(|v| v.as_str()).unwrap_or("") {
-                "u16le" => "ImgFormat::U16Le",
-                "u32le" => "ImgFormat::U32Le",
-                "u16be" => "ImgFormat::U16Be",
-                "u32be" => "ImgFormat::U32Be",
-                f => panic!("{where_}: bad format \"{f}\""),
-            };
+            let property = d.get("property").and_then(|v| v.as_str()).unwrap_or("");
+            let experimental = d.get("experimental").and_then(|v| v.as_bool()).unwrap_or(true);
+            let note = d.get("note").and_then(|v| v.as_str()).unwrap_or("");
+            let source = d
+                .get("source")
+                .and_then(|v| v.as_str())
+                .unwrap_or(transport);
             format!(
-                "magic: vec![{magic}], offset: {offset}usize, format: {format}, tag: String::new(), pattern: String::new() }}, ",
-                magic = bytes.iter().map(|b| b.to_string()).collect::<Vec<_>>().join(", "),
-                offset = offset,
-                format = format,
+                "UsbDescriptor {{ transport: \"{transport}\".into(), property: \"{property}\".into(), experimental: {experimental}, note: \"{note}\".into(), source: \"{source}\".into() }}, ",
+                transport = esc(transport),
+                property = esc(property),
+                experimental = experimental,
+                note = esc(note),
+                source = esc(source),
             )
-        }
-        "exif-tag" => {
-            let tag = st.get("tag").and_then(|v| v.as_str()).expect("tag missing");
-            format!(
-                "magic: vec![], offset: 0, format: ImgFormat::U32Le, tag: \"{tag}\".into(), pattern: String::new() }}, ",
-                tag = esc(tag),
-            )
-        }
-        _ => {
-            let pattern = st.get("pattern").and_then(|v| v.as_str()).unwrap_or("IMG_(\\d+)");
-            format!(
-                "magic: vec![], offset: 0, format: ImgFormat::U32Le, tag: String::new(), pattern: \"{pattern}\".into() }}, ",
-                pattern = esc(pattern),
-            )
-        }
-    };
-    base + &tail
-}
-
-fn parse_hex(s: &str) -> Option<Vec<u8>> {
-    let s: String = s.chars().filter(|c| !c.is_whitespace()).collect();
-    if s.len() % 2 != 0 || s.is_empty() {
-        return None;
-    }
-    (0..s.len())
-        .step_by(2)
-        .map(|i| u8::from_str_radix(&s[i..i + 2], 16).ok())
-        .collect()
+        })
+        .collect::<Vec<_>>()
+        .join("")
 }

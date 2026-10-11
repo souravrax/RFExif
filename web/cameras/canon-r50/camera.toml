@@ -1,0 +1,20 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-r50"
+label = "Canon EOS R50"
+# Negative lookahead keeps "EOS R50 V" on its own manifest.
+models = ["\\bEOS R50(?! V)\\b"]
+version = 1
+
+# ExifTool decodes CameraInfo 0x0D29 into a plain ShutterCount. Web-only:
+# desktop is USB-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ShutterCount"
+platforms = ["web"]
+experimental = true
+note = "Native EXIF ShutterCount (CameraInfo 0x0D29). Experimental until 3+ consecutive originals confirm."

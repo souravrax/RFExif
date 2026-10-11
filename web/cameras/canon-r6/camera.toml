@@ -1,0 +1,20 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-r6"
+label = "Canon EOS R6"
+# Negative lookahead keeps "EOS R6 Mark II/III" on their own manifests.
+models = ["\\bEOS R6(?! Mark)\\b"]
+version = 1
+
+# ExifTool decodes CameraInfo 0x0AF1 into a plain ShutterCount. Web-only:
+# desktop is USB-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ShutterCount"
+platforms = ["web"]
+experimental = true
+note = "Native EXIF ShutterCount (CameraInfo 0x0AF1). Experimental until 3+ consecutive originals confirm."

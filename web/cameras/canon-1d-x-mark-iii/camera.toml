@@ -1,0 +1,20 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-1d-x-mark-iii"
+label = "Canon EOS-1D X Mark III"
+models = ["\\bEOS-1D X Mark III\\b"]
+rated_life = 500000
+version = 1
+
+# 1-series bodies are natively decoded: ExifTool exposes a plain
+# ShutterCount for CR3 files. Web-only: desktop is USB-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ShutterCount"
+platforms = ["web"]
+experimental = true
+note = "Native EXIF ShutterCount (1-series, natively decoded). Experimental until 3+ consecutive originals confirm."

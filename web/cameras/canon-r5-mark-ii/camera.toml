@@ -1,0 +1,19 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-r5-mark-ii"
+label = "Canon EOS R5 Mark II"
+models = ["\\bEOS R5 Mark II\\b"]
+version = 1
+
+# ExifTool decodes CameraInfo 0x069C into a plain ShutterCount. Web-only:
+# desktop is USB-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ShutterCount"
+platforms = ["web"]
+experimental = true
+note = "Native EXIF ShutterCount (CameraInfo 0x069C). Experimental until 3+ consecutive originals confirm."

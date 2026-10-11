@@ -1,0 +1,3 @@
+[
+  { "exif": { "Model": "Canon EOS R3", "ShutterCount": "150332" }, "expected": 150332, "file": "synthetic-r3.jpg" }
+]

@@ -1,0 +1,5 @@
+[
+  { "file": "IMG_0001.CR3", "expected": 12345 },
+  { "file": "IMG_0002.CR3", "expected": 12346 },
+  { "file": "IMG_0003.CR3", "expected": 12347 }
+]

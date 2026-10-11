@@ -1,8 +1,9 @@
 <script>
-  import { readJpegExif } from "$lib/exif/r10.js";
-  import { read as registryRead } from "$lib/exif/registry.js";
-  import "$lib/cameras/index.js";
+  import { readJpegExif } from "../../cameras/_shared/exif.js";
+  import { loadCameras } from "$lib/camera-sdk.js";
   import "./styles.css";
+
+  var registry = loadCameras();
 
   let cards = $state([]);
   let dragOver = $state(false);
@@ -18,17 +19,17 @@
       try {
         const bytes = new Uint8Array(await file.arrayBuffer());
         const exif = readJpegExif(bytes);
-        const hit = registryRead({ bytes, exif, fileName: file.name });
+        const hit = registry.read({ bytes, exif, fileName: file.name }, "web");
         if (!hit) {
           cards = [{
             id: file.name + Date.now(), name: file.name, model: file.name,
-            shutter: null, badge: null, note: "",
+            shutter: null, fileNumber: false, badge: null, note: "",
             rows: [["Hint", "Use an original CR3 or JPG straight from the camera — edited exports strip the MakerNote blob this reader needs."]],
           }, ...cards];
           continue;
         }
-        const { extractor, result } = hit;
-        const rated = extractor.ratedLife || 0;
+        const { camera, result } = hit;
+        const rated = camera.ratedLife || 0;
         const rows = [
           ["File", `${file.name} (${(file.size / 1048576).toFixed(1)} MB)`],
           ["Checked", new Date().toLocaleString()],
@@ -39,14 +40,15 @@
         if (exif.FNumber) rows.push(["Aperture", "f/" + exif.FNumber]);
         if (exif.FocalLength) rows.push(["Focal", exif.FocalLength]);
         cards = [{
-          id: file.name + Date.now(), name: file.name, model: extractor.label,
-          shutter: result.value, badge: result.experimental ? `experimental · ${result.source}` : null,
+          id: file.name + Date.now(), name: file.name, model: camera.label,
+          shutter: result.value, fileNumber: !!result.fileNumber,
+          badge: result.experimental ? `experimental · ${result.source}` : null,
           note: result.note, rated, rows,
         }, ...cards];
       } catch (e) {
         cards = [{
           id: file.name + Date.now(), name: file.name, model: file.name,
-          shutter: null, badge: null, note: "",
+          shutter: null, fileNumber: false, badge: null, note: "",
           rows: [["Error", String(e && e.message || e)]],
         }, ...cards];
       }
@@ -105,8 +107,8 @@
         <div class="model">{c.model}</div>
         <span class="via">Via photo · {c.name}</span>
         <div class="count">{c.shutter != null ? fmt(c.shutter) : "—"}</div>
-        <div class="cap">Shutter count</div>
-        {#if c.shutter != null && c.rated > 0}
+        <div class="cap">{c.fileNumber ? "File number — not a shutter count" : "Shutter count"}</div>
+        {#if c.shutter != null && !c.fileNumber && c.rated > 0}
           <div class="bar"><i style="width:{pct(c.shutter, c.rated)}%"></i></div>
           <div class="pct">{pct(c.shutter, c.rated)}% used of {fmt(c.rated)} rated</div>
         {/if}
@@ -124,7 +126,7 @@
     electronic). Native EXIF carries no R10 shutter count — this offset was
     reverse-engineered from 14 consecutive shots.</p>
     <p>Rated life: EOS R10 ≈ 100,000 actuations. Community cameras welcome —
-    see <code>web/CONTRIBUTING.md</code>.</p>
+    see <code>cameras/CONTRIBUTING.md</code>.</p>
   </section>
 </main>
 

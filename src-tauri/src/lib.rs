@@ -1,7 +1,8 @@
-// ShutterDrop backend: ExifTool + reverse-engineered Canon R10 counter.
-// R10 stores a 4608-byte CanonCameraInfo blob (TIFF tag 0x000D, header BB CC 00 00).
-// Byte offset 0xC93 (3219) little-endian uint32 = total actuations (mech + EFCS + electronic).
-// Validated 22146 -> 22165 across 14 consecutive CR3/JPG pairs.
+// ShutterDrop backend: ExifTool JSON + per-camera manifests generated from
+// web/cameras/*/camera.toml (see src-tauri/build.rs). Same manifests, same
+// vectors, same behavior as the web app.
+mod cameras;
+
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::path::{Path, PathBuf};
@@ -10,10 +11,6 @@ use tauri::Manager;
 use tauri::window::{Effect, EffectsBuilder};
 #[cfg(target_os = "macos")]
 use tauri::window::EffectState;
-
-const R10_BLOB_LEN: usize = 4608;
-const R10_SHUTTER_OFF: usize = 3219; // 0xC93
-const BLOB_MAGIC: [u8; 4] = [0xBB, 0xCC, 0x00, 0x00];
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -34,10 +31,18 @@ pub struct ShutterInfo {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
+pub struct CameraRef {
+    pub id: String,
+    pub label: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct FileReport {
     pub path: String,
     pub file_name: String,
     pub shutter: ShutterInfo,
+    pub camera: Option<CameraRef>,
     pub r10: Option<R10Info>,
     pub key_tags: HashMap<String, String>,
     pub error: Option<String>,
@@ -59,38 +64,6 @@ fn pick_tag(map: &serde_json::Map<String, serde_json::Value>, names: &[&str]) ->
         }
     }
     None
-}
-
-/// Locate the R10 CameraInfo blob and read the shutter counter. Read-only.
-fn read_r10_blob(path: &Path) -> Result<R10Info, String> {
-    let data = std::fs::read(path).map_err(|e| format!("read failed: {e}"))?;
-    if data.len() < R10_BLOB_LEN + 4 {
-        return Err("file too small for R10 blob".into());
-    }
-    // Sliding search for magic; blob must have 4608 bytes after it.
-    let mut start: Option<usize> = None;
-    for i in 0..=(data.len() - R10_BLOB_LEN - 4) {
-        if data[i] == BLOB_MAGIC[0]
-            && data[i + 1] == BLOB_MAGIC[1]
-            && data[i + 2] == BLOB_MAGIC[2]
-            && data[i + 3] == BLOB_MAGIC[3]
-        {
-            start = Some(i);
-            break;
-        }
-    }
-    let s = start.ok_or("R10 CameraInfo blob (BB CC) not found")?;
-    let o = s + R10_SHUTTER_OFF;
-    if o + 4 > data.len() {
-        return Err("shutter offset out of range".into());
-    }
-    let b = [data[o], data[o + 1], data[o + 2], data[o + 3]];
-    let value = u32::from_le_bytes(b);
-    Ok(R10Info {
-        value,
-        bytes: b,
-        blob_offset: s as u64,
-    })
 }
 
 fn exiftool_bin(app: &tauri::AppHandle) -> PathBuf {
@@ -135,21 +108,37 @@ fn exiftool_bin(app: &tauri::AppHandle) -> PathBuf {
     PathBuf::from("exiftool")
 }
 
-fn parse_u32(s: &str) -> Option<u32> {
-    let t = s.trim();
-    // ExifTool FileNumber prints like "101-4154"; take trailing run.
-    let digits: String = t
-        .chars()
-        .rev()
-        .take_while(|c| c.is_ascii_digit())
-        .collect::<String>()
-        .chars()
-        .rev()
-        .collect();
-    if digits.is_empty() {
+/// Flatten one ExifTool JSON object into "Group:Tag" -> value, plus short
+/// "Tag" aliases for manifest exif-tag strategies.
+fn flatten_exif(
+    emap: Option<&serde_json::Map<String, serde_json::Value>>,
+) -> HashMap<String, String> {
+    let mut flat = HashMap::new();
+    if let Some(map) = emap {
+        for (k, v) in map {
+            let s = match v {
+                serde_json::Value::String(s) => s.clone(),
+                _ => v.to_string().trim_matches('"').to_string(),
+            };
+            if s.is_empty() || s == "null" {
+                continue;
+            }
+            if let Some(i) = k.find(':') {
+                flat.entry(k[i + 1..].to_string()).or_insert_with(|| s.clone());
+            }
+            flat.insert(k.clone(), s);
+        }
+    }
+    flat
+}
+
+/// Read a file with a sanity cap. Returns None on any failure.
+fn read_capped(path: &Path, cap: u64) -> Option<Vec<u8>> {
+    let md = std::fs::metadata(path).ok()?;
+    if md.len() > cap {
         return None;
     }
-    digits.parse::<u32>().ok()
+    std::fs::read(path).ok()
 }
 
 #[tauri::command]
@@ -199,6 +188,7 @@ fn analyze_files(app: tauri::AppHandle, paths: Vec<String>) -> Vec<FileReport> {
             };
             let mut r10: Option<R10Info> = None;
             let mut error: Option<String> = None;
+            let mut camera: Option<CameraRef> = None;
 
             // Match exif map by exact path or file name suffix (exiftool abs/rel paths vary).
             let emap = exif_maps.get(&p).or_else(|| {
@@ -232,42 +222,52 @@ fn analyze_files(app: tauri::AppHandle, paths: Vec<String>) -> Vec<FileReport> {
                         key_tags.insert(k.to_string(), v);
                     }
                 }
-                // Native ShutterCount first (R5/R6/R6II etc.).
-                if let Some(raw) = pick_tag(map, &["ShutterCount", "ImageCount"]) {
-                    if let Some(v) = parse_u32(&raw) {
-                        shutter = ShutterInfo {
-                            value: Some(v),
-                            source: "exif".into(),
-                            experimental: false,
-                            note: "Native EXIF ShutterCount.".into(),
-                        };
-                    }
-                }
             } else {
                 error = Some("ExifTool returned no data for this file.".into());
             }
 
-            // R10 fallback: raw blob (works even where ExifTool has no map).
-            let model = emap
-                .and_then(|m| pick_tag(m, &["Model"]))
-                .unwrap_or_default();
-            let looks_like_r10 =
-                model.contains("R10") || file_name.to_lowercase().ends_with(".cr3");
-            if shutter.value.is_none() && looks_like_r10 {
-                match read_r10_blob(path) {
-                    Ok(info) => {
-                        shutter = ShutterInfo {
-                            value: Some(info.value),
-                            source: "r10-blob".into(),
-                            experimental: true,
-                            note: "Experimental R10 offset 0xC93 uint32 LE — total mech + EFCS + electronic combined. Validated 22146→22165 on 14 consecutive shots.".into(),
-                        };
-                        r10 = Some(info);
-                    }
-                    Err(e) => {
-                        if error.is_none() {
-                            error = Some(format!("R10 blob: {e}"));
+            // Shutter via the shared camera registry (web/cameras/*/camera.toml):
+            // native exif-tag strategies read the ExifTool JSON, blob-scan
+            // strategies read raw bytes. Read-only, one read per file.
+            let flat = flatten_exif(emap);
+            let bytes = read_capped(path, 1 << 30);
+            let ctx = cameras::Ctx {
+                bytes: bytes.as_deref().filter(|b| !b.is_empty()),
+                exif: &flat,
+                file_name: &file_name,
+            };
+            match cameras::read_shutter(&ctx) {
+                Some(hit) => {
+                    shutter = ShutterInfo {
+                        value: Some(hit.value),
+                        source: hit.source.clone(),
+                        experimental: hit.experimental,
+                        note: hit.note.clone(),
+                    };
+                    camera = Some(CameraRef {
+                        id: hit.camera_id.clone(),
+                        label: hit.camera_label.clone(),
+                    });
+                    // Back-compat bytes line for blob hits (desktop UI).
+                    if hit.source == "r10-blob" {
+                        if let Some((off, b)) = hit.blob {
+                            r10 = Some(R10Info {
+                                value: hit.value,
+                                bytes: b,
+                                blob_offset: off,
+                            });
                         }
+                    }
+                    if hit.file_number {
+                        shutter.note = format!(
+                            "File number from filename — not a shutter count. ({})",
+                            hit.note
+                        );
+                    }
+                }
+                None => {
+                    if error.is_none() {
+                        error = Some("No readable counter in this file.".into());
                     }
                 }
             }
@@ -276,6 +276,7 @@ fn analyze_files(app: tauri::AppHandle, paths: Vec<String>) -> Vec<FileReport> {
                 path: p,
                 file_name,
                 shutter,
+                camera,
                 r10,
                 key_tags,
                 error,
@@ -312,36 +313,3 @@ pub fn run() {
         .expect("error while running tauri application");
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use std::path::PathBuf;
-
-    fn sample_dir() -> PathBuf {
-        std::env::var("SHUTTERDROP_SAMPLES")
-            .map(PathBuf::from)
-            .unwrap_or_else(|_| {
-                PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("..").join("samples")
-            })
-    }
-
-    #[test]
-    fn r10_blob_vectors() {
-        // (file, expected shutter) — validated series 22146 -> 22165.
-        for (f, want) in [
-            ("IMG_4154.CR3", 22146u32),
-            ("IMG_4155.CR3", 22147u32),
-            ("IMG_4162.CR3", 22154u32),
-            ("IMG_4173.CR3", 22165u32),
-        ] {
-            let p = sample_dir().join(f);
-            if !p.exists() {
-                continue; // samples not vendored in CI
-            }
-            let info = read_r10_blob(&p).expect("blob read");
-            assert_eq!(info.value, want, "{f}");
-            assert_eq!(info.bytes[2], 0);
-            assert_eq!(info.bytes[3], 0);
-        }
-    }
-}

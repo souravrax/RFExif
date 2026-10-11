@@ -19,6 +19,7 @@ type FileReport = {
   path: string;
   fileName: string;
   shutter: ShutterInfo;
+  camera: { id: string; label: string } | null;
   r10: R10Info | null;
   keyTags: Record<string, string>;
   error: string | null;
@@ -47,7 +48,7 @@ function cardHtml(r: FileReport): string {
     sh.value == null
       ? `<span class="badge none">no counter</span>`
       : sh.experimental
-        ? `<span class="badge exp">experimental R10 · total</span>`
+        ? `<span class="badge exp">experimental${r.camera ? ` · ${esc(r.camera.label)}` : ""}</span>`
         : `<span class="badge native">native EXIF</span>`;
   const shutterLine =
     sh.value == null

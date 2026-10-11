@@ -1,0 +1,18 @@
+[
+  { "file": "IMG_4154.CR3", "expected": 22146 },
+  { "file": "IMG_4155.CR3", "expected": 22147 },
+  { "file": "IMG_4156.CR3", "expected": 22148 },
+  { "file": "IMG_4157.CR3", "expected": 22149 },
+  { "file": "IMG_4158.CR3", "expected": 22150 },
+  { "file": "IMG_4159.CR3", "expected": 22151 },
+  { "file": "IMG_4160.CR3", "expected": 22152 },
+  { "file": "IMG_4161.CR3", "expected": 22153 },
+  { "file": "IMG_4162.CR3", "expected": 22154 },
+  { "file": "IMG_4169.CR3", "expected": 22161 },
+  { "file": "IMG_4170.CR3", "expected": 22162 },
+  { "file": "IMG_4171.CR3", "expected": 22163 },
+  { "file": "IMG_4172.CR3", "expected": 22164 },
+  { "file": "IMG_4173.CR3", "expected": 22165 },
+  { "file": "IMG_4154.JPG", "expected": 22146 },
+  { "file": "IMG_4173.JPG", "expected": 22165 }
+]

@@ -1,25 +1,7 @@
-// Shared Canon R10 shutter reader — ESM, runs in browser and Node.
-// The 4608-byte CanonCameraInfo blob (TIFF tag 0x000D, magic BB CC 00 00)
-// holds a little-endian uint32 total-actuation counter at byte 0xC93.
-// Validated 22146 -> 22165 across 14 consecutive R10 CR3/JPG pairs.
-var MAGIC_0 = 0xbb, MAGIC_1 = 0xcc;
-var BLOB_LEN = 4608;
-var SHUTTER_OFF = 3219; // 0xC93
-
-export function findR10Shutter(bytes) {
-  var limit = bytes.length - BLOB_LEN - 4;
-  for (var i = 0; i <= limit; i++) {
-    if (bytes[i] === MAGIC_0 && bytes[i + 1] === MAGIC_1 &&
-        bytes[i + 2] === 0 && bytes[i + 3] === 0) {
-      var o = i + SHUTTER_OFF;
-      var b0 = bytes[o], b1 = bytes[o + 1], b2 = bytes[o + 2], b3 = bytes[o + 3];
-      var value = (b0 + b1 * 256 + b2 * 65536 + b3 * 16777216) >>> 0;
-      return { value: value, bytes: [b0, b1, b2, b3], blobOffset: i };
-    }
-  }
-  return null;
-}
-
+// Minimal JPEG APP1/EXIF reader for base display tags (ESM, browser + Node).
+// Returns {} for non-JPEG or on any parse failure (never throws).
+// NOTE: this reads base EXIF only, not MakerNotes. Native MakerNote counters
+// (R5/R6 shutter etc.) need ExifTool — desktop backend or ExifTool-WASM.
 function u16(b, o, le) { return le ? b[o] + b[o + 1] * 256 : b[o] * 256 + b[o + 1]; }
 function u32(b, o, le) {
   return le
@@ -60,8 +42,6 @@ function ifdValue(b, tiff, entry, le, out, tagId) {
   else if (tagId === 0x920a) out.FocalLength = field() + (field() ? " mm" : "");
 }
 
-// Minimal JPEG APP1/EXIF reader. Returns {} for non-JPEG or on any
-// parse failure (never throws).
 export function readJpegExif(bytes) {
   try {
     var out = {};

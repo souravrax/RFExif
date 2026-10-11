@@ -1,0 +1,48 @@
+# Metadata (single source of truth for web + desktop registries)
+[camera]
+# Unique kebab-case id. Used in bug reports and vectors — keep it stable.
+id = "brand-model"
+# Display name shown on the result card.
+label = "Brand Model"
+# Tested against "EXIF Model + filename". Be specific: "\\bEOS R7\\b"
+# matches R7 but not R70 or R7m2... (TOML "\\b" becomes regex \b).
+models = ["\\bBrand Model\\b"]
+# Shutter rating for the "% used" bar. Omit or 0 if unknown.
+rated_life = 100000
+version = 1
+
+# Strategies run in order; first hit wins. One of:
+#
+# Blob-scan (hidden MakerNote-style counter, the R10 pattern):
+# [[strategy]]
+# kind = "blob-scan"
+# magic = "BBCC0000"     # hex bytes starting the containing blob
+# offset = 0xC93         # byte offset from magic to the counter
+# format = "u32le"       # u16le | u32le | u16be | u32be
+# source = "r7-blob"
+# platforms = ["web", "desktop"]
+# experimental = true    # true until USB-confirmed (see CONTRIBUTING.md)
+# note = "Total mech + electronic. Validated ..."
+#
+# Native EXIF tag (ExifTool already decodes it — desktop today,
+# web once ExifTool-WASM lands):
+# [[strategy]]
+# kind = "exif-tag"
+# tag = "MakerNotes:ShutterCount"  # "Group:Tag" or short name
+# platforms = ["desktop"]
+# experimental = false
+# note = "Native EXIF ShutterCount."
+#
+# File number fallback (honest labeling — NEVER presented as shutter):
+# [[strategy]]
+# kind = "filename"
+# pattern = "IMG_(\\d+)"  # first capture group is the number
+# platforms = ["web", "desktop"]
+# experimental = false
+# note = "File number from the filename — not a shutter count."
+[[strategy]]
+kind = "filename"
+pattern = "IMG_(\\d+)"
+platforms = ["web", "desktop"]
+experimental = false
+note = "Placeholder — replace with a real counter strategy."

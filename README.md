@@ -79,6 +79,10 @@ and system `PATH`. They are compiled into the installer through
 
 ## Adding your camera
 
-Cameras are plugins — see [`web/CONTRIBUTING.md`](web/CONTRIBUTING.md).
-Copy `web/cameras/_template.js`, prove the offset with 3+ consecutive files
-(`node web/test/run.js`), open a PR. Apache-2.0, see [LICENSE](LICENSE).
+Cameras are declarative plugins — one folder per body in `web/cameras/`
+(`camera.toml` + `vectors.json` + `README.md`), consumed by both the web app
+and the desktop build from the same files. Strategies (`blob-scan`,
+`exif-tag`, `filename`) run in manifest order; ExifTool stays as the base
+EXIF layer on desktop. Full SDK guide: [`web/cameras/CONTRIBUTING.md`](web/cameras/CONTRIBUTING.md).
+Support matrix: [`web/cameras/README.md`](web/cameras/README.md).
+Apache-2.0, see [LICENSE](LICENSE).

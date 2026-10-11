@@ -12,16 +12,16 @@
       <header class="hero">
         <div>
           <h1>ShutterDrop</h1>
-          <p>Drop CR3 / JPG / HIF — shutter count + full EXIF, 100% local.</p>
+          <p>Connect your camera via USB — shutter count, straight from the body. 100% local.</p>
         </div>
-        <button id="pick-btn" type="button">Open files…</button>
+        <button id="refresh-btn" type="button">Refresh cameras</button>
       </header>
 
-      <section id="dropzone" class="dropzone" aria-label="Drop pictures here">
+      <section id="connect" class="connect" aria-label="USB cameras">
         <div class="dz-inner">
           <div class="dz-icon">◈</div>
-          <p><strong>Drop pictures here</strong> or click “Open files…”</p>
-          <p class="muted">Read-only — originals are never modified. ExifTool bundled.</p>
+          <p><strong>No camera detected?</strong> Connect one via USB, turn it on, then hit “Refresh cameras”.</p>
+          <p class="muted">Read-only — nothing is written to your camera.</p>
         </div>
       </section>
 
@@ -29,8 +29,7 @@
       <section id="cards" class="cards"></section>
 
       <footer class="foot muted">
-        R10 note: native EXIF has no ShutterCount — ShutterDrop reads experimental blob
-        offset <code>0xC93</code> (total mech + EFCS + electronic). ExifTool © Phil Harvey (Artistic License).
+        USB PTP shutter-counter reader. Photo-file inspection lives in the web app.
       </footer>
     </main>
   </body>

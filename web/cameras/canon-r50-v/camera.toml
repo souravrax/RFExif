@@ -1,0 +1,19 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-r50-v"
+label = "Canon EOS R50 V"
+models = ["\\bEOS R50 V\\b"]
+version = 1
+
+# Tag family UNCONFIRMED (assumed 0x0D29 generation): fires only if an EXIF
+# backend actually decodes a ShutterCount for this body. Web-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ShutterCount"
+platforms = ["web"]
+experimental = true
+note = "Native EXIF ShutterCount if present (tag family unconfirmed — needs 3 CR3s to verify)."

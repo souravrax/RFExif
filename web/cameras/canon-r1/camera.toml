@@ -1,0 +1,22 @@
+# Metadata (single source of truth for web + desktop registries)
+[copyright]
+holder = "RF EXIF contributors"
+license = "Apache-2.0"
+
+[camera]
+id = "canon-r1"
+label = "Canon EOS R1"
+models = ["\\bEOS R1\\b"]
+rated_life = 500000
+version = 1
+
+# ExifTool exposes CameraInfo 0x086D as ImageCount. WARNING: this resets on
+# card format — it is NOT a lifetime counter. Shown only as an explicitly
+# labeled, experimental reading until lifetime-counter research exists.
+# Web-only: desktop is USB-only.
+[[strategy]]
+kind = "exif-tag"
+tag = "ImageCount"
+platforms = ["web"]
+experimental = true
+note = "ImageCount (0x086D) — resets on card format, not a lifetime count. Track lifetime via USB."

@@ -25,6 +25,10 @@ mechanical + electronic series with no divergence.)
 Unconfirmed — needs DIRE ShutterCount / EOSMSG / gphoto2 cross-check.
 (Or: confirmed at N on DATE with TOOL.)
 
+Desktop is USB-only: once probed, declare the counter in a `[[usb]] block
+in `camera.toml` (see the template) and record fixtures in
+`usb-vectors.json`. File strategies above are web-only.
+
 ## Caveats
 
 (File number ≠ shutter; resets don't touch the counter; rollover notes…)

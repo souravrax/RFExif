@@ -11,7 +11,7 @@
 </div>
 
 - **Web app (no install):** https://souravrax.github.io/RFExif/
-- **Desktop app (Windows):** [Releases](https://github.com/souravrax/RFExif/releases) — NSIS + MSI installers, ExifTool bundled
+- **Desktop app (Windows):** [Releases](https://github.com/souravrax/RFExif/releases) — NSIS + MSI installers, USB PTP shutter-counter reader (no photo files involved)
 
 ## Why RF EXIF
 
@@ -29,7 +29,8 @@ evidence table: [`web/cameras/canon-r10/README.md`](web/cameras/canon-r10/README
 
 ## Features
 
-- 📸 **Drag-and-drop reading** — CR3, JPG, HIF; single files or batches
+- 📸 **Web drag-and-drop reading** — CR3, JPG, HIF; single files or batches
+- 🔌 **Desktop USB reading** — connect the camera, read the counter straight from the body over USB PTP; no files, no EXIF
 - 🔒 **Private by design** — desktop and web parse everything on-device
 - 📷 **Multi-camera SDK** — one declarative folder per body (`camera.toml` +
   vectors + docs), shared by web and desktop; see [Adding your camera](#adding-your-camera)
@@ -42,11 +43,14 @@ evidence table: [`web/cameras/canon-r10/README.md`](web/cameras/canon-r10/README
 
 | Body | Strategies | Web | Desktop | USB-confirmed | Rated |
 |---|---|---|---|---|---|
-| Canon EOS R10 | `blob-scan` | ✅ | ✅ | experimental | 100,000 |
-| Native EXIF fallback | `exif-tag` | ✅¹ | ✅ | yes | — |
+| Canon EOS R10 | `blob-scan` | ✅ | 🔌 soon¹ | experimental | 100,000 |
+| Native EXIF fallback | `exif-tag` | ✅² | — | yes | — |
 
-¹ Web resolves native tags once a fuller EXIF backend is present; desktop
-ExifTool decodes them today (R5/R6/R6II/R8/R50/R3 family).
+¹ Desktop is USB-only (foundation in place, mock transport in dev builds) —
+real PTP transports land per body next; file-based counters stay web-only.
+² Web resolves native tags once a fuller EXIF backend is present; bodies
+without a researched manifest resolve through the generic fallback until
+they get their own folder (see `web/cameras/SAMPLES-WANTED.md`).
 
 Full matrix (generated from manifests): [`web/cameras/README.md`](web/cameras/README.md).
 
@@ -56,8 +60,8 @@ Full matrix (generated from manifests): [`web/cameras/README.md`](web/cameras/RE
 and drop files in. Works offline after first load.
 
 **Windows desktop:** download the Windows setup executable (NSIS) or the `.msi`
-from [Releases](https://github.com/souravrax/RFExif/releases). ExifTool is
-bundled — no setup needed.
+from [Releases](https://github.com/souravrax/RFExif/releases). Connect your
+camera via USB, turn it on, hit Refresh — no setup needed.
 
 **macOS desktop:** clone and build locally (Apple Silicon or Intel):
 
@@ -65,10 +69,6 @@ bundled — no setup needed.
 git clone https://github.com/souravrax/RFExif.git
 cd RFExif
 npm install
-# place the macOS exiftool binary at:
-#   src-tauri/binaries/exiftool-aarch64-apple-darwin  (Apple Silicon)
-#   src-tauri/binaries/exiftool-x86_64-apple-darwin   (Intel)
-# from https://exiftool.org, then:
 npm run tauri build -- --config src-tauri/tauri.macos.json
 ```
 
@@ -91,21 +91,24 @@ Full SDK guide: [`web/cameras/CONTRIBUTING.md`](web/cameras/CONTRIBUTING.md).
 
 ## Development
 
-**Desktop (Tauri v2 + Rust):**
+**Desktop (Tauri v2 + Rust, USB-only):**
 
 ```sh
 npm install
 npm run tauri dev
 ```
 
-Requires Rust (MSVC + Windows 11 SDK on Windows) and Node 24+. Camera logic
-lives in `web/cameras/` — the Rust side code-generates from the same
-`camera.toml` manifests at build time (`src-tauri/build.rs`), so both apps
-stay in lockstep by construction.
+Requires Rust (MSVC + Windows 11 SDK on Windows) and Node 24+. The desktop
+reads counters over USB PTP — it never touches photo files or EXIF (file
+inspection lives in the web app). Camera identity (labels, model matchers,
+rated life) lives in `web/cameras/` — the Rust side code-generates that
+metadata at build time (`src-tauri/build.rs`), so both apps stay in lockstep
+by construction. USB transports plug into the `UsbTransport` trait
+(`src-tauri/src/usb.rs`); dev builds use a scripted mock, no hardware needed.
 
 ```powershell
 $env:SHUTTERDROP_SAMPLES="C:\path\to\cr3s"
-cargo test --manifest-path src-tauri/Cargo.toml --lib   # same vectors.json
+cargo test --manifest-path src-tauri/Cargo.toml --lib   # USB mock + metadata matching
 ```
 
 **Web (SvelteKit, static export):**
@@ -117,18 +120,8 @@ npm run dev      # local preview
 npm run build    # static output in web/build (what Pages serves)
 ```
 
-**Bundling ExifTool** (desktop installers only; `src-tauri/binaries/` is
-git-ignored):
-
-| File | Source |
-|---|---|
-| `exiftool-x86_64-pc-windows-msvc.exe` + `exiftool_files/` | `ExifTool.exe` + `exiftool_files/` from the Windows zip |
-| `exiftool-aarch64-apple-darwin` | macOS package |
-| `exiftool-x86_64-unknown-linux-gnu` | Linux tarball |
-
-The app resolves them via Tauri resources with dev-path and `PATH` fallbacks.
-Resources are per-platform overlays (Tauri validates every listed file at
-build time, so one shared list would break all other OSes):
+Per-platform desktop builds (Tauri validates resources at build time, so
+one shared config would break the other OSes):
 
 | Build | Command |
 |---|---|

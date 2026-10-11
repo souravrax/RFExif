@@ -60,7 +60,10 @@ CI runs `validate`, `matrix --check`, both vector harnesses.
 
 ## Engines (why web and desktop can differ)
 
-- **Desktop**: bundled native ExifTool **13.59** — full MakerNotes, always.
+- **Desktop**: USB PTP only — no photo files, no EXIF. Real transports plug
+  into the `UsbTransport` trait (`src-tauri/src/usb.rs`); dev builds use a
+  scripted mock so commands and UI run with no hardware. Declare each body's
+  counter in a `[[usb]]` block plus `usb-vectors.json` fixtures once probed.
 - **Web instant path**: mini-EXIF + byte scans (zero deps, milliseconds).
 - **Web enrichment**: lazy ExifTool-WASM **13.42** (`@uswriting/exiftool`
   1.0.9, self-hosted `wasm/zeroperl.wasm`) — full MakerNotes after first

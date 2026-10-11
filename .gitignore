@@ -16,11 +16,6 @@ dist-ssr
 src-tauri/target
 src-tauri/WixTools
 
-# Bundled ExifTool (~37MB, per-platform) — fetch at build time, see README.
-# Windows: copy ExifTool.exe + exiftool_files/ from exiftool.org ü
-#   into src-tauri/binaries/ as exiftool-x86_64-pc-windows-msvc.exe
-src-tauri/binaries/
-
 # Web (SvelteKit static)
 web/.svelte-kit
 web/build

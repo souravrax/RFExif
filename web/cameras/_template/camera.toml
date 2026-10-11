@@ -46,3 +46,14 @@ pattern = "IMG_(\\d+)"
 platforms = ["web", "desktop"]
 experimental = false
 note = "Placeholder — replace with a real counter strategy."
+
+# USB counter descriptor (desktop only — the web app ignores [[usb]]).
+# The desktop reads counters over USB PTP; declare how once probed:
+#
+# [[usb]]
+# transport = "gphoto2"     # gphoto2 | edsdk | …
+# property = "shuttercounter"
+# experimental = true     # true until confirmed against a trusted reading
+# note = "PTP property read."
+#
+# Proof lives in usb-vectors.json: [{ model, camera, value, property }].

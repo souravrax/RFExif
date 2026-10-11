@@ -3,6 +3,7 @@
   import { animate } from "motion/mini";
   import { base } from "$app/paths";
   import { equipmentArt } from "$lib/equipment-art.js";
+  import BrandHeader from '$lib/BrandHeader.svelte';
   import { readJpegExif } from "../../cameras/_shared/exif.js";
   import { loadCameras } from "$lib/camera-sdk.js";
   import {
@@ -388,9 +389,7 @@
 </script>
 
 <div class="app">
-  <header class="floating-header" aria-label="RF EXIF">
-    <img class="brand-wordmark" src={`${base}/brand/wordmark.svg`} alt="RF EXIF" width="144" height="36" />
-  </header>
+  <BrandHeader />
   <div class="maincol">
     <main>
         <div class="poster-hero">

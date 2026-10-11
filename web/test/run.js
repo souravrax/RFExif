@@ -1,4 +1,4 @@
-// ShutterDrop extractor tests — `npm test` (runs `node test/run.js`).
+// RF EXIF extractor tests — `npm test` (runs `node test/run.js`).
 // Manifest-driven: every web/cameras/*/camera.toml + vectors.json.
 // Real sample files come from $SHUTTERDROP_SAMPLES (never vendored);
 // entries may instead carry inline "exif" for synthetic cases.

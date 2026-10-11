@@ -1,4 +1,4 @@
-# Adding your camera to ShutterDrop
+# Adding your camera to RF EXIF
 
 Cameras are **declarative plugins**: one folder per body in `web/cameras/`,
 auto-discovered by both apps. The site is a static SvelteKit build — no

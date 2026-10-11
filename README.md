@@ -1,26 +1,26 @@
 <div align="center">
-  <img src="icon-src.png" width="128" alt="ShutterDrop icon" />
-  <h1>ShutterDrop</h1>
-  <p><strong>Find your camera's shutter count from a photo — 100% local.</strong><br />
+  <img src="web/static/brand/wordmark.svg" width="220" alt="RF EXIF" />
+  <h1>RF EXIF</h1>
+  <p><strong>Free camera and lens insights for Canon EOS R — 100% local.</strong><br />
   Drop a CR3, JPG, or HIF. No uploads, no accounts, originals never modified.</p>
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![CI](https://github.com/souravrax/ShutterDrop/actions/workflows/ci.yml/badge.svg)](https://github.com/souravrax/ShutterDrop/actions/workflows/ci.yml)
-[![Pages](https://github.com/souravrax/ShutterDrop/actions/workflows/pages.yml/badge.svg)](https://github.com/souravrax/ShutterDrop/actions/workflows/pages.yml)
-[![Release](https://img.shields.io/github/v/release/souravrax/ShutterDrop)](https://github.com/souravrax/ShutterDrop/releases)
+[![CI](https://github.com/souravrax/RFExif/actions/workflows/ci.yml/badge.svg)](https://github.com/souravrax/RFExif/actions/workflows/ci.yml)
+[![Pages](https://github.com/souravrax/RFExif/actions/workflows/pages.yml/badge.svg)](https://github.com/souravrax/RFExif/actions/workflows/pages.yml)
+[![Release](https://img.shields.io/github/v/release/souravrax/RFExif)](https://github.com/souravrax/RFExif/releases)
 </div>
 
-- **Web app (no install):** https://souravrax.github.io/ShutterDrop/
-- **Desktop app (Windows):** [Releases](https://github.com/souravrax/ShutterDrop/releases) — NSIS + MSI installers, ExifTool bundled
+- **Web app (no install):** https://souravrax.github.io/RFExif/
+- **Desktop app (Windows):** [Releases](https://github.com/souravrax/RFExif/releases) — NSIS + MSI installers, ExifTool bundled
 
-## Why ShutterDrop
+## Why RF EXIF
 
 Most shutter-count tools either upload your photos, paywall your own data, or
 simply don't support your body. Canon's **EOS R10** (like the R7 / RP) publishes
 no EXIF shutter count at all — ExifTool reports `CanonCameraInfoUnknown` and
 stops there.
 
-ShutterDrop reverse-engineered it: the 4608-byte `CanonCameraInfo` blob (TIFF
+RF EXIF reverse-engineered it: the 4608-byte `CanonCameraInfo` blob (TIFF
 tag `0x000D`, magic `BB CC 00 00`) holds a little-endian uint32 total-actuation
 counter at byte **`0xC93` (3219)** — proven across 14 consecutive shots
 (`22146 → 22165`): +1 per saved frame, zero skips, CR3 == JPG of the same
@@ -52,18 +52,18 @@ Full matrix (generated from manifests): [`web/cameras/README.md`](web/cameras/RE
 
 ## Install
 
-**No-install option:** open the [web app](https://souravrax.github.io/ShutterDrop/)
+**No-install option:** open the [web app](https://souravrax.github.io/RFExif/)
 and drop files in. Works offline after first load.
 
-**Windows desktop:** download `ShutterDrop_*_x64-setup.exe` (NSIS) or the `.msi`
-from [Releases](https://github.com/souravrax/ShutterDrop/releases). ExifTool is
+**Windows desktop:** download the Windows setup executable (NSIS) or the `.msi`
+from [Releases](https://github.com/souravrax/RFExif/releases). ExifTool is
 bundled — no setup needed.
 
 **macOS desktop:** clone and build locally (Apple Silicon or Intel):
 
 ```sh
-git clone https://github.com/souravrax/ShutterDrop.git
-cd ShutterDrop
+git clone https://github.com/souravrax/RFExif.git
+cd RFExif
 npm install
 # place the macOS exiftool binary at:
 #   src-tauri/binaries/exiftool-aarch64-apple-darwin  (Apple Silicon)

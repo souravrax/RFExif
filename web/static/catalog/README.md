@@ -14,7 +14,7 @@ Unknown specifications remain null. Generated images are illustrative.
 
 Fetch index.json first, then resolve each entry's `detail` relative to the index
 URL. Resolve `image` relative to the site's static root (including its configured
-base path, such as `/ShutterDrop/`). This supports same-origin hosting or a pinned
+base path, such as `/RFExif/`). This supports same-origin hosting or a pinned
 GitHub release on a CDN without embedding a hostname in the records.
 
 Sources of truth remain `web/lenses/inventory.json` and the cutout manifest at

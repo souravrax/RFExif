@@ -1,4 +1,4 @@
-// Minimal TOML-subset parser for ShutterDrop camera manifests.
+// Minimal TOML-subset parser for RF EXIF camera manifests.
 // Supports exactly what camera.toml uses (nothing more):
 //   - comments (# ...) and blank lines
 //   - [table] and [[array-table]] headers (single level, e.g. [camera])

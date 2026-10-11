@@ -1,4 +1,4 @@
-// ShutterDrop camera contract check — `node cameras/validate.js` (CI).
+// RF EXIF camera contract check — `node cameras/validate.js` (CI).
 // Every cameras/<id>/ must hold camera.toml + README.md + vectors.json,
 // ids unique + kebab-case, strategies well-formed, vectors non-empty.
 import fs from "node:fs";

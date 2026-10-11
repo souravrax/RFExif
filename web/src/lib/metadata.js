@@ -1,4 +1,4 @@
-// ShutterDrop web metadata helpers (pure, framework-free, Node-testable).
+// RF EXIF web metadata helpers (pure, framework-free, Node-testable).
 //
 // The full EXIF map shape is { "Group:Tag": string, ... } as produced by
 // $lib/wasm/exiftool.js parseFull(). These helpers never fetch, never touch

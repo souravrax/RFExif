@@ -1,5 +1,5 @@
 // ============================================================================
-// ShutterDrop camera escape hatch (ESM). Most cameras NEVER need this file —
+// RF EXIF camera escape hatch (ESM). Most cameras NEVER need this file —
 // delete it unless a declarative strategy in camera.toml cannot express the
 // counter (e.g. encrypted fields like Sony 0x9050).
 //

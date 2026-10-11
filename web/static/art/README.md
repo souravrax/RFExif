@@ -1,3 +1,3 @@
-camera-buddy.png: generated with built-in ImageGen for ShutterDrop. Transparent decorative mascot, no camera brand marks.
+camera-buddy.png: generated with built-in ImageGen for RF EXIF. Transparent decorative mascot, no camera brand marks.
 
 A single charming retro rubber-hose cartoon CAMERA mascot, black ink line drawing with small black halftone hatching, happy expressive eyes inside the circular lens, little gloved hands, one hand making a peace sign, little sneaker feet in a walking pose. Vintage print illustration, playful cute confident, generic unbranded camera with NO logos NO letters NO text. Isolated fully transparent background, whole character visible with roomy margins, crisp silhouette, predominantly black and cream details. This is a small doodle asset for an editorial neo brutalist photo inspection web app. No scenery, no shadow rectangle, no additional objects.

@@ -206,7 +206,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-10mm-f2.8-full-frame-fisheye--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/10mm-f2.8-full-frame-fisheye.json"
+      "detail": "lenses/7artisans/canon-rf/10mm-f2.8-full-frame-fisheye.json"
     },
     {
       "id": "lens:7artisans:canon-rf:10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye",
@@ -218,7 +218,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye.json"
+      "detail": "lenses/7artisans/canon-rf/10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye.json"
     },
     {
       "id": "lens:7artisans:canon-rf:10mm-t2.1-s35-cine",
@@ -230,7 +230,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-10mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/10mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/10mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:120mm-t2.9-full-frame-macro-2x",
@@ -242,7 +242,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-120mm-t2.9-full-frame-macro-2x--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/120mm-t2.9-full-frame-macro-2x.json"
+      "detail": "lenses/7artisans/canon-rf/120mm-t2.9-full-frame-macro-2x.json"
     },
     {
       "id": "lens:7artisans:canon-rf:12mm-f2.8-mark-ii-aps-c",
@@ -254,7 +254,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-12mm-f2.8-mark-ii-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/12mm-f2.8-mark-ii-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/12mm-f2.8-mark-ii-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:12mm-t2.9-aps-c-mf-cine",
@@ -266,7 +266,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-12mm-t2.9-aps-c-mf-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/12mm-t2.9-aps-c-mf-cine.json"
+      "detail": "lenses/7artisans/canon-rf/12mm-t2.9-aps-c-mf-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:14mm-f2.8-full-frame-wide-angle",
@@ -278,7 +278,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-14mm-f2.8-full-frame-wide-angle--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/14mm-f2.8-full-frame-wide-angle.json"
+      "detail": "lenses/7artisans/canon-rf/14mm-f2.8-full-frame-wide-angle.json"
     },
     {
       "id": "lens:7artisans:canon-rf:14mm-t2.9-full-frame-cine",
@@ -290,7 +290,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-14mm-t2.9-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/14mm-t2.9-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/14mm-t2.9-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:16mm-t2.1-s35-cine",
@@ -302,7 +302,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-16mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/16mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/16mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:25mm-f0.95-aps-c",
@@ -314,7 +314,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-25mm-f0.95-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/25mm-f0.95-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/25mm-f0.95-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:25mm-t1.05-aps-c-mf-cine",
@@ -326,7 +326,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-25mm-t1.05-aps-c-mf-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/25mm-t1.05-aps-c-mf-cine.json"
+      "detail": "lenses/7artisans/canon-rf/25mm-t1.05-aps-c-mf-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:25mm-t2.1-s35-cine",
@@ -338,7 +338,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-25mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/25mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/25mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-f0.95-aps-c",
@@ -350,7 +350,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-f0.95-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-f0.95-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-f0.95-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-f1.4-aps-c",
@@ -362,7 +362,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-f1.4-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-f1.4-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-f1.4-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-f1.4-iii-full-frame",
@@ -374,7 +374,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-f1.4-iii-full-frame--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-f1.4-iii-full-frame.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-f1.4-iii-full-frame.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-f5.6-full-frame",
@@ -386,7 +386,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-f5.6-full-frame--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-f5.6-full-frame.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-f5.6-full-frame.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-t1.05-aps-c-mf-cine",
@@ -398,7 +398,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-t1.05-aps-c-mf-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-t1.05-aps-c-mf-cine.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-t1.05-aps-c-mf-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-t1.5-full-frame-cine",
@@ -410,7 +410,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-t1.5-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-t1.5-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-t1.5-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-t2.0-full-frame-cine",
@@ -422,7 +422,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-t2.0-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-t2.0-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-t2.0-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:35mm-t2.1-s35-cine",
@@ -434,7 +434,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-35mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/35mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/35mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:50mm-f0.95-aps-c",
@@ -446,7 +446,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-50mm-f0.95-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/50mm-f0.95-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/50mm-f0.95-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:50mm-t1.05-aps-c-mf-cine",
@@ -458,7 +458,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-50mm-t1.05-aps-c-mf-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/50mm-t1.05-aps-c-mf-cine.json"
+      "detail": "lenses/7artisans/canon-rf/50mm-t1.05-aps-c-mf-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:50mm-t1.5-full-frame-cine",
@@ -470,7 +470,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-50mm-t1.5-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/50mm-t1.5-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/50mm-t1.5-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:50mm-t2.0-full-frame-cine",
@@ -482,7 +482,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-50mm-t2.0-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/50mm-t2.0-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/50mm-t2.0-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:50mm-t2.1-s35-cine",
@@ -494,7 +494,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-50mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/50mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/50mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:60mm-f2.8-full-frame-2x-ultra-macro",
@@ -506,7 +506,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-60mm-f2.8-full-frame-2x-ultra-macro--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/60mm-f2.8-full-frame-2x-ultra-macro.json"
+      "detail": "lenses/7artisans/canon-rf/60mm-f2.8-full-frame-2x-ultra-macro.json"
     },
     {
       "id": "lens:7artisans:canon-rf:60mm-f2.8-mark-ii-aps-c",
@@ -518,7 +518,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-60mm-f2.8-mark-ii-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/60mm-f2.8-mark-ii-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/60mm-f2.8-mark-ii-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:65mm-t2.9-full-frame-macro-cine",
@@ -530,7 +530,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-65mm-t2.9-full-frame-macro-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/65mm-t2.9-full-frame-macro-cine.json"
+      "detail": "lenses/7artisans/canon-rf/65mm-t2.9-full-frame-macro-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:6mm-f2.0-aps-c",
@@ -542,7 +542,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-6mm-f2.0-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/6mm-f2.0-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/6mm-f2.0-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:7.5mm-f2.8-mark-ii-aps-c",
@@ -554,7 +554,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-7.5mm-f2.8-mark-ii-aps-c--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/7.5mm-f2.8-mark-ii-aps-c.json"
+      "detail": "lenses/7artisans/canon-rf/7.5mm-f2.8-mark-ii-aps-c.json"
     },
     {
       "id": "lens:7artisans:canon-rf:75mm-f1.4-full-frame",
@@ -566,7 +566,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-75mm-f1.4-full-frame--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/75mm-f1.4-full-frame.json"
+      "detail": "lenses/7artisans/canon-rf/75mm-f1.4-full-frame.json"
     },
     {
       "id": "lens:7artisans:canon-rf:75mm-t1.5-full-frame-cine",
@@ -578,7 +578,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-75mm-t1.5-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/75mm-t1.5-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/75mm-t1.5-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:85mm-t2.0-full-frame-cine",
@@ -590,7 +590,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-85mm-t2.0-full-frame-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/85mm-t2.0-full-frame-cine.json"
+      "detail": "lenses/7artisans/canon-rf/85mm-t2.0-full-frame-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:85mm-t2.1-s35-cine",
@@ -602,7 +602,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-85mm-t2.1-s35-cine--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/85mm-t2.1-s35-cine.json"
+      "detail": "lenses/7artisans/canon-rf/85mm-t2.1-s35-cine.json"
     },
     {
       "id": "lens:7artisans:canon-rf:9mm-f5.6-full-frame-wide-angle",
@@ -614,7 +614,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/7artisans-9mm-f5.6-full-frame-wide-angle--canon-rf.png",
-      "detail": "lenss/7artisans/canon-rf/9mm-f5.6-full-frame-wide-angle.json"
+      "detail": "lenses/7artisans/canon-rf/9mm-f5.6-full-frame-wide-angle.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:10mm-f5.6-ii-aps-c",
@@ -626,7 +626,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-10mm-f5.6-ii-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/10mm-f5.6-ii-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/10mm-f5.6-ii-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:10mm-f5.6-pro-aps-c",
@@ -638,7 +638,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-10mm-f5.6-pro-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/10mm-f5.6-pro-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/10mm-f5.6-pro-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:11mm-f2.8-ii-full-frame",
@@ -650,7 +650,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-11mm-f2.8-ii-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/11mm-f2.8-ii-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/11mm-f2.8-ii-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:12mm-f2-iii-aps-c",
@@ -662,7 +662,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-12mm-f2-iii-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/12mm-f2-iii-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/12mm-f2-iii-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:12mm-f2.8-full-frame",
@@ -674,7 +674,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-12mm-f2.8-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/12mm-f2.8-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/12mm-f2.8-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:14mm-f2.8-full-frame",
@@ -686,7 +686,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-14mm-f2.8-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/14mm-f2.8-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/14mm-f2.8-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:16mm-f2.8-full-frame",
@@ -698,7 +698,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-16mm-f2.8-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/16mm-f2.8-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/16mm-f2.8-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:35mm-f0.95-aps-c",
@@ -710,7 +710,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-35mm-f0.95-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/35mm-f0.95-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/35mm-f0.95-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:35mm-f1.4-full-frame",
@@ -722,7 +722,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-35mm-f1.4-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/35mm-f1.4-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/35mm-f1.4-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:35mm-f1.7-aps-c",
@@ -734,7 +734,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-35mm-f1.7-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/35mm-f1.7-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/35mm-f1.7-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:50mm-f0.95-aps-c",
@@ -746,7 +746,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-50mm-f0.95-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/50mm-f0.95-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/50mm-f0.95-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:50mm-f0.95-ii-full-frame",
@@ -758,7 +758,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-50mm-f0.95-ii-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/50mm-f0.95-ii-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/50mm-f0.95-ii-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:50mm-f1.05-full-frame",
@@ -770,7 +770,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-50mm-f1.05-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/50mm-f1.05-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/50mm-f1.05-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:50mm-f1.4-iii-aps-c",
@@ -782,7 +782,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-50mm-f1.4-iii-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/50mm-f1.4-iii-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/50mm-f1.4-iii-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:50mm-f2-tri-sight-full-frame",
@@ -794,7 +794,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-50mm-f2-tri-sight-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/50mm-f2-tri-sight-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/50mm-f2-tri-sight-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:55mm-f1.8-full-frame",
@@ -806,7 +806,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-55mm-f1.8-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/55mm-f1.8-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/55mm-f1.8-full-frame.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:60mm-f2.8-aps-c",
@@ -818,7 +818,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-60mm-f2.8-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/60mm-f2.8-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/60mm-f2.8-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:7.5mm-f2.8-iv-aps-c",
@@ -830,7 +830,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-7.5mm-f2.8-iv-aps-c--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/7.5mm-f2.8-iv-aps-c.json"
+      "detail": "lenses/brightin-star/canon-rf/7.5mm-f2.8-iv-aps-c.json"
     },
     {
       "id": "lens:brightin-star:canon-rf:9mm-f5.6-full-frame",
@@ -842,7 +842,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/brightin-star-9mm-f5.6-full-frame--canon-rf.png",
-      "detail": "lenss/brightin-star/canon-rf/9mm-f5.6-full-frame.json"
+      "detail": "lenses/brightin-star/canon-rf/9mm-f5.6-full-frame.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-10-20mm-f4-l-is-stm",
@@ -854,7 +854,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-10-20mm-f4-l-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-10-20mm-f4-l-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-10-20mm-f4-l-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-100-300mm-f2.8-l-is-usm",
@@ -866,7 +866,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-100-300mm-f2.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-100-300mm-f2.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-100-300mm-f2.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-100-400mm-f5.6-8-is-usm",
@@ -878,7 +878,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-100-400mm-f5.6-8-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-100-400mm-f5.6-8-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-100-400mm-f5.6-8-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-100-500mm-f4.5-7.1-l-is-usm",
@@ -890,7 +890,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-100-500mm-f4.5-7.1-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-100-500mm-f4.5-7.1-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-100-500mm-f4.5-7.1-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-100mm-f2.8-l-macro-is-usm",
@@ -902,7 +902,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-100mm-f2.8-l-macro-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-100mm-f2.8-l-macro-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-100mm-f2.8-l-macro-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-1200mm-f8-l-is-usm",
@@ -914,7 +914,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-1200mm-f8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-1200mm-f8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-1200mm-f8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-135mm-f1.8-l-is-usm",
@@ -926,7 +926,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-135mm-f1.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-135mm-f1.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-135mm-f1.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-14-35mm-f4-l-is-usm",
@@ -938,7 +938,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-14-35mm-f4-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-14-35mm-f4-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-14-35mm-f4-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-14mm-f1.4-l-vcm",
@@ -950,7 +950,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-14mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-14mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-14mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-15-30mm-f4.5-6.3-is-stm",
@@ -962,7 +962,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-15-30mm-f4.5-6.3-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-15-30mm-f4.5-6.3-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-15-30mm-f4.5-6.3-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-15-35mm-f2.8-l-is-usm",
@@ -974,7 +974,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-15-35mm-f2.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-15-35mm-f2.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-15-35mm-f2.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-16-28mm-f2.8-is-stm",
@@ -986,7 +986,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-16-28mm-f2.8-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-16-28mm-f2.8-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-16-28mm-f2.8-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-16mm-f2.8-stm",
@@ -998,7 +998,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-16mm-f2.8-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-16mm-f2.8-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-16mm-f2.8-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-20-50mm-f4-l-is-usm-pz",
@@ -1010,7 +1010,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-20-50mm-f4-l-is-usm-pz--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-20-50mm-f4-l-is-usm-pz.json"
+      "detail": "lenses/canon/canon-rf/rf-20-50mm-f4-l-is-usm-pz.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-200-800mm-f6.3-9-is-usm",
@@ -1022,7 +1022,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-200-800mm-f6.3-9-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-200-800mm-f6.3-9-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-200-800mm-f6.3-9-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-20mm-f1.4-l-vcm",
@@ -1034,7 +1034,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-20mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-20mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-20mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-105mm-f2.8-l-is-usm-z",
@@ -1046,7 +1046,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-105mm-f2.8-l-is-usm-z--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-105mm-f2.8-l-is-usm-z.json"
+      "detail": "lenses/canon/canon-rf/rf-24-105mm-f2.8-l-is-usm-z.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-105mm-f4-7.1-is-stm",
@@ -1058,7 +1058,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-105mm-f4-7.1-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-105mm-f4-7.1-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-24-105mm-f4-7.1-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-105mm-f4-l-is-usm",
@@ -1070,7 +1070,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-105mm-f4-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-105mm-f4-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-24-105mm-f4-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-240mm-f4-6.3-is-usm",
@@ -1082,7 +1082,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-240mm-f4-6.3-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-240mm-f4-6.3-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-24-240mm-f4-6.3-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-50mm-f4.5-6.3-is-stm",
@@ -1094,7 +1094,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-50mm-f4.5-6.3-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-50mm-f4.5-6.3-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-24-50mm-f4.5-6.3-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24-70mm-f2.8-l-is-usm",
@@ -1106,7 +1106,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24-70mm-f2.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24-70mm-f2.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-24-70mm-f2.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24mm-f1.4-l-vcm",
@@ -1118,7 +1118,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-24mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-24mm-f1.8-macro-is-stm",
@@ -1130,7 +1130,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-24mm-f1.8-macro-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-24mm-f1.8-macro-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-24mm-f1.8-macro-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-28-70mm-f2-l-usm",
@@ -1142,7 +1142,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-28-70mm-f2-l-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-28-70mm-f2-l-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-28-70mm-f2-l-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-28-70mm-f2.8-is-stm",
@@ -1154,7 +1154,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-28-70mm-f2.8-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-28-70mm-f2.8-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-28-70mm-f2.8-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-28mm-f2.8-stm",
@@ -1166,7 +1166,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-28mm-f2.8-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-28mm-f2.8-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-28mm-f2.8-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-35mm-f1.4-l-vcm",
@@ -1178,7 +1178,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-35mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-35mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-35mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-35mm-f1.8-macro-is-stm",
@@ -1190,7 +1190,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-35mm-f1.8-macro-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-35mm-f1.8-macro-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-35mm-f1.8-macro-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-400mm-f2.8-l-is-usm",
@@ -1202,7 +1202,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-400mm-f2.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-400mm-f2.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-400mm-f2.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-45mm-f1.2-stm",
@@ -1214,7 +1214,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-45mm-f1.2-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-45mm-f1.2-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-45mm-f1.2-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-5.2mm-f2.8-l-dual-fisheye",
@@ -1226,7 +1226,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-5.2mm-f2.8-l-dual-fisheye--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-5.2mm-f2.8-l-dual-fisheye.json"
+      "detail": "lenses/canon/canon-rf/rf-5.2mm-f2.8-l-dual-fisheye.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-50mm-f1.2-l-usm",
@@ -1238,7 +1238,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-50mm-f1.2-l-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-50mm-f1.2-l-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-50mm-f1.2-l-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-50mm-f1.4-l-vcm",
@@ -1250,7 +1250,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-50mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-50mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-50mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-50mm-f1.8-stm",
@@ -1262,7 +1262,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-50mm-f1.8-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-50mm-f1.8-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-50mm-f1.8-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-600mm-f11-is-stm",
@@ -1274,7 +1274,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-600mm-f11-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-600mm-f11-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-600mm-f11-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-600mm-f4-l-is-usm",
@@ -1286,7 +1286,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-600mm-f4-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-600mm-f4-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-600mm-f4-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-7-14mm-f2.8-3.5-l-fisheye-stm",
@@ -1298,7 +1298,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-7-14mm-f2.8-3.5-l-fisheye-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-7-14mm-f2.8-3.5-l-fisheye-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-7-14mm-f2.8-3.5-l-fisheye-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-70-200mm-f2.8-l-is-usm",
@@ -1310,7 +1310,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-70-200mm-f2.8-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-70-200mm-f2.8-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-70-200mm-f2.8-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-70-200mm-f2.8-l-is-usm-z",
@@ -1322,7 +1322,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-70-200mm-f2.8-l-is-usm-z--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-70-200mm-f2.8-l-is-usm-z.json"
+      "detail": "lenses/canon/canon-rf/rf-70-200mm-f2.8-l-is-usm-z.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-70-200mm-f4-l-is-usm",
@@ -1334,7 +1334,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-70-200mm-f4-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-70-200mm-f4-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-70-200mm-f4-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-800mm-f11-is-stm",
@@ -1346,7 +1346,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-800mm-f11-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-800mm-f11-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-800mm-f11-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-800mm-f5.6-l-is-usm",
@@ -1358,7 +1358,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-800mm-f5.6-l-is-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-800mm-f5.6-l-is-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-800mm-f5.6-l-is-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-85mm-f1.2-l-usm",
@@ -1370,7 +1370,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-85mm-f1.2-l-usm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-85mm-f1.2-l-usm.json"
+      "detail": "lenses/canon/canon-rf/rf-85mm-f1.2-l-usm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-85mm-f1.2-l-usm-ds",
@@ -1382,7 +1382,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-85mm-f1.2-l-usm-ds--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-85mm-f1.2-l-usm-ds.json"
+      "detail": "lenses/canon/canon-rf/rf-85mm-f1.2-l-usm-ds.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-85mm-f1.4-l-vcm",
@@ -1394,7 +1394,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-85mm-f1.4-l-vcm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-85mm-f1.4-l-vcm.json"
+      "detail": "lenses/canon/canon-rf/rf-85mm-f1.4-l-vcm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-85mm-f2-macro-is-stm",
@@ -1406,7 +1406,7 @@
       "series": "RF",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-85mm-f2-macro-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-85mm-f2-macro-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-85mm-f2-macro-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-10-18mm-f4.5-6.3-is-stm",
@@ -1418,7 +1418,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-10-18mm-f4.5-6.3-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-10-18mm-f4.5-6.3-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-s-10-18mm-f4.5-6.3-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-14-30mm-f4-6.3-is-stm-pz",
@@ -1430,7 +1430,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-14-30mm-f4-6.3-is-stm-pz--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-14-30mm-f4-6.3-is-stm-pz.json"
+      "detail": "lenses/canon/canon-rf/rf-s-14-30mm-f4-6.3-is-stm-pz.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-18-150mm-f3.5-6.3-is-stm",
@@ -1442,7 +1442,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-18-150mm-f3.5-6.3-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-18-150mm-f3.5-6.3-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-s-18-150mm-f3.5-6.3-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-18-45mm-f4.5-6.3-is-stm",
@@ -1454,7 +1454,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-18-45mm-f4.5-6.3-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-18-45mm-f4.5-6.3-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-s-18-45mm-f4.5-6.3-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-3.9mm-f3.5-stm-dual-fisheye",
@@ -1466,7 +1466,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-3.9mm-f3.5-stm-dual-fisheye--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-3.9mm-f3.5-stm-dual-fisheye.json"
+      "detail": "lenses/canon/canon-rf/rf-s-3.9mm-f3.5-stm-dual-fisheye.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-55-210mm-f5-7.1-is-stm",
@@ -1478,7 +1478,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-55-210mm-f5-7.1-is-stm--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-55-210mm-f5-7.1-is-stm.json"
+      "detail": "lenses/canon/canon-rf/rf-s-55-210mm-f5-7.1-is-stm.json"
     },
     {
       "id": "lens:canon:canon-rf:rf-s-7.8mm-f4-stm-dual",
@@ -1490,7 +1490,7 @@
       "series": "RF-S",
       "aliases": [],
       "image": "art/equipment/individual/lenses/canon-rf-s-7.8mm-f4-stm-dual--canon-rf.png",
-      "detail": "lenss/canon/canon-rf/rf-s-7.8mm-f4-stm-dual.json"
+      "detail": "lenses/canon/canon-rf/rf-s-7.8mm-f4-stm-dual.json"
     },
     {
       "id": "lens:laowa:canon-rf:65mm-f2.8-2x-ultra-macro-apo",
@@ -1502,7 +1502,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/laowa-65mm-f2.8-2x-ultra-macro-apo--canon-rf.png",
-      "detail": "lenss/laowa/canon-rf/65mm-f2.8-2x-ultra-macro-apo.json"
+      "detail": "lenses/laowa/canon-rf/65mm-f2.8-2x-ultra-macro-apo.json"
     },
     {
       "id": "lens:laowa:canon-rf:90mm-f2.8-2x-ultra-macro-apo",
@@ -1514,7 +1514,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/laowa-90mm-f2.8-2x-ultra-macro-apo--canon-rf.png",
-      "detail": "lenss/laowa/canon-rf/90mm-f2.8-2x-ultra-macro-apo.json"
+      "detail": "lenses/laowa/canon-rf/90mm-f2.8-2x-ultra-macro-apo.json"
     },
     {
       "id": "lens:mitakon:canon-rf:200mm-f4-1x-apo-macro",
@@ -1526,7 +1526,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-200mm-f4-1x-apo-macro--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/200mm-f4-1x-apo-macro.json"
+      "detail": "lenses/mitakon/canon-rf/200mm-f4-1x-apo-macro.json"
     },
     {
       "id": "lens:mitakon:canon-rf:55mm-f2.8-1-5x-macro",
@@ -1538,7 +1538,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-55mm-f2.8-1-5x-macro--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/55mm-f2.8-1-5x-macro.json"
+      "detail": "lenses/mitakon/canon-rf/55mm-f2.8-1-5x-macro.json"
     },
     {
       "id": "lens:mitakon:canon-rf:creator-135mm-f2.5",
@@ -1550,7 +1550,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-creator-135mm-f2.5--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/creator-135mm-f2.5.json"
+      "detail": "lenses/mitakon/canon-rf/creator-135mm-f2.5.json"
     },
     {
       "id": "lens:mitakon:canon-rf:creator-28mm-f5.6",
@@ -1562,7 +1562,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-creator-28mm-f5.6--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/creator-28mm-f5.6.json"
+      "detail": "lenses/mitakon/canon-rf/creator-28mm-f5.6.json"
     },
     {
       "id": "lens:mitakon:canon-rf:speedmaster-20mm-t1.0-s35-cine",
@@ -1574,7 +1574,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-speedmaster-20mm-t1.0-s35-cine--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/speedmaster-20mm-t1.0-s35-cine.json"
+      "detail": "lenses/mitakon/canon-rf/speedmaster-20mm-t1.0-s35-cine.json"
     },
     {
       "id": "lens:mitakon:canon-rf:speedmaster-35mm-t1.0-s35-cine",
@@ -1586,7 +1586,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-speedmaster-35mm-t1.0-s35-cine--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/speedmaster-35mm-t1.0-s35-cine.json"
+      "detail": "lenses/mitakon/canon-rf/speedmaster-35mm-t1.0-s35-cine.json"
     },
     {
       "id": "lens:mitakon:canon-rf:speedmaster-50mm-t1.0-s35-cine",
@@ -1598,7 +1598,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-speedmaster-50mm-t1.0-s35-cine--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/speedmaster-50mm-t1.0-s35-cine.json"
+      "detail": "lenses/mitakon/canon-rf/speedmaster-50mm-t1.0-s35-cine.json"
     },
     {
       "id": "lens:mitakon:canon-rf:speedmaster-90mm-f1.5",
@@ -1610,7 +1610,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/mitakon-speedmaster-90mm-f1.5--canon-rf.png",
-      "detail": "lenss/mitakon/canon-rf/speedmaster-90mm-f1.5.json"
+      "detail": "lenses/mitakon/canon-rf/speedmaster-90mm-f1.5.json"
     },
     {
       "id": "lens:samyang:canon-rf:af-12mm-f2-rf-s",
@@ -1622,7 +1622,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/samyang-af-12mm-f2-rf-s--canon-rf.png",
-      "detail": "lenss/samyang/canon-rf/af-12mm-f2-rf-s.json"
+      "detail": "lenses/samyang/canon-rf/af-12mm-f2-rf-s.json"
     },
     {
       "id": "lens:samyang:canon-rf:af-14mm-f2.8-rf",
@@ -1636,7 +1636,7 @@
         "Rokinon AF 14mm F2.8 RF"
       ],
       "image": "art/equipment/individual/lenses/samyang-af-14mm-f2.8-rf--canon-rf.png",
-      "detail": "lenss/samyang/canon-rf/af-14mm-f2.8-rf.json"
+      "detail": "lenses/samyang/canon-rf/af-14mm-f2.8-rf.json"
     },
     {
       "id": "lens:samyang:canon-rf:af-85mm-f1.4-rf",
@@ -1650,7 +1650,7 @@
         "Rokinon AF 85mm F1.4 RF"
       ],
       "image": "art/equipment/individual/lenses/samyang-af-85mm-f1.4-rf--canon-rf.png",
-      "detail": "lenss/samyang/canon-rf/af-85mm-f1.4-rf.json"
+      "detail": "lenses/samyang/canon-rf/af-85mm-f1.4-rf.json"
     },
     {
       "id": "lens:samyang:canon-rf:mf-14mm-f2.8-rf",
@@ -1665,7 +1665,7 @@
         "Rokinon 14mm F2.8 RF"
       ],
       "image": "art/equipment/individual/lenses/samyang-mf-14mm-f2.8-rf--canon-rf.png",
-      "detail": "lenss/samyang/canon-rf/mf-14mm-f2.8-rf.json"
+      "detail": "lenses/samyang/canon-rf/mf-14mm-f2.8-rf.json"
     },
     {
       "id": "lens:samyang:canon-rf:mf-85mm-f1.4-rf",
@@ -1680,7 +1680,7 @@
         "Rokinon 85mm F1.4 RF"
       ],
       "image": "art/equipment/individual/lenses/samyang-mf-85mm-f1.4-rf--canon-rf.png",
-      "detail": "lenss/samyang/canon-rf/mf-85mm-f1.4-rf.json"
+      "detail": "lenses/samyang/canon-rf/mf-85mm-f1.4-rf.json"
     },
     {
       "id": "lens:sigma:canon-rf:10-18mm-f2.8-dc-dn-contemporary",
@@ -1694,7 +1694,7 @@
         "Sigma 10-18mm F2.8 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-10-18mm-f2.8-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/10-18mm-f2.8-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/10-18mm-f2.8-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:12mm-f1.4-dc-contemporary",
@@ -1708,7 +1708,7 @@
         "Sigma 12mm F1.4 DC"
       ],
       "image": "art/equipment/individual/lenses/sigma-12mm-f1.4-dc-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/12mm-f1.4-dc-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/12mm-f1.4-dc-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:15mm-f1.4-dc-contemporary",
@@ -1722,7 +1722,7 @@
         "Sigma 15mm F1.4 DC"
       ],
       "image": "art/equipment/individual/lenses/sigma-15mm-f1.4-dc-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/15mm-f1.4-dc-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/15mm-f1.4-dc-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:16-300mm-f3.5-6.7-dc-os-contemporary",
@@ -1736,7 +1736,7 @@
         "Sigma 16-300mm F3.5-6.7 DC OS"
       ],
       "image": "art/equipment/individual/lenses/sigma-16-300mm-f3.5-6.7-dc-os-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/16-300mm-f3.5-6.7-dc-os-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/16-300mm-f3.5-6.7-dc-os-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:16mm-f1.4-dc-dn-contemporary",
@@ -1750,7 +1750,7 @@
         "Sigma 16mm F1.4 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-16mm-f1.4-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/16mm-f1.4-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/16mm-f1.4-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:17-40mm-f1.8-dc-art",
@@ -1764,7 +1764,7 @@
         "Sigma 17-40mm F1.8 DC"
       ],
       "image": "art/equipment/individual/lenses/sigma-17-40mm-f1.8-dc-art--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/17-40mm-f1.8-dc-art.json"
+      "detail": "lenses/sigma/canon-rf/17-40mm-f1.8-dc-art.json"
     },
     {
       "id": "lens:sigma:canon-rf:18-50mm-f2.8-dc-dn-contemporary",
@@ -1778,7 +1778,7 @@
         "Sigma 18-50mm F2.8 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-18-50mm-f2.8-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/18-50mm-f2.8-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/18-50mm-f2.8-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:23mm-f1.4-dc-dn-contemporary",
@@ -1792,7 +1792,7 @@
         "Sigma 23mm F1.4 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-23mm-f1.4-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/23mm-f1.4-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/23mm-f1.4-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:30mm-f1.4-dc-dn-contemporary",
@@ -1806,7 +1806,7 @@
         "Sigma 30mm F1.4 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-30mm-f1.4-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/30mm-f1.4-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/30mm-f1.4-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:50-120mm-f2.8-dc-os-contemporary",
@@ -1820,7 +1820,7 @@
         "Sigma 50-120mm F2.8 DC OS"
       ],
       "image": "art/equipment/individual/lenses/sigma-50-120mm-f2.8-dc-os-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/50-120mm-f2.8-dc-os-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/50-120mm-f2.8-dc-os-contemporary.json"
     },
     {
       "id": "lens:sigma:canon-rf:56mm-f1.4-dc-dn-contemporary",
@@ -1834,7 +1834,7 @@
         "Sigma 56mm F1.4 DC DN"
       ],
       "image": "art/equipment/individual/lenses/sigma-56mm-f1.4-dc-dn-contemporary--canon-rf.png",
-      "detail": "lenss/sigma/canon-rf/56mm-f1.4-dc-dn-contemporary.json"
+      "detail": "lenses/sigma/canon-rf/56mm-f1.4-dc-dn-contemporary.json"
     },
     {
       "id": "lens:sirui:canon-rf:night-walker-16mm-t1.2-s35-cine",
@@ -1846,7 +1846,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-night-walker-16mm-t1.2-s35-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/night-walker-16mm-t1.2-s35-cine.json"
+      "detail": "lenses/sirui/canon-rf/night-walker-16mm-t1.2-s35-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:night-walker-24mm-t1.2-s35-cine",
@@ -1858,7 +1858,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-night-walker-24mm-t1.2-s35-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/night-walker-24mm-t1.2-s35-cine.json"
+      "detail": "lenses/sirui/canon-rf/night-walker-24mm-t1.2-s35-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:night-walker-35mm-t1.2-s35-cine",
@@ -1870,7 +1870,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-night-walker-35mm-t1.2-s35-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/night-walker-35mm-t1.2-s35-cine.json"
+      "detail": "lenses/sirui/canon-rf/night-walker-35mm-t1.2-s35-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:night-walker-55mm-t1.2-s35-cine",
@@ -1882,7 +1882,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-night-walker-55mm-t1.2-s35-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/night-walker-55mm-t1.2-s35-cine.json"
+      "detail": "lenses/sirui/canon-rf/night-walker-55mm-t1.2-s35-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:night-walker-75mm-t1.2-s35-cine",
@@ -1894,7 +1894,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-night-walker-75mm-t1.2-s35-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/night-walker-75mm-t1.2-s35-cine.json"
+      "detail": "lenses/sirui/canon-rf/night-walker-75mm-t1.2-s35-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:s35-24mm-f2.8-1.33x-anamorphic",
@@ -1906,7 +1906,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-s35-24mm-f2.8-1.33x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/s35-24mm-f2.8-1.33x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/s35-24mm-f2.8-1.33x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:s35-35mm-f1.8-1.33x-anamorphic",
@@ -1918,7 +1918,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-s35-35mm-f1.8-1.33x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/s35-35mm-f1.8-1.33x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/s35-35mm-f1.8-1.33x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:s35-50mm-f1.8-1.33x-anamorphic",
@@ -1930,7 +1930,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-s35-50mm-f1.8-1.33x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/s35-50mm-f1.8-1.33x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/s35-50mm-f1.8-1.33x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:s35-75mm-f1.8-1.33x-anamorphic",
@@ -1942,7 +1942,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-s35-75mm-f1.8-1.33x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/s35-75mm-f1.8-1.33x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/s35-75mm-f1.8-1.33x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-35mm-t2.9-1.6x-anamorphic",
@@ -1954,7 +1954,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-35mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-35mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-35mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-50mm-t2.9-1.6x-anamorphic",
@@ -1966,7 +1966,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-50mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-50mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-50mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-75mm-t2.9-1.6x-anamorphic",
@@ -1978,7 +1978,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-75mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-75mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-75mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-v2-35mm-t2.9-1.6x-anamorphic",
@@ -1990,7 +1990,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-v2-35mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-v2-35mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-v2-35mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-v2-50mm-t2.9-1.6x-anamorphic",
@@ -2002,7 +2002,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-v2-50mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-v2-50mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-v2-50mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:saturn-v2-75mm-t2.9-1.6x-anamorphic",
@@ -2014,7 +2014,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-saturn-v2-75mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/saturn-v2-75mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/saturn-v2-75mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-100mm-t2.9-1.6x-anamorphic",
@@ -2026,7 +2026,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-100mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-100mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-100mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-135mm-t2.9-1.8x-anamorphic",
@@ -2038,7 +2038,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-135mm-t2.9-1.8x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-135mm-t2.9-1.8x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-135mm-t2.9-1.8x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-150mm-t2.9-1.6x-anamorphic",
@@ -2050,7 +2050,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-150mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-150mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-150mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-35mm-t2.9-1.6x-anamorphic",
@@ -2062,7 +2062,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-35mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-35mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-35mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-50mm-t2.9-1.6x-anamorphic",
@@ -2074,7 +2074,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-50mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-50mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-50mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:venus-75mm-t2.9-1.6x-anamorphic",
@@ -2086,7 +2086,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-venus-75mm-t2.9-1.6x-anamorphic--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/venus-75mm-t2.9-1.6x-anamorphic.json"
+      "detail": "lenses/sirui/canon-rf/venus-75mm-t2.9-1.6x-anamorphic.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-150mm-t1.4-cine",
@@ -2098,7 +2098,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-150mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-150mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-150mm-t1.4-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-15mm-t1.4-cine",
@@ -2110,7 +2110,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-15mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-15mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-15mm-t1.4-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-24mm-t1.4-cine",
@@ -2122,7 +2122,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-24mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-24mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-24mm-t1.4-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-35mm-t1.4-cine",
@@ -2134,7 +2134,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-35mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-35mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-35mm-t1.4-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-50mm-t1.4-cine",
@@ -2146,7 +2146,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-50mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-50mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-50mm-t1.4-cine.json"
     },
     {
       "id": "lens:sirui:canon-rf:vision-prime-75mm-t1.4-cine",
@@ -2158,7 +2158,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/sirui-vision-prime-75mm-t1.4-cine--canon-rf.png",
-      "detail": "lenss/sirui/canon-rf/vision-prime-75mm-t1.4-cine.json"
+      "detail": "lenses/sirui/canon-rf/vision-prime-75mm-t1.4-cine.json"
     },
     {
       "id": "lens:tamron:canon-rf:11-20mm-f2.8-di-iii-a-rxd",
@@ -2172,7 +2172,7 @@
         "Tamron 11-20mm F2.8 Di III-A RXD B060"
       ],
       "image": "art/equipment/individual/lenses/tamron-11-20mm-f2.8-di-iii-a-rxd--canon-rf.png",
-      "detail": "lenss/tamron/canon-rf/11-20mm-f2.8-di-iii-a-rxd.json"
+      "detail": "lenses/tamron/canon-rf/11-20mm-f2.8-di-iii-a-rxd.json"
     },
     {
       "id": "lens:tamron:canon-rf:18-300mm-f3.5-6.3-di-iii-a-vc-vxd",
@@ -2186,7 +2186,7 @@
         "Tamron 18-300mm F3.5-6.3 Di III-A VC VXD B061"
       ],
       "image": "art/equipment/individual/lenses/tamron-18-300mm-f3.5-6.3-di-iii-a-vc-vxd--canon-rf.png",
-      "detail": "lenss/tamron/canon-rf/18-300mm-f3.5-6.3-di-iii-a-vc-vxd.json"
+      "detail": "lenses/tamron/canon-rf/18-300mm-f3.5-6.3-di-iii-a-vc-vxd.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:100mm-f2.8-2x-macro",
@@ -2198,7 +2198,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-100mm-f2.8-2x-macro--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/100mm-f2.8-2x-macro.json"
+      "detail": "lenses/ttartisan/canon-rf/100mm-f2.8-2x-macro.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:11mm-f2.8-fisheye",
@@ -2210,7 +2210,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-11mm-f2.8-fisheye--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/11mm-f2.8-fisheye.json"
+      "detail": "lenses/ttartisan/canon-rf/11mm-f2.8-fisheye.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:14mm-f2.8-asph",
@@ -2222,7 +2222,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-14mm-f2.8-asph--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/14mm-f2.8-asph.json"
+      "detail": "lenses/ttartisan/canon-rf/14mm-f2.8-asph.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:21mm-f1.5",
@@ -2234,7 +2234,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-21mm-f1.5--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/21mm-f1.5.json"
+      "detail": "lenses/ttartisan/canon-rf/21mm-f1.5.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:35mm-t2.1-dual-bokeh-cine",
@@ -2246,7 +2246,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-35mm-t2.1-dual-bokeh-cine--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/35mm-t2.1-dual-bokeh-cine.json"
+      "detail": "lenses/ttartisan/canon-rf/35mm-t2.1-dual-bokeh-cine.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:500mm-f6.3",
@@ -2258,7 +2258,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-500mm-f6.3--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/500mm-f6.3.json"
+      "detail": "lenses/ttartisan/canon-rf/500mm-f6.3.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:50mm-f1.4",
@@ -2270,7 +2270,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-50mm-f1.4--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/50mm-f1.4.json"
+      "detail": "lenses/ttartisan/canon-rf/50mm-f1.4.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:50mm-f2",
@@ -2282,7 +2282,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-50mm-f2--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/50mm-f2.json"
+      "detail": "lenses/ttartisan/canon-rf/50mm-f2.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:50mm-t2.1-dual-bokeh-cine",
@@ -2294,7 +2294,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-50mm-t2.1-dual-bokeh-cine--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/50mm-t2.1-dual-bokeh-cine.json"
+      "detail": "lenses/ttartisan/canon-rf/50mm-t2.1-dual-bokeh-cine.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:85mm-t2.1-dual-bokeh-cine",
@@ -2306,7 +2306,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-85mm-t2.1-dual-bokeh-cine--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/85mm-t2.1-dual-bokeh-cine.json"
+      "detail": "lenses/ttartisan/canon-rf/85mm-t2.1-dual-bokeh-cine.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:90mm-f1.25",
@@ -2318,7 +2318,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-90mm-f1.25--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/90mm-f1.25.json"
+      "detail": "lenses/ttartisan/canon-rf/90mm-f1.25.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-10mm-f2-asph",
@@ -2330,7 +2330,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-10mm-f2-asph--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-10mm-f2-asph.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-10mm-f2-asph.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-23mm-f1.4",
@@ -2342,7 +2342,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-23mm-f1.4--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-23mm-f1.4.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-23mm-f1.4.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-25mm-f2",
@@ -2354,7 +2354,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-25mm-f2--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-25mm-f2.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-25mm-f2.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-35mm-f0.95",
@@ -2366,7 +2366,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-35mm-f0.95--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-35mm-f0.95.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-35mm-f0.95.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-35mm-f1.4",
@@ -2378,7 +2378,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-35mm-f1.4--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-35mm-f1.4.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-35mm-f1.4.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-40mm-f2.8-macro",
@@ -2390,7 +2390,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-40mm-f2.8-macro--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-40mm-f2.8-macro.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-40mm-f2.8-macro.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-50mm-f0.95",
@@ -2402,7 +2402,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-50mm-f0.95--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-50mm-f0.95.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-50mm-f0.95.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-50mm-f1.2",
@@ -2414,7 +2414,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-50mm-f1.2--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-50mm-f1.2.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-50mm-f1.2.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:aps-c-7.5mm-f2",
@@ -2426,7 +2426,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-aps-c-7.5mm-f2--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/aps-c-7.5mm-f2.json"
+      "detail": "lenses/ttartisan/canon-rf/aps-c-7.5mm-f2.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:tilt-50mm-f1.4",
@@ -2438,7 +2438,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-tilt-50mm-f1.4--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/tilt-50mm-f1.4.json"
+      "detail": "lenses/ttartisan/canon-rf/tilt-50mm-f1.4.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:tilt-aps-c-35mm-f1.4",
@@ -2450,7 +2450,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-tilt-aps-c-35mm-f1.4--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/tilt-aps-c-35mm-f1.4.json"
+      "detail": "lenses/ttartisan/canon-rf/tilt-aps-c-35mm-f1.4.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:tilt-shift-100mm-f2.8-2x-macro",
@@ -2462,7 +2462,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-tilt-shift-100mm-f2.8-2x-macro--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/tilt-shift-100mm-f2.8-2x-macro.json"
+      "detail": "lenses/ttartisan/canon-rf/tilt-shift-100mm-f2.8-2x-macro.json"
     },
     {
       "id": "lens:ttartisan:canon-rf:tilt-shift-17mm-f4-asph",
@@ -2474,7 +2474,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/ttartisan-tilt-shift-17mm-f4-asph--canon-rf.png",
-      "detail": "lenss/ttartisan/canon-rf/tilt-shift-17mm-f4-asph.json"
+      "detail": "lenses/ttartisan/canon-rf/tilt-shift-17mm-f4-asph.json"
     },
     {
       "id": "lens:viltrox:canon-rf:af-85mm-f1.8-rf",
@@ -2488,7 +2488,7 @@
         "Viltrox AF85/1.8RF"
       ],
       "image": "art/equipment/individual/lenses/viltrox-af-85mm-f1.8-rf--canon-rf.png",
-      "detail": "lenss/viltrox/canon-rf/af-85mm-f1.8-rf.json"
+      "detail": "lenses/viltrox/canon-rf/af-85mm-f1.8-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:23mm-f1.4-aps-c-rf",
@@ -2500,7 +2500,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-23mm-f1.4-aps-c-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/23mm-f1.4-aps-c-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/23mm-f1.4-aps-c-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:33mm-f1.4-aps-c-rf",
@@ -2512,7 +2512,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-33mm-f1.4-aps-c-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/33mm-f1.4-aps-c-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/33mm-f1.4-aps-c-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:35mm-f1.8-aps-c-rf",
@@ -2524,7 +2524,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-35mm-f1.8-aps-c-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/35mm-f1.8-aps-c-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/35mm-f1.8-aps-c-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:35mm-f2-full-frame-rf",
@@ -2536,7 +2536,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-35mm-f2-full-frame-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/35mm-f2-full-frame-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/35mm-f2-full-frame-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:50mm-f1.8-aps-c-rf",
@@ -2548,7 +2548,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-50mm-f1.8-aps-c-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/50mm-f1.8-aps-c-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/50mm-f1.8-aps-c-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:50mm-f1.8-full-frame-rf",
@@ -2560,7 +2560,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-50mm-f1.8-full-frame-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/50mm-f1.8-full-frame-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/50mm-f1.8-full-frame-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:56mm-f1.4-aps-c-rf",
@@ -2572,7 +2572,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-56mm-f1.4-aps-c-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/56mm-f1.4-aps-c-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/56mm-f1.4-aps-c-rf.json"
     },
     {
       "id": "lens:yongnuo:canon-rf:85mm-f1.8-full-frame-rf",
@@ -2584,7 +2584,7 @@
       "series": null,
       "aliases": [],
       "image": "art/equipment/individual/lenses/yongnuo-85mm-f1.8-full-frame-rf--canon-rf.png",
-      "detail": "lenss/yongnuo/canon-rf/85mm-f1.8-full-frame-rf.json"
+      "detail": "lenses/yongnuo/canon-rf/85mm-f1.8-full-frame-rf.json"
     }
   ]
 }

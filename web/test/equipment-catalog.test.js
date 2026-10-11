@@ -13,7 +13,7 @@ test('public catalog resolves unique mount-qualified details and image assets', 
   assert.equal(index.count, inventory.records.length + manifest.images.filter(image => image.kind === 'camera').length);
   assert.equal(new Set(index.entries.map(entry => entry.id)).size, index.count);
   for (const entry of index.entries) {
-    assert.ok(entry.detail.startsWith(`${entry.type}s/`));
+    assert.ok(entry.detail.startsWith(entry.type === 'lens' ? 'lenses/' : 'cameras/'));
     const detail = read(new URL(entry.detail, catalogRoot));
     assert.equal(detail.id, entry.id);
     assert.equal(detail.mount, entry.mount);

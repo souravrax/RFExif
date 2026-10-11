@@ -19,7 +19,8 @@ for (const record of records) {
   if (ids.has(record.id)) throw new Error(`Duplicate equipment ID: ${record.id}`);
   ids.add(record.id);
   const type = record.equipmentType;
-  const relative = `${type}s/${equipmentSlug(record.make)}/${record.mountCode}/${equipmentSlug(record.model)}.json`;
+  const group = type === 'lens' ? 'lenses' : 'cameras';
+  const relative = `${group}/${equipmentSlug(record.make)}/${record.mountCode}/${equipmentSlug(record.model)}.json`;
   const image = artwork.get(record.id);
   const imagePath = image ? `art/equipment/individual/${image.file}` : null;
   const detail = {

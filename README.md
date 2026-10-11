@@ -36,7 +36,7 @@ reading for your body.
   #   src-tauri/binaries/exiftool-aarch64-apple-darwin  (Apple Silicon)
   #   src-tauri/binaries/exiftool-x86_64-apple-darwin   (Intel)
   # from https://exiftool.org ü then:
-  npm run tauri build
+  npm run tauri build -- --config src-tauri/tauri.macos.json
   ```
   The `.dmg` lands in `src-tauri/target/release/bundle/dmg/`.
 
@@ -68,8 +68,14 @@ binaries there (ExifTool by Phil Harvey, Artistic License — https://exiftool.o
 | `exiftool-x86_64-unknown-linux-gnu` | Linux tarball |
 
 The app resolves them via Tauri resources at runtime and falls back to dev paths
-and system `PATH`. They are compiled into the installer through
-`tauri.conf.json → bundle.resources`.
+and system `PATH`. Resources are per-platform overlays (Tauri validates every
+listed file at build time, so one shared list would break all other OSes):
+
+| Build | Command |
+|---|---|
+| Windows | `npm run tauri build -- --config src-tauri/tauri.windows.json` |
+| macOS | `npm run tauri build -- --config src-tauri/tauri.macos.json` |
+| Linux | `npm run tauri build -- --config src-tauri/tauri.linux.json` |
 
 ## Credits
 

@@ -11,7 +11,7 @@
       "model": "EOS-1D X Mark III",
       "label": "EOS-1D X Mark III",
       "mount": "Canon EF",
-      "series": null,
+      "series": "EOS-1D",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-1d-x-mark-iii--canon-ef.png",
       "detail": "cameras/canon/canon-ef/eos-1d-x-mark-iii.json"
@@ -23,7 +23,7 @@
       "model": "EOS R",
       "label": "EOS R",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r.json"
@@ -35,7 +35,7 @@
       "model": "EOS R1",
       "label": "EOS R1",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r1--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r1.json"
@@ -47,7 +47,7 @@
       "model": "EOS R10",
       "label": "EOS R10",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r10--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r10.json"
@@ -59,7 +59,7 @@
       "model": "EOS R100",
       "label": "EOS R100",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r100--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r100.json"
@@ -71,7 +71,7 @@
       "model": "EOS R3",
       "label": "EOS R3",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r3--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r3.json"
@@ -83,7 +83,7 @@
       "model": "EOS R5",
       "label": "EOS R5",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r5--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r5.json"
@@ -95,7 +95,7 @@
       "model": "EOS R5 Mark II",
       "label": "EOS R5 Mark II",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r5-mark-ii--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r5-mark-ii.json"
@@ -107,7 +107,7 @@
       "model": "EOS R50",
       "label": "EOS R50",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r50--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r50.json"
@@ -119,7 +119,7 @@
       "model": "EOS R50 V",
       "label": "EOS R50 V",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r50-v--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r50-v.json"
@@ -131,7 +131,7 @@
       "model": "EOS R6",
       "label": "EOS R6",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r6--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r6.json"
@@ -143,7 +143,7 @@
       "model": "EOS R6 Mark II",
       "label": "EOS R6 Mark II",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r6-mark-ii--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r6-mark-ii.json"
@@ -155,7 +155,7 @@
       "model": "EOS R6 Mark III",
       "label": "EOS R6 Mark III",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r6-mark-iii--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r6-mark-iii.json"
@@ -167,7 +167,7 @@
       "model": "EOS R7",
       "label": "EOS R7",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r7--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r7.json"
@@ -179,7 +179,7 @@
       "model": "EOS R8",
       "label": "EOS R8",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-r8--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-r8.json"
@@ -191,7 +191,7 @@
       "model": "EOS RP",
       "label": "EOS RP",
       "mount": "Canon RF",
-      "series": null,
+      "series": "EOS R",
       "aliases": [],
       "image": "art/equipment/individual/cameras/canon-eos-rp--canon-rf.png",
       "detail": "cameras/canon/canon-rf/eos-rp.json"

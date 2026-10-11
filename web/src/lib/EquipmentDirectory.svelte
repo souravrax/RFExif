@@ -49,6 +49,7 @@
         <label>Lens type<select bind:value={kind}><option value="">All types</option><option value="prime">Prime</option><option value="zoom">Zoom</option></select></label>
       {:else}
         <label>Camera family<select bind:value={family}><option value="">All R families</option>{#each families as name}<option value={name}>{name}</option>{/each}</select></label>
+        <label>Sensor<select bind:value={format}><option value="">All sensors</option><option value="APS-C">APS-C</option><option value="full-frame">Full frame</option><option value="unknown">Unresearched</option></select></label>
       {/if}
       <label>Sort<select bind:value={sort}><option value="name">Model A–Z</option><option value="reverse">Model Z–A</option>{#if isLens}<option value="make">Make A–Z</option><option value="focal">Focal length ↑</option>{/if}</select></label>
     </div>
@@ -60,8 +61,11 @@
           {#if entry.image}<img src={`${base}/${entry.image}`} alt={`${entry.make} ${entry.model} illustration`} loading="lazy" width="240" height="240" />{/if}
           <h2>{entry.model}</h2>
           <p class="equipment-facts">{entry.mount}{#if entry.focus} · {entry.focus === 'autofocus' ? 'Autofocus' : 'Manual focus'}{/if}</p>
-          {#if isLens}<p class="equipment-facts">{entry.sensorFormat || 'Coverage unresearched'}{#if entry.focalLength} · {entry.focalLength.type}{/if}{#if entry.status === 'historical'} · Historical{/if}</p>{/if}
-          <div class="equipment-links"><a href={`${base}/catalog/${entry.detail}`}>Full metadata ↗</a>{#if entry.source}<a href={entry.source} target="_blank" rel="noreferrer">Source ↗</a>{/if}</div>
+          {#if isLens}<p class="equipment-facts">{entry.sensorFormat || 'Coverage unresearched'}{#if entry.focalLength} · {entry.focalLength.type}{/if}{#if entry.status === 'historical'} · Historical{/if}</p>
+          {:else}<p class="equipment-facts">{entry.sensorFormat || 'Format unresearched'}{#if entry.megapixels} · {entry.megapixels} MP{/if}</p>
+          <p class="equipment-facts">{entry.maxVideo || 'Video unresearched'}</p>
+          <p><span class="card-support {entry.shutterStatus === 'supported' ? 'ok' : entry.shutterStatus === 'experimental' ? 'exp' : 'none'}">{entry.shutterStatus === 'supported' ? 'Shutter count ✓' : entry.shutterStatus === 'experimental' ? 'Counter experimental' : 'Counter unmapped'}</span></p>{/if}
+          <div class="equipment-links"><a href={`${base}/${entry.detail.replace(/\.json$/, '')}`}>Explore details ↗</a>{#if entry.source}<a href={entry.source} target="_blank" rel="noreferrer">Source ↗</a>{/if}</div>
         </article>
       {:else}
         <div class="directory-empty"><h2>No matches. Try a wider view.</h2><p>Change your search or reset the filters.</p></div>

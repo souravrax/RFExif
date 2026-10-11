@@ -2,15 +2,62 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { equipmentSlug } from '../lenses/metadata.js';
+import { CAMERA_SPEC_DEFAULTS } from '../src/lib/camera-specs.js';
+import { loadManifest } from '../cameras/_shared/manifest.js';
 
 const web = fileURLToPath(new URL('../', import.meta.url));
 const output = path.join(web, 'static/catalog');
 const inventory = JSON.parse(fs.readFileSync(path.join(web, 'lenses/inventory.json')));
+const cameraSpecs = JSON.parse(fs.readFileSync(path.join(web, 'cameras/camera-specs.json')));
 const manifest = JSON.parse(fs.readFileSync(path.join(web, 'static/art/equipment/individual/manifest.json')));
 const images = manifest.images.filter(image => image.kind !== 'duplicate');
 const artwork = new Map(images.map(image => [image.id, image]));
+
+// Shutter-count support, single-sourced from web/cameras/*/camera.toml.
+// Matched to catalog bodies by display label ("Canon EOS R10").
+const shutterByLabel = new Map();
+for (const dir of fs.readdirSync(path.join(web, 'cameras')).sort()) {
+  if (dir.startsWith('_')) continue;
+  const tomlPath = path.join(web, 'cameras', dir, 'camera.toml');
+  if (!fs.existsSync(tomlPath)) continue;
+  try {
+    const parsed = loadManifest(fs.readFileSync(tomlPath, 'utf8'), dir);
+    shutterByLabel.set(parsed.camera.label, parsed);
+  } catch {
+    // validate.js owns manifest correctness; the catalog skips broken ones.
+  }
+}
+
+function enrichCameraRecord(record) {
+  const researched = cameraSpecs.bodies[record.id] || {};
+  const support = shutterByLabel.get(`${record.make} ${record.model}`) || null;
+  return {
+    ...record,
+    series: researched.series ?? record.series ?? null,
+    sensorFormat: researched.sensorFormat ?? null,
+    source: researched.source ?? record.source ?? null,
+    specifications: { ...CAMERA_SPEC_DEFAULTS, ...(researched.specifications || {}) },
+    shutterSupport: support ? {
+      manifestId: support.camera.id,
+      ratedLife: support.camera.ratedLife || null,
+      strategies: support.strategies.map(strategy => ({
+        kind: strategy.kind,
+        platforms: strategy.platforms,
+        experimental: strategy.experimental,
+        note: strategy.note,
+        tag: strategy.tag || null,
+      })),
+    } : null,
+    metadataProvenance: {
+      ...(record.metadataProvenance || {}),
+      sensorFormat: researched.sensorFormat ? 'canon-r-series-lineup' : null,
+      shutterSupport: support ? `cameras/${support.camera.id}/camera.toml` : null,
+      unknownSpecifications: 'not-yet-researched',
+    },
+  };
+}
 const records = [
-  ...images.filter(image => image.kind === 'camera'),
+  ...images.filter(image => image.kind === 'camera').map(enrichCameraRecord),
   ...inventory.records.map(record => ({ ...record, equipmentType: 'lens' })),
 ];
 const entries = [];

@@ -34,7 +34,7 @@
     <a class="detail-back" href={`${base}/${lens ? 'lenses' : 'cameras'}`}>← All {lens ? 'RF lenses' : 'R cameras'}</a>
     <section class="detail-hero" aria-labelledby="equipment-title">
       <div class="detail-title"><p class="kicker">{record.make} · {record.mount} · {lens ? 'LENS PROFILE' : 'CAMERA PROFILE'}</p><h1 id="equipment-title">{record.model}</h1><p class="detail-deck">{lens ? 'Get to know the glass.' : 'Get to know the body.'}<br />One profile. Every recorded detail.</p></div>
-      <div class="detail-art">{#if record.image}<img src={`${base}/${record.image.path}`} alt={`${record.make} ${record.model} illustration`} width="480" height="480" />{/if}<span>Illustration · RF EXIF</span></div>
+      <div class="detail-art"><div class="detail-art-top"><span>{lens ? 'THE GLASS' : 'THE BODY'}</span><span>RF / FIELD NOTES</span></div>{#if record.image}<img src={`${base}/${record.image.path}`} alt={`${record.make} ${record.model} illustration`} width="480" height="480" />{/if}<span class="detail-art-caption">Illustrated collection · {record.make}</span></div>
     </section>
     <section class="detail-highlights" aria-label="At a glance">
       <article><p>PHYSICAL MOUNT</p><strong>{record.mount}</strong></article>

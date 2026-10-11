@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (() => {
+        let theme;
+        try { theme = localStorage.getItem('rfexif-theme'); } catch {}
+        document.documentElement.dataset.theme = theme === 'dark' || theme === 'light' ? theme : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      })();
+    </script>
     <link rel="stylesheet" href="%sveltekit.assets%/fonts/fonts.css" />
     <link rel="icon" type="image/svg+xml" href="%sveltekit.assets%/brand/favicon.svg" />
     <meta name="description" content="Free camera and lens insights for Canon EOS R. Explore photo metadata and available shutter counts locally in your browser. No account or uploads required." />

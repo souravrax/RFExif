@@ -14,9 +14,12 @@
 // Windows (upstream path bug) and its CJS entry hardcodes a CI path, so
 // committed tests stay on the fast path. Browser path verified manually:
 // 440-tag JPG in ~0.8s, 504-tag 35MB CR3 in ~0.8s including cold start.
+import { base } from "$app/paths";
+
 export var ENGINE = "exiftool-wasm 13.42 (pkg @uswriting/exiftool 1.0.9)";
 
 var modPromise = null;
+var parseQueue = Promise.resolve();
 
 function load() {
   if (!modPromise) modPromise = import("@uswriting/exiftool");
@@ -25,12 +28,24 @@ function load() {
 
 // file: browser File. Returns { map: {Group:Tag -> string}, tagCount }.
 // Throws on failure — callers must keep the fast-path card regardless.
-export async function parseFull(file) {
+export function parseFull(file) {
+  // The dependency shares one interpreter and stdout buffer across calls.
+  // Serialize batch decoding so one file cannot reset another's output.
+  var result = parseQueue.then(function () { return decodeFile(file); });
+  parseQueue = result.catch(function () {});
+  return result;
+}
+
+async function decodeFile(file) {
   var ns = await load();
-  var wasmUrl = (import.meta.env.BASE_URL || "/") + "wasm/zeroperl.wasm";
+  var wasmUrl = base + "/wasm/zeroperl.wasm";
   var r = await ns.parseMetadata(file, {
     args: ["-json", "-G", "-a", "-u"],
-    fetch: function () { return fetch(wasmUrl); },
+    fetch: async function () {
+      var response = await fetch(wasmUrl);
+      if (!response.ok) throw new Error("Could not load metadata reader (HTTP " + response.status + ").");
+      return response;
+    },
     transform: function (d) { return JSON.parse(d); },
   });
   if (!r || !r.success) {
@@ -40,7 +55,8 @@ export async function parseFull(file) {
   var map = {};
   for (var k of Object.keys(obj)) {
     var v = obj[k];
-    map[k] = Array.isArray(v) ? v.join(", ") : String(v);
+    // Keep structured tags intact in the inspector and JSON export.
+    map[k] = v !== null && typeof v === "object" ? JSON.stringify(v) : String(v);
   }
   return { map: map, tagCount: Object.keys(map).length };
 }

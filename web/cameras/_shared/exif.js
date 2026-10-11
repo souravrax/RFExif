@@ -20,7 +20,7 @@ function ascii(b, o, n) {
 function rational(b, o, le) {
   var n = u32(b, o, le), d = u32(b, o + 4, le);
   if (!d) return "";
-  return (Math.round((n / d) * 100) / 100).toString();
+  return (n / d).toString();
 }
 function ifdValue(b, tiff, entry, le, out, tagId) {
   var type = u16(b, entry + 2, le);
@@ -28,7 +28,7 @@ function ifdValue(b, tiff, entry, le, out, tagId) {
   var valOff = entry + 8;
   function field() {
     if (type === 2) return ascii(b, (count > 4 ? tiff + u32(b, valOff, le) : valOff), Math.min(count, 64));
-    if (type === 3 && count === 1) return String(u16(b, valOff + (le ? 0 : 2), le));
+    if (type === 3 && count === 1) return String(u16(b, valOff, le));
     if (type === 4 && count === 1) return String(u32(b, valOff, le));
     if (type === 5 && count === 1) return rational(b, tiff + u32(b, valOff, le), le);
     if (type === 7 && count === 1) return String(b[valOff]);

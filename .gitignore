@@ -27,6 +27,9 @@ web/build
 web/node_modules
 web/static/wasm
 
+# Local mockups and verification artifacts; design decisions live in DESIGN.md.
+/design/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

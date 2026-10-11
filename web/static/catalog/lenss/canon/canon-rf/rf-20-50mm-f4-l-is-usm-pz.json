@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 20-50mm F4 L IS USM PZ",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/support/p/rf20-50mm-f4-l-is-usm-pz-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 3,
+  "id": "lens:canon:canon-rf:rf-20-50mm-f4-l-is-usm-pz",
+  "make": "Canon",
+  "model": "RF 20-50mm F4 L IS USM PZ",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 20,
+    "maxMm": 50,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/support/p/rf20-50mm-f4-l-is-usm-pz-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-20-50mm-f4-l-is-usm-pz--canon-rf.png",
+    "width": 321,
+    "height": 321,
+    "assetId": "rf-lenses-04-4x4:3",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      939,
+      0,
+      1254,
+      311
+    ],
+    "trimBounds": [
+      2,
+      17,
+      299,
+      311
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "0549454b0839c38f7361c45063bb4e590ce9fec3b888c7e42a98dad41d9c4a1f",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 155049,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

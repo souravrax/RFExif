@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui S35 24mm F2.8 1.33x Anamorphic",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/sirui-1-33x-s35-series-anamorphic-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 6,
+  "id": "lens:sirui:canon-rf:s35-24mm-f2.8-1.33x-anamorphic",
+  "make": "Sirui",
+  "model": "S35 24mm F2.8 1.33x Anamorphic",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "Super 35",
+  "focalLength": {
+    "minMm": 24,
+    "maxMm": 24,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "anamorphic"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/sirui-1-33x-s35-series-anamorphic-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-s35-24mm-f2.8-1.33x-anamorphic--canon-rf.png",
+    "width": 333,
+    "height": 333,
+    "assetId": "rf-lenses-12-4x4:6",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 6,
+    "sourceBounds": [
+      626,
+      328,
+      937,
+      622
+    ],
+    "trimBounds": [
+      0,
+      19,
+      309,
+      294
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "78d9ff7e496fb1d1b8191673b321a896b00e51a33cf6379ef5dfe37a6f4e8711",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 96525,
+    "cropWarnings": []
+  }
+}

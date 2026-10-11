@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 50mm F1.2 L USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 5,
+  "id": "lens:canon:canon-rf:rf-50mm-f1.2-l-usm",
+  "make": "Canon",
+  "model": "RF 50mm F1.2 L USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.2,
+    "tele": 1.2,
+    "unit": "f-number",
+    "raw": "F1.2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-50mm-f1.2-l-usm--canon-rf.png",
+    "width": 333,
+    "height": 333,
+    "assetId": "canon-lenses-4x4:5",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 5,
+    "sourceBounds": [
+      315,
+      256,
+      624,
+      548
+    ],
+    "trimBounds": [
+      0,
+      0,
+      309,
+      292
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "ea1c6f4f38ac7ec81e61c7a47fb1b9720109a779c0c94d4e2e0e1449dba690e2",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 155713,
+    "cropWarnings": []
+  }
+}

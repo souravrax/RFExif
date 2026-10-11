@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 24-70mm F2.8 L IS USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 11,
+  "id": "lens:canon:canon-rf:rf-24-70mm-f2.8-l-is-usm",
+  "make": "Canon",
+  "model": "RF 24-70mm F2.8 L IS USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 24,
+    "maxMm": 70,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-24-70mm-f2.8-l-is-usm--canon-rf.png",
+    "width": 405,
+    "height": 405,
+    "assetId": "canon-lenses-4x4:11",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      949,
+      546,
+      1254,
+      931
+    ],
+    "trimBounds": [
+      0,
+      0,
+      275,
+      381
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "0a8fb550ef0950e7613ebbe414391a3de8c4960df1b7b1bae16a3da34c3af433",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 147951,
+    "cropWarnings": []
+  }
+}

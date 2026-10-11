@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sigma",
+  "label": "Sigma 56mm F1.4 DC DN Contemporary",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+  "aliases": [
+    "Sigma 56mm F1.4 DC DN"
+  ],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 11,
+  "id": "lens:sigma:canon-rf:56mm-f1.4-dc-dn-contemporary",
+  "make": "Sigma",
+  "model": "56mm F1.4 DC DN Contemporary",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 56,
+    "maxMm": 56,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sigma-56mm-f1.4-dc-dn-contemporary--canon-rf.png",
+    "width": 297,
+    "height": 297,
+    "assetId": "rf-lenses-04-4x4:11",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      939,
+      619,
+      1254,
+      894
+    ],
+    "trimBounds": [
+      0,
+      0,
+      273,
+      269
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "1372fff875928c671aea4cb35ff7bcc3ae2cc7100a26bdd4ec63ebf6c6957ce8",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 117125,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

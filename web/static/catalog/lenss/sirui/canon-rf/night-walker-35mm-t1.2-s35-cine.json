@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Night Walker 35mm T1.2 S35 Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/night-walker-t1-2-s35-cine-lens-series",
+  "aliases": [],
+  "sheet": "rf-lenses-11-4x4.png",
+  "index": 1,
+  "id": "lens:sirui:canon-rf:night-walker-35mm-t1.2-s35-cine",
+  "make": "Sirui",
+  "model": "Night Walker 35mm T1.2 S35 Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "Super 35",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.2,
+    "tele": 1.2,
+    "unit": "T-stop",
+    "raw": "T1.2",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/night-walker-t1-2-s35-cine-lens-series",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-night-walker-35mm-t1.2-s35-cine--canon-rf.png",
+    "width": 334,
+    "height": 334,
+    "assetId": "rf-lenses-11-4x4:1",
+    "sourceSheet": "rf-lenses-11-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      319,
+      0,
+      629,
+      314
+    ],
+    "trimBounds": [
+      0,
+      62,
+      310,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "ae87ebef409d5e904e16f03ce1ce59a87253200080ac8ab99f2b06aa9b1f9c2e",
+    "sourceSha256": "387125a3d13f35cae41a79f34f4166d599fb0979cfa48f0fb0e0ffde2b4be9ef",
+    "bytes": 92449,
+    "cropWarnings": []
+  }
+}

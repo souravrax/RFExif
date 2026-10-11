@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 100-400mm F5.6-8 IS USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 13,
+  "id": "lens:canon:canon-rf:rf-100-400mm-f5.6-8-is-usm",
+  "make": "Canon",
+  "model": "RF 100-400mm F5.6-8 IS USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 100,
+    "maxMm": 400,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 8,
+    "unit": "f-number",
+    "raw": "F5.6-8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-100-400mm-f5.6-8-is-usm--canon-rf.png",
+    "width": 370,
+    "height": 370,
+    "assetId": "rf-lenses-02-4x4:13",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      334,
+      888,
+      628,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      0,
+      277,
+      346
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "0dc841969ef334d0805cd4f444d73c19301cf1f5b3b9e33539c86a76324e5230",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 111070,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 14mm T2.9 Full Frame Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/14mm-t2-9-full-frame-cine-lens-for-sony-e-fx3-leica-sigma-l-sl-nikon-z-z50-canon-eos-r-eos-r5",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 10,
+  "id": "lens:7artisans:canon-rf:14mm-t2.9-full-frame-cine",
+  "make": "7Artisans",
+  "model": "14mm T2.9 Full Frame Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 14,
+    "maxMm": 14,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/14mm-t2-9-full-frame-cine-lens-for-sony-e-fx3-leica-sigma-l-sl-nikon-z-z50-canon-eos-r-eos-r5",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-14mm-t2.9-full-frame-cine--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-08-4x4:10",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      630,
+      628,
+      935,
+      910
+    ],
+    "trimBounds": [
+      0,
+      0,
+      305,
+      272
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "993103ca7628d4f6e60fda11fa07a86ef09056de89cda68dd0c07a633799034e",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 104502,
+    "cropWarnings": []
+  }
+}

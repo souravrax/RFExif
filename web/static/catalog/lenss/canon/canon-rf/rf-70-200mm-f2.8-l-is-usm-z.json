@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 70-200mm F2.8 L IS USM Z",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 10,
+  "id": "lens:canon:canon-rf:rf-70-200mm-f2.8-l-is-usm-z",
+  "make": "Canon",
+  "model": "RF 70-200mm F2.8 L IS USM Z",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 70,
+    "maxMm": 200,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-70-200mm-f2.8-l-is-usm-z--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-02-4x4:10",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      628,
+      589,
+      949,
+      894
+    ],
+    "trimBounds": [
+      40,
+      0,
+      307,
+      305
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "94fe2fde0a505d65b70156c90cf3fa9f04a0663db15e60be161b1dd2f8ca5c1a",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 134041,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

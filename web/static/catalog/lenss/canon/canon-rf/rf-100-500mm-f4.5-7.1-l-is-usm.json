@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 100-500mm F4.5-7.1 L IS USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 14,
+  "id": "lens:canon:canon-rf:rf-100-500mm-f4.5-7.1-l-is-usm",
+  "make": "Canon",
+  "model": "RF 100-500mm F4.5-7.1 L IS USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 100,
+    "maxMm": 500,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4.5,
+    "tele": 7.1,
+    "unit": "f-number",
+    "raw": "F4.5-7.1",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-100-500mm-f4.5-7.1-l-is-usm--canon-rf.png",
+    "width": 404,
+    "height": 404,
+    "assetId": "canon-lenses-4x4:14",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      624,
+      850,
+      949,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      0,
+      325,
+      380
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "3bc0d5cecc4274efb205704056d06fb24a480ad2b9965ce1a86f88e71a12382d",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 144479,
+    "cropWarnings": []
+  }
+}

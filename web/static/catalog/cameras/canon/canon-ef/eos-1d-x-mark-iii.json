@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "kind": "camera",
+  "brand": "Canon",
+  "make": "Canon",
+  "model": "EOS-1D X Mark III",
+  "label": "EOS-1D X Mark III",
+  "mount": "Canon EF",
+  "mountCode": "canon-ef",
+  "id": "camera:canon:canon-ef:eos-1d-x-mark-iii",
+  "source": "https://cam.start.canon/en/C001/manual/html/UG-09_Reference_0100.html",
+  "aliases": [],
+  "metadataProvenance": {
+    "mount": "Canon product manual"
+  },
+  "sheet": "canon-cameras-4x4.png",
+  "index": 12,
+  "equipmentType": "camera",
+  "catalogVerifiedAt": null,
+  "assetId": "canon-cameras-4x4:12",
+  "file": "cameras/canon-eos-1d-x-mark-iii--canon-ef.png",
+  "sourceSheet": "canon-cameras-4x4.png",
+  "cell": 12,
+  "row": 3,
+  "column": 0,
+  "sourceBounds": [
+    0,
+    883,
+    320,
+    1254
+  ],
+  "trimBounds": [
+    0,
+    6,
+    310,
+    371
+  ],
+  "width": 389,
+  "height": 389,
+  "artwork": {
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "../README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "f05d4971a1f7c1dafd8e0ae6360e1080ccad5833a00b8f3ca213728947f9a64a",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 194934,
+    "cropWarnings": []
+  },
+  "image": {
+    "path": "art/equipment/individual/cameras/canon-eos-1d-x-mark-iii--canon-ef.png",
+    "width": 389,
+    "height": 389,
+    "assetId": "canon-cameras-4x4:12",
+    "sourceSheet": "canon-cameras-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      883,
+      320,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      6,
+      310,
+      371
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "f05d4971a1f7c1dafd8e0ae6360e1080ccad5833a00b8f3ca213728947f9a64a",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 194934,
+    "cropWarnings": []
+  }
+}

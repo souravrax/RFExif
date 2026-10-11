@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 16-28mm F2.8 IS STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 3,
+  "id": "lens:canon:canon-rf:rf-16-28mm-f2.8-is-stm",
+  "make": "Canon",
+  "model": "RF 16-28mm F2.8 IS STM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 16,
+    "maxMm": 28,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-16-28mm-f2.8-is-stm--canon-rf.png",
+    "width": 326,
+    "height": 326,
+    "assetId": "rf-lenses-02-4x4:3",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      949,
+      0,
+      1254,
+      297
+    ],
+    "trimBounds": [
+      0,
+      16,
+      302,
+      297
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "ffcbe1596950575106c7c17cd3f5fd7f517c2c308429ce930e2e58ec16062fce",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 124344,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 75mm T1.5 Full Frame Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/mf-35-50-75mm-t1-5-full-frame-cine-lens-for-e-l-z-rf",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 11,
+  "id": "lens:7artisans:canon-rf:75mm-t1.5-full-frame-cine",
+  "make": "7Artisans",
+  "model": "75mm T1.5 Full Frame Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 75,
+    "maxMm": 75,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.5,
+    "tele": 1.5,
+    "unit": "T-stop",
+    "raw": "T1.5",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/mf-35-50-75mm-t1-5-full-frame-cine-lens-for-e-l-z-rf",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-75mm-t1.5-full-frame-cine--canon-rf.png",
+    "width": 317,
+    "height": 317,
+    "assetId": "rf-lenses-07-4x4:11",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      940,
+      612,
+      1254,
+      910
+    ],
+    "trimBounds": [
+      1,
+      13,
+      294,
+      298
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "543454d61c34048edeb5c47eab195be8f199fccfce8a21bc8057f30f28457ea9",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 115255,
+    "cropWarnings": []
+  }
+}

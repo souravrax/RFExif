@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 9mm F5.6 Full-frame Wide-angle",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/9mm-f-5-6-full-frame-wide-angle-lens-for-e-l-r-z",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 11,
+  "id": "lens:7artisans:canon-rf:9mm-f5.6-full-frame-wide-angle",
+  "make": "7Artisans",
+  "model": "9mm F5.6 Full-frame Wide-angle",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 9,
+    "maxMm": 9,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/9mm-f-5-6-full-frame-wide-angle-lens-for-e-l-r-z",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-9mm-f5.6-full-frame-wide-angle--canon-rf.png",
+    "width": 327,
+    "height": 327,
+    "assetId": "rf-lenses-08-4x4:11",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      935,
+      637,
+      1254,
+      899
+    ],
+    "trimBounds": [
+      0,
+      3,
+      303,
+      249
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "7069578da0a731b3d756f07dddced49fbafdbd268e95203674701ae1e375fe93",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 84627,
+    "cropWarnings": []
+  }
+}

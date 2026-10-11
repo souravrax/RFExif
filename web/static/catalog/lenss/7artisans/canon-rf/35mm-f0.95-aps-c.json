@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 35mm F0.95 APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/35mm-0-95",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 10,
+  "id": "lens:7artisans:canon-rf:35mm-f0.95-aps-c",
+  "make": "7Artisans",
+  "model": "35mm F0.95 APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 0.95,
+    "tele": 0.95,
+    "unit": "f-number",
+    "raw": "F0.95",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/35mm-0-95",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-35mm-f0.95-aps-c--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-09-4x4:10",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      628,
+      630,
+      939,
+      940
+    ],
+    "trimBounds": [
+      0,
+      28,
+      307,
+      310
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "d92b06fd449ec8ad3194358576ada5050879397a4c27ce6c1a842d4f361e927b",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 115632,
+    "cropWarnings": []
+  }
+}

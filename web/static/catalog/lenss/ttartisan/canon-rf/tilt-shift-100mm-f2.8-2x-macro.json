@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan Tilt-Shift 100mm F2.8 2X Macro",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/ts100",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 10,
+  "id": "lens:ttartisan:canon-rf:tilt-shift-100mm-f2.8-2x-macro",
+  "make": "TTArtisan",
+  "model": "Tilt-Shift 100mm F2.8 2X Macro",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 100,
+    "maxMm": 100,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro",
+    "tilt",
+    "shift"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/ts100",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-tilt-shift-100mm-f2.8-2x-macro--canon-rf.png",
+    "width": 349,
+    "height": 349,
+    "assetId": "rf-lenses-06-4x4:10",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      659,
+      606,
+      956,
+      934
+    ],
+    "trimBounds": [
+      0,
+      0,
+      296,
+      325
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "44c3d8f4dd98236cba12e2652198b8ac6f165d8b62f359281461dc9f395b7c9b",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 163484,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

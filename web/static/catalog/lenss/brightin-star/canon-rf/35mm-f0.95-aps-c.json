@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 35mm F0.95 APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-35mm-f0-95-aps-c-prime-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 12,
+  "id": "lens:brightin-star:canon-rf:35mm-f0.95-aps-c",
+  "make": "Brightin Star",
+  "model": "35mm F0.95 APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 0.95,
+    "tele": 0.95,
+    "unit": "f-number",
+    "raw": "F0.95",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-35mm-f0-95-aps-c-prime-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-35mm-f0.95-aps-c--canon-rf.png",
+    "width": 281,
+    "height": 281,
+    "assetId": "rf-lenses-10-4x4:12",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      918,
+      324,
+      1254
+    ],
+    "trimBounds": [
+      65,
+      27,
+      322,
+      273
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "5429fcada8675ba7f6d37c451e6d66f2e45ab9d14bd4dd012372d30baffba1ea",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 109927,
+    "cropWarnings": []
+  }
+}

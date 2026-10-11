@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 50mm F1.8 APS-C RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 13,
+  "id": "lens:yongnuo:canon-rf:50mm-f1.8-aps-c-rf",
+  "make": "Yongnuo",
+  "model": "50mm F1.8 APS-C RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-50mm-f1.8-aps-c-rf--canon-rf.png",
+    "width": 318,
+    "height": 318,
+    "assetId": "rf-lenses-05-v2-4x4:13",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      339,
+      957,
+      634,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      11,
+      294,
+      233
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "d2c96a473056d37f160ef2423582510015430a217fbb4a52ef57905ccef0c061",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 67078,
+    "cropWarnings": []
+  }
+}

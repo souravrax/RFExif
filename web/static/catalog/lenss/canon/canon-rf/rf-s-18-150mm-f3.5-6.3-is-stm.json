@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 18-150mm F3.5-6.3 IS STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 0,
+  "id": "lens:canon:canon-rf:rf-s-18-150mm-f3.5-6.3-is-stm",
+  "make": "Canon",
+  "model": "RF-S 18-150mm F3.5-6.3 IS STM",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 18,
+    "maxMm": 150,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 3.5,
+    "tele": 6.3,
+    "unit": "f-number",
+    "raw": "F3.5-6.3",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-18-150mm-f3.5-6.3-is-stm--canon-rf.png",
+    "width": 358,
+    "height": 358,
+    "assetId": "rf-lenses-02-4x4:0",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      334,
+      316
+    ],
+    "trimBounds": [
+      0,
+      19,
+      334,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "f7c4e1c30448644d4d60ba0d3e943f6f23b0f50a119ab4cfd6db5a7643f55e0d",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 108932,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

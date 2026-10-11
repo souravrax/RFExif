@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sigma",
+  "label": "Sigma 18-50mm F2.8 DC DN Contemporary",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+  "aliases": [
+    "Sigma 18-50mm F2.8 DC DN"
+  ],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 15,
+  "id": "lens:sigma:canon-rf:18-50mm-f2.8-dc-dn-contemporary",
+  "make": "Sigma",
+  "model": "18-50mm F2.8 DC DN Contemporary",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 18,
+    "maxMm": 50,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sigma-18-50mm-f2.8-dc-dn-contemporary--canon-rf.png",
+    "width": 359,
+    "height": 359,
+    "assetId": "rf-lenses-04-4x4:15",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      939,
+      894,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      11,
+      301,
+      346
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "83139e528f616628c8014c0fa2cc5844d0bb2778a8cd464b798a927a326d5f06",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 147165,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

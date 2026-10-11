@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 10mm F5.6 Pro APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-10mm-f5-6-pro-aps-c-fisheye",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 8,
+  "id": "lens:brightin-star:canon-rf:10mm-f5.6-pro-aps-c",
+  "make": "Brightin Star",
+  "model": "10mm F5.6 Pro APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 10,
+    "maxMm": 10,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-10mm-f5-6-pro-aps-c-fisheye",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-10mm-f5.6-pro-aps-c--canon-rf.png",
+    "width": 344,
+    "height": 344,
+    "assetId": "rf-lenses-10-4x4:8",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 8,
+    "sourceBounds": [
+      0,
+      625,
+      324,
+      918
+    ],
+    "trimBounds": [
+      0,
+      2,
+      320,
+      273
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "209aae39cfab7070995cf40ffb9f7c4ca5aaba212f87b2f3796e0c20e928fe92",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 101220,
+    "cropWarnings": []
+  }
+}

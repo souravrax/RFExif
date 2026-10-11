@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 35mm F1.4 L VCM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-03-4x4.png",
+  "index": 4,
+  "id": "lens:canon:canon-rf:rf-35mm-f1.4-l-vcm",
+  "make": "Canon",
+  "model": "RF 35mm F1.4 L VCM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-35mm-f1.4-l-vcm--canon-rf.png",
+    "width": 305,
+    "height": 305,
+    "assetId": "rf-lenses-03-4x4:4",
+    "sourceSheet": "rf-lenses-03-4x4.png",
+    "cell": 4,
+    "sourceBounds": [
+      0,
+      319,
+      311,
+      617
+    ],
+    "trimBounds": [
+      60,
+      13,
+      310,
+      294
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b79a3b2291c018c7aa77d83e2a74e4498cb6af6e5f4edc057396d627d801923e",
+    "sourceSha256": "d818e52dcc5fa44f1b5ade37dd1c79d481976b46f17f18e68fd724776e6aee9b",
+    "bytes": 120873,
+    "cropWarnings": [
+      "rf-lenses-03-4x4.png: touching artwork near x quarter 2; least-ink seam 627 crosses 72 visible pixels"
+    ]
+  }
+}

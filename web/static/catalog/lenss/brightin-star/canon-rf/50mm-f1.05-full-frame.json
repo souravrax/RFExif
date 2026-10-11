@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 50mm F1.05 Full Frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-50mm-f1-05-full-frame-prime-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 3,
+  "id": "lens:brightin-star:canon-rf:50mm-f1.05-full-frame",
+  "make": "Brightin Star",
+  "model": "50mm F1.05 Full Frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.05,
+    "tele": 1.05,
+    "unit": "f-number",
+    "raw": "F1.05",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-50mm-f1-05-full-frame-prime-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-50mm-f1.05-full-frame--canon-rf.png",
+    "width": 251,
+    "height": 251,
+    "assetId": "rf-lenses-10-4x4:3",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      937,
+      0,
+      1254,
+      323
+    ],
+    "trimBounds": [
+      55,
+      67,
+      255,
+      294
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "3fed957e95b1dccedce12221d549b68aaa3eabdec7e74e4b837105e1538e8df5",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 97167,
+    "cropWarnings": []
+  }
+}

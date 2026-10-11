@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan Tilt-Shift 17mm F4 ASPH.",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/tilt-shift-17mm-f4-asph",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 1,
+  "id": "lens:ttartisan:canon-rf:tilt-shift-17mm-f4-asph",
+  "make": "TTArtisan",
+  "model": "Tilt-Shift 17mm F4 ASPH.",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 17,
+    "maxMm": 17,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "tilt",
+    "shift"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/tilt-shift-17mm-f4-asph",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-tilt-shift-17mm-f4-asph--canon-rf.png",
+    "width": 379,
+    "height": 379,
+    "assetId": "rf-lenses-06-4x4:1",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      303,
+      0,
+      659,
+      302
+    ],
+    "trimBounds": [
+      1,
+      14,
+      356,
+      302
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "a6d61f2cd5be37791f807a70d66506729883256e04a1473c9f6a30bed5ad9715",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 151721,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

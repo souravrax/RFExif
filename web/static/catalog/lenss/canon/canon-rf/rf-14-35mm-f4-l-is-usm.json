@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 14-35mm F4 L IS USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 9,
+  "id": "lens:canon:canon-rf:rf-14-35mm-f4-l-is-usm",
+  "make": "Canon",
+  "model": "RF 14-35mm F4 L IS USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 14,
+    "maxMm": 35,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-14-35mm-f4-l-is-usm--canon-rf.png",
+    "width": 333,
+    "height": 333,
+    "assetId": "canon-lenses-4x4:9",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      315,
+      548,
+      624,
+      857
+    ],
+    "trimBounds": [
+      0,
+      0,
+      308,
+      309
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "6a95378a20374e4352416509b57823558e240e04e939b58c337e777d4c5433a3",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 150663,
+    "cropWarnings": []
+  }
+}

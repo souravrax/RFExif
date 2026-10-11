@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 20mm F1.4 L VCM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/newsroom/2025/20250326-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 1,
+  "id": "lens:canon:canon-rf:rf-20mm-f1.4-l-vcm",
+  "make": "Canon",
+  "model": "RF 20mm F1.4 L VCM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 20,
+    "maxMm": 20,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/newsroom/2025/20250326-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-20mm-f1.4-l-vcm--canon-rf.png",
+    "width": 321,
+    "height": 321,
+    "assetId": "rf-lenses-04-4x4:1",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      334,
+      0,
+      621,
+      314
+    ],
+    "trimBounds": [
+      1,
+      17,
+      287,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "8be3998b33c87e80bbae6aed9398b23b60fc854364955a7192cb4b2bfbbeaec5",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 138609,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

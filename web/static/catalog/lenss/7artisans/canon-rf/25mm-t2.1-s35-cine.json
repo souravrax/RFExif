@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 25mm T2.1 S35 Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/10",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 6,
+  "id": "lens:7artisans:canon-rf:25mm-t2.1-s35-cine",
+  "make": "7Artisans",
+  "model": "25mm T2.1 S35 Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "Super 35",
+  "focalLength": {
+    "minMm": 25,
+    "maxMm": 25,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.1,
+    "tele": 2.1,
+    "unit": "T-stop",
+    "raw": "T2.1",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/10",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-25mm-t2.1-s35-cine--canon-rf.png",
+    "width": 327,
+    "height": 327,
+    "assetId": "rf-lenses-08-4x4:6",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 6,
+    "sourceBounds": [
+      630,
+      339,
+      935,
+      628
+    ],
+    "trimBounds": [
+      0,
+      24,
+      303,
+      289
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e51190a5295ebff7c6a991612a06d04e25d420c480823e3ef388554ad78533df",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 108693,
+    "cropWarnings": []
+  }
+}

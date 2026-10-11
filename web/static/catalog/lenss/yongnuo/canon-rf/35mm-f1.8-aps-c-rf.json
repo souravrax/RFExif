@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 35mm F1.8 APS-C RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 12,
+  "id": "lens:yongnuo:canon-rf:35mm-f1.8-aps-c-rf",
+  "make": "Yongnuo",
+  "model": "35mm F1.8 APS-C RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-35mm-f1.8-aps-c-rf--canon-rf.png",
+    "width": 362,
+    "height": 362,
+    "assetId": "rf-lenses-05-v2-4x4:12",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      957,
+      339,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      15,
+      338,
+      230
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "5b254456658b7db041b6aba657abab23f1778627d4e4dfe765992efd76ae5390",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 63291,
+    "cropWarnings": []
+  }
+}

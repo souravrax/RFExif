@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 85mm F1.8 Full Frame RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 9,
+  "id": "lens:yongnuo:canon-rf:85mm-f1.8-full-frame-rf",
+  "make": "Yongnuo",
+  "model": "85mm F1.8 Full Frame RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-85mm-f1.8-full-frame-rf--canon-rf.png",
+    "width": 308,
+    "height": 308,
+    "assetId": "rf-lenses-05-v2-4x4:9",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      339,
+      679,
+      634,
+      957
+    ],
+    "trimBounds": [
+      10,
+      8,
+      294,
+      266
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "4ae0a6fc4fc2bb6ed5c227a26b9cfe7c53dd97138d833cfd384c727933b47d22",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 67045,
+    "cropWarnings": []
+  }
+}

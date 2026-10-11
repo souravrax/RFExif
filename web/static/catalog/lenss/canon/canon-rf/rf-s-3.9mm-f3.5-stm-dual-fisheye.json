@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 3.9mm F3.5 STM Dual Fisheye",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-03-4x4.png",
+  "index": 14,
+  "id": "lens:canon:canon-rf:rf-s-3.9mm-f3.5-stm-dual-fisheye",
+  "make": "Canon",
+  "model": "RF-S 3.9mm F3.5 STM Dual Fisheye",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 3.9,
+    "maxMm": 3.9,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 3.5,
+    "tele": 3.5,
+    "unit": "f-number",
+    "raw": "F3.5",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "fisheye"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-3.9mm-f3.5-stm-dual-fisheye--canon-rf.png",
+    "width": 363,
+    "height": 363,
+    "assetId": "rf-lenses-03-4x4:14",
+    "sourceSheet": "rf-lenses-03-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      627,
+      914,
+      939,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      1,
+      308,
+      340
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "6f3686ef15f92ed9971fc22741bf29c8a1352a3fd77db7421e2d73c5ad54f655",
+    "sourceSha256": "d818e52dcc5fa44f1b5ade37dd1c79d481976b46f17f18e68fd724776e6aee9b",
+    "bytes": 132706,
+    "cropWarnings": [
+      "rf-lenses-03-4x4.png: touching artwork near x quarter 2; least-ink seam 627 crosses 72 visible pixels"
+    ]
+  }
+}

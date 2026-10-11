@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 60mm F2.8 APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-60mm-f2-8-2x-aps-c-macro-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 2,
+  "id": "lens:brightin-star:canon-rf:60mm-f2.8-aps-c",
+  "make": "Brightin Star",
+  "model": "60mm F2.8 APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 60,
+    "maxMm": 60,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-60mm-f2-8-2x-aps-c-macro-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-60mm-f2.8-aps-c--canon-rf.png",
+    "width": 304,
+    "height": 304,
+    "assetId": "rf-lenses-10-4x4:2",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 2,
+    "sourceBounds": [
+      637,
+      0,
+      937,
+      324
+    ],
+    "trimBounds": [
+      1,
+      49,
+      281,
+      306
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "00bdb2d231f51ccc4ee80a364d7d745ce9e71e083502d466f3657e48fb1ae87b",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 91702,
+    "cropWarnings": []
+  }
+}

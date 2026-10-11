@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 11mm F2.8 Fisheye",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/11mmf28",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 1,
+  "id": "lens:ttartisan:canon-rf:11mm-f2.8-fisheye",
+  "make": "TTArtisan",
+  "model": "11mm F2.8 Fisheye",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 11,
+    "maxMm": 11,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "fisheye"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/11mmf28",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-11mm-f2.8-fisheye--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-07-4x4:1",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      322,
+      0,
+      627,
+      330
+    ],
+    "trimBounds": [
+      0,
+      50,
+      305,
+      330
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "347bb621a2ca02628774761af7c3bdf193d93fe3a77203ceda6c0d0f92cf7ae3",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 100910,
+    "cropWarnings": []
+  }
+}

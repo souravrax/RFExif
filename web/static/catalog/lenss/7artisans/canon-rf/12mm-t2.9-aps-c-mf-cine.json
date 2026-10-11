@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 12mm T2.9 APS-C MF Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/12mm-t2-9-aps-c-mf-cine-lens-for-fujifilm-x-sony-e-m43-canon-rf-nikon-z-sigma-l-panasonic-l-leica-l-cl-tl",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 13,
+  "id": "lens:7artisans:canon-rf:12mm-t2.9-aps-c-mf-cine",
+  "make": "7Artisans",
+  "model": "12mm T2.9 APS-C MF Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 12,
+    "maxMm": 12,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/12mm-t2-9-aps-c-mf-cine-lens-for-fujifilm-x-sony-e-m43-canon-rf-nikon-z-sigma-l-panasonic-l-leica-l-cl-tl",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-12mm-t2.9-aps-c-mf-cine--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-08-4x4:13",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      323,
+      925,
+      630,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      25,
+      307,
+      305
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "26e76580ff7995521a6623a694959972a0ff6bf24cd02384999c2c62ddb0b5f1",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 103110,
+    "cropWarnings": []
+  }
+}

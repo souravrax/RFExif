@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 50mm T2.1 Dual Bokeh Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/ttartisan-cine-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 5,
+  "id": "lens:ttartisan:canon-rf:50mm-t2.1-dual-bokeh-cine",
+  "make": "TTArtisan",
+  "model": "50mm T2.1 Dual Bokeh Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.1,
+    "tele": 2.1,
+    "unit": "T-stop",
+    "raw": "T2.1",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/ttartisan-cine-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-50mm-t2.1-dual-bokeh-cine--canon-rf.png",
+    "width": 359,
+    "height": 359,
+    "assetId": "rf-lenses-06-4x4:5",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 5,
+    "sourceBounds": [
+      303,
+      302,
+      659,
+      636
+    ],
+    "trimBounds": [
+      21,
+      0,
+      356,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b721cacf8eedb0da0338c3dd2ae681d795715450862ad276a5c50ccc9837044d",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 151865,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

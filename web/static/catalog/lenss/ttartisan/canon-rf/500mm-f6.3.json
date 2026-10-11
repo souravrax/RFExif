@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 500mm F6.3",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/500mm",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 9,
+  "id": "lens:ttartisan:canon-rf:500mm-f6.3",
+  "make": "TTArtisan",
+  "model": "500mm F6.3",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 500,
+    "maxMm": 500,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 6.3,
+    "tele": 6.3,
+    "unit": "f-number",
+    "raw": "F6.3",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/500mm",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-500mm-f6.3--canon-rf.png",
+    "width": 366,
+    "height": 366,
+    "assetId": "rf-lenses-06-4x4:9",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      303,
+      636,
+      659,
+      922
+    ],
+    "trimBounds": [
+      14,
+      25,
+      356,
+      272
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "cfb251286b326e1cde19e37dd1de714f76ea0d01f7f230a38dc7d671366a55dc",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 171220,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

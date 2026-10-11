@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 10mm F2.8 Mark II Ultra Wide-angle Full-frame Fisheye",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/10mm-f-2-8-ii-ultra-wide-angle-full-frame-fisheye-lens-for-e-l-r-z-1",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 1,
+  "id": "lens:7artisans:canon-rf:10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye",
+  "make": "7Artisans",
+  "model": "10mm F2.8 Mark II Ultra Wide-angle Full-frame Fisheye",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 10,
+    "maxMm": 10,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "fisheye"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/10mm-f-2-8-ii-ultra-wide-angle-full-frame-fisheye-lens-for-e-l-r-z-1",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-10mm-f2.8-mark-ii-ultra-wide-angle-full-frame-fisheye--canon-rf.png",
+    "width": 330,
+    "height": 330,
+    "assetId": "rf-lenses-08-4x4:1",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      323,
+      0,
+      630,
+      329
+    ],
+    "trimBounds": [
+      0,
+      20,
+      306,
+      308
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "c0f2ad6d86b7eaec80eb98ce8967598f9ef32cccfdde2dfc22aa9d2c92d037e6",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 87123,
+    "cropWarnings": []
+  }
+}

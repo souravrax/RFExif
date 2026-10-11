@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Viltrox",
+  "label": "Viltrox AF 85mm F1.8 RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "historical",
+  "source": "https://www.viltrox.com.tw/downloads/",
+  "aliases": [
+    "Viltrox AF85/1.8RF"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 3,
+  "id": "lens:viltrox:canon-rf:af-85mm-f1.8-rf",
+  "make": "Viltrox",
+  "model": "AF 85mm F1.8 RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.viltrox.com.tw/downloads/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/viltrox-af-85mm-f1.8-rf--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-05-v2-4x4:3",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      929,
+      0,
+      1254,
+      377
+    ],
+    "trimBounds": [
+      0,
+      107,
+      305,
+      369
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "0c57b88c8ca5b6622d4157995469b9516c977e96743dc6e9a3685e1d2ee7034e",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 60724,
+    "cropWarnings": []
+  }
+}

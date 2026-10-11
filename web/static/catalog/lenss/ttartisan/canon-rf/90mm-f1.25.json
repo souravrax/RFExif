@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 90mm F1.25",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/90mm-f1-25",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 2,
+  "id": "lens:ttartisan:canon-rf:90mm-f1.25",
+  "make": "TTArtisan",
+  "model": "90mm F1.25",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 90,
+    "maxMm": 90,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.25,
+    "tele": 1.25,
+    "unit": "f-number",
+    "raw": "F1.25",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/90mm-f1-25",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-90mm-f1.25--canon-rf.png",
+    "width": 336,
+    "height": 336,
+    "assetId": "rf-lenses-07-4x4:2",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 2,
+    "sourceBounds": [
+      627,
+      0,
+      940,
+      334
+    ],
+    "trimBounds": [
+      1,
+      40,
+      313,
+      322
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "eaff2426141c6faa15ab7261ce5cf76f8d3e30d986df6952e09c1793dd008233",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 117516,
+    "cropWarnings": []
+  }
+}

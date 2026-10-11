@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 23mm F1.4 APS-C RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 14,
+  "id": "lens:yongnuo:canon-rf:23mm-f1.4-aps-c-rf",
+  "make": "Yongnuo",
+  "model": "23mm F1.4 APS-C RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 23,
+    "maxMm": 23,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-23mm-f1.4-aps-c-rf--canon-rf.png",
+    "width": 289,
+    "height": 289,
+    "assetId": "rf-lenses-05-v2-4x4:14",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      634,
+      954,
+      929,
+      1254
+    ],
+    "trimBounds": [
+      24,
+      12,
+      282,
+      277
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "86e18165146c9e466282d4e10b18a7d47a6da6c75aefe3031afae16077b201d6",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 66068,
+    "cropWarnings": []
+  }
+}

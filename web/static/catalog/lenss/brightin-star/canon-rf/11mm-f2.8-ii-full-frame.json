@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 11mm F2.8 II Full Frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/brightin-star-11mm-f2-8-ii-fisheye-lens-182-full-frame-ultra-wide-angle-manual-focus",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 1,
+  "id": "lens:brightin-star:canon-rf:11mm-f2.8-ii-full-frame",
+  "make": "Brightin Star",
+  "model": "11mm F2.8 II Full Frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 11,
+    "maxMm": 11,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/brightin-star-11mm-f2-8-ii-fisheye-lens-182-full-frame-ultra-wide-angle-manual-focus",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-11mm-f2.8-ii-full-frame--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-10-4x4:1",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      324,
+      0,
+      637,
+      329
+    ],
+    "trimBounds": [
+      6,
+      58,
+      313,
+      322
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "3060b34d4d3140a9cbaf932319324b1f6116bcc9e57c2a54e72d16447df03b84",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 105676,
+    "cropWarnings": []
+  }
+}

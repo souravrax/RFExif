@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 50mm F1.8 STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 3,
+  "id": "lens:canon:canon-rf:rf-50mm-f1.8-stm",
+  "make": "Canon",
+  "model": "RF 50mm F1.8 STM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-50mm-f1.8-stm--canon-rf.png",
+    "width": 286,
+    "height": 286,
+    "assetId": "canon-lenses-4x4:3",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      949,
+      0,
+      1254,
+      255
+    ],
+    "trimBounds": [
+      11,
+      44,
+      273,
+      255
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "6b1eb7cb182cc138f7268078b0331d1199bd379a712c32e5d0870c993d76073e",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 96108,
+    "cropWarnings": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 35mm F1.7 APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-35mm-f1-7-aps-c-prime-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 11,
+  "id": "lens:brightin-star:canon-rf:35mm-f1.7-aps-c",
+  "make": "Brightin Star",
+  "model": "35mm F1.7 APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.7,
+    "tele": 1.7,
+    "unit": "f-number",
+    "raw": "F1.7",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-35mm-f1-7-aps-c-prime-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-35mm-f1.7-aps-c--canon-rf.png",
+    "width": 266,
+    "height": 266,
+    "assetId": "rf-lenses-10-4x4:11",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      937,
+      631,
+      1254,
+      904
+    ],
+    "trimBounds": [
+      12,
+      33,
+      254,
+      255
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "df24b515fc98e857d7d7a9e00cd879a952ee4bc9bacc1b7ddb5e606e4b25e5f0",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 96023,
+    "cropWarnings": []
+  }
+}

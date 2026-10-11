@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 28-70mm F2 L USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 8,
+  "id": "lens:canon:canon-rf:rf-28-70mm-f2-l-usm",
+  "make": "Canon",
+  "model": "RF 28-70mm F2 L USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 28,
+    "maxMm": 70,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "f-number",
+    "raw": "F2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-28-70mm-f2-l-usm--canon-rf.png",
+    "width": 358,
+    "height": 358,
+    "assetId": "rf-lenses-02-4x4:8",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 8,
+    "sourceBounds": [
+      0,
+      593,
+      334,
+      884
+    ],
+    "trimBounds": [
+      0,
+      0,
+      334,
+      291
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "93cef5e559173c8fe0dece5f8ee59c972623bbad1975ab8d7943167e7206b8e9",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 145623,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

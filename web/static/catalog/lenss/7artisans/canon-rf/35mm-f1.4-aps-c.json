@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 35mm F1.4 APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/7artisans-35mm-f1-4-apsc",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 4,
+  "id": "lens:7artisans:canon-rf:35mm-f1.4-aps-c",
+  "make": "7Artisans",
+  "model": "35mm F1.4 APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/7artisans-35mm-f1-4-apsc",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-35mm-f1.4-aps-c--canon-rf.png",
+    "width": 340,
+    "height": 340,
+    "assetId": "rf-lenses-09-4x4:4",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 4,
+    "sourceBounds": [
+      0,
+      328,
+      316,
+      618
+    ],
+    "trimBounds": [
+      0,
+      0,
+      316,
+      269
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "149c0fc828a1b67a0ace45fb094bbf06797fafc097e51e4c7e21576d7738bcca",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 106444,
+    "cropWarnings": []
+  }
+}

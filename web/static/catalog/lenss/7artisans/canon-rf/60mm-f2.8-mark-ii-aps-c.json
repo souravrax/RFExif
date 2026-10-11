@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 60mm F2.8 Mark II APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/7artisans-60mm-f2-8-mark-ii-macro-lens-for-sony-e-fuji-fx-canon-eos-m-olympus-m43-nikon-z-mirrorless-cameras",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 8,
+  "id": "lens:7artisans:canon-rf:60mm-f2.8-mark-ii-aps-c",
+  "make": "7Artisans",
+  "model": "60mm F2.8 Mark II APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 60,
+    "maxMm": 60,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/7artisans-60mm-f2-8-mark-ii-macro-lens-for-sony-e-fuji-fx-canon-eos-m-olympus-m43-nikon-z-mirrorless-cameras",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-60mm-f2.8-mark-ii-aps-c--canon-rf.png",
+    "width": 300,
+    "height": 300,
+    "assetId": "rf-lenses-09-4x4:8",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 8,
+    "sourceBounds": [
+      0,
+      618,
+      316,
+      931
+    ],
+    "trimBounds": [
+      65,
+      22,
+      312,
+      298
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "7362382b46bfc43ee6b0f502b4ddcb1d4ffa8bdc241a504599ef996280f1acf4",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 114114,
+    "cropWarnings": []
+  }
+}

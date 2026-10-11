@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 35mm T1.05 APS-C MF Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/35mm-t-1-05-aps-c-lens-for-e-fx-m43-eos-r-l",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 14,
+  "id": "lens:7artisans:canon-rf:35mm-t1.05-aps-c-mf-cine",
+  "make": "7Artisans",
+  "model": "35mm T1.05 APS-C MF Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.05,
+    "tele": 1.05,
+    "unit": "T-stop",
+    "raw": "T1.05",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/35mm-t-1-05-aps-c-lens-for-e-fx-m43-eos-r-l",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-35mm-t1.05-aps-c-mf-cine--canon-rf.png",
+    "width": 365,
+    "height": 365,
+    "assetId": "rf-lenses-08-4x4:14",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      630,
+      910,
+      935,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      3,
+      305,
+      344
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "78d2bca1c454c9eba11d1057fcf67d34116b69e3cf114d67b63238480e262451",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 114088,
+    "cropWarnings": []
+  }
+}

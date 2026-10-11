@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 120mm T2.9 Full-frame Macro 2X",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/120mm-t2-9-full-frame-macro-2x-lens-for-e-eos-r-z-l",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 0,
+  "id": "lens:7artisans:canon-rf:120mm-t2.9-full-frame-macro-2x",
+  "make": "7Artisans",
+  "model": "120mm T2.9 Full-frame Macro 2X",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 120,
+    "maxMm": 120,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/120mm-t2-9-full-frame-macro-2x-lens-for-e-eos-r-z-l",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-120mm-t2.9-full-frame-macro-2x--canon-rf.png",
+    "width": 347,
+    "height": 347,
+    "assetId": "rf-lenses-08-4x4:0",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      323,
+      336
+    ],
+    "trimBounds": [
+      0,
+      29,
+      323,
+      323
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "64d8cc7e30cbf8c1c41ba47647b4695ec87857be568d25a2d65fdac999668bd6",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 102702,
+    "cropWarnings": []
+  }
+}

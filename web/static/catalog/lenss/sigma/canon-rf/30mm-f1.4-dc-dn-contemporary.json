@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sigma",
+  "label": "Sigma 30mm F1.4 DC DN Contemporary",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+  "aliases": [
+    "Sigma 30mm F1.4 DC DN"
+  ],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 10,
+  "id": "lens:sigma:canon-rf:30mm-f1.4-dc-dn-contemporary",
+  "make": "Sigma",
+  "model": "30mm F1.4 DC DN Contemporary",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 30,
+    "maxMm": 30,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sigma-30mm-f1.4-dc-dn-contemporary--canon-rf.png",
+    "width": 341,
+    "height": 341,
+    "assetId": "rf-lenses-04-4x4:10",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      621,
+      616,
+      939,
+      882
+    ],
+    "trimBounds": [
+      1,
+      0,
+      318,
+      266
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "02dbfd003cf6739791a4ac4db0ccd915715afe94d2e5b386dc8cfee4d274c34a",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 117832,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

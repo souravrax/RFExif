@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan APS-C 25mm F2",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/aps-c-25mm-f2",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 13,
+  "id": "lens:ttartisan:canon-rf:aps-c-25mm-f2",
+  "make": "TTArtisan",
+  "model": "APS-C 25mm F2",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 25,
+    "maxMm": 25,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "f-number",
+    "raw": "F2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/aps-c-25mm-f2",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-aps-c-25mm-f2--canon-rf.png",
+    "width": 379,
+    "height": 379,
+    "assetId": "rf-lenses-06-4x4:13",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      303,
+      922,
+      659,
+      1254
+    ],
+    "trimBounds": [
+      1,
+      23,
+      356,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "d435ab5234c64f85243985c2d7c12bba8d269bcb10c6d2c2549d5406401cd001",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 145288,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

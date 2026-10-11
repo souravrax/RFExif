@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "catalog": "node scripts/build-equipment-catalog.js",
     "predev": "node scripts/vendor-wasm.js",
     "dev": "vite dev",
     "prebuild": "node scripts/vendor-wasm.js",

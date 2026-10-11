@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "kind": "camera",
+  "brand": "Canon",
+  "make": "Canon",
+  "model": "EOS R8",
+  "label": "EOS R8",
+  "mount": "Canon RF",
+  "mountCode": "canon-rf",
+  "id": "camera:canon:canon-rf:eos-r8",
+  "source": null,
+  "aliases": [],
+  "metadataProvenance": {
+    "mount": "EOS R series"
+  },
+  "sheet": "canon-cameras-4x4.png",
+  "index": 8,
+  "equipmentType": "camera",
+  "catalogVerifiedAt": null,
+  "assetId": "canon-cameras-4x4:8",
+  "file": "cameras/canon-eos-r8--canon-rf.png",
+  "sourceSheet": "canon-cameras-4x4.png",
+  "cell": 8,
+  "row": 2,
+  "column": 0,
+  "sourceBounds": [
+    0,
+    631,
+    320,
+    883
+  ],
+  "trimBounds": [
+    17,
+    27,
+    309,
+    243
+  ],
+  "width": 316,
+  "height": 316,
+  "artwork": {
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "../README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e262330eb6458788e9fa64ec1cdba52fa5255db7c7b4f39370de10caf161092f",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 134168,
+    "cropWarnings": []
+  },
+  "image": {
+    "path": "art/equipment/individual/cameras/canon-eos-r8--canon-rf.png",
+    "width": 316,
+    "height": 316,
+    "assetId": "canon-cameras-4x4:8",
+    "sourceSheet": "canon-cameras-4x4.png",
+    "cell": 8,
+    "sourceBounds": [
+      0,
+      631,
+      320,
+      883
+    ],
+    "trimBounds": [
+      17,
+      27,
+      309,
+      243
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e262330eb6458788e9fa64ec1cdba52fa5255db7c7b4f39370de10caf161092f",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 134168,
+    "cropWarnings": []
+  }
+}

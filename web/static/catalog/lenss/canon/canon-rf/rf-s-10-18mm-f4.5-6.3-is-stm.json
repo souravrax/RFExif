@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 10-18mm F4.5-6.3 IS STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-02-4x4.png",
+  "index": 15,
+  "id": "lens:canon:canon-rf:rf-s-10-18mm-f4.5-6.3-is-stm",
+  "make": "Canon",
+  "model": "RF-S 10-18mm F4.5-6.3 IS STM",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 10,
+    "maxMm": 18,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4.5,
+    "tele": 6.3,
+    "unit": "f-number",
+    "raw": "F4.5-6.3",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-10-18mm-f4.5-6.3-is-stm--canon-rf.png",
+    "width": 315,
+    "height": 315,
+    "assetId": "rf-lenses-02-4x4:15",
+    "sourceSheet": "rf-lenses-02-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      949,
+      931,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      8,
+      8,
+      291,
+      299
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "6eb12149946abf779780f00833fea3b22437fcb9d259623ed067535da5aaac94",
+    "sourceSha256": "5d723efcd3166bd5a5e90075a50251c6c5d62656e34b6c72a43595f2b3c71018",
+    "bytes": 99503,
+    "cropWarnings": [
+      "rf-lenses-02-4x4.png column 3: touching artwork near y quarter 3; least-ink seam 894 crosses 14 visible pixels"
+    ]
+  }
+}

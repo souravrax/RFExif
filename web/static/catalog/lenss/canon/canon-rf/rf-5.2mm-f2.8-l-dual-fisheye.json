@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 5.2mm F2.8 L Dual Fisheye",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 0,
+  "id": "lens:canon:canon-rf:rf-5.2mm-f2.8-l-dual-fisheye",
+  "make": "Canon",
+  "model": "RF 5.2mm F2.8 L Dual Fisheye",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 5.2,
+    "maxMm": 5.2,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "fisheye"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-5.2mm-f2.8-l-dual-fisheye--canon-rf.png",
+    "width": 358,
+    "height": 358,
+    "assetId": "rf-lenses-04-4x4:0",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      334,
+      303
+    ],
+    "trimBounds": [
+      0,
+      61,
+      334,
+      303
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e17a34aee6f1d0f0b3b8079b1563e42bac84e8a1bd28cc819b07b85e192ad312",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 138723,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

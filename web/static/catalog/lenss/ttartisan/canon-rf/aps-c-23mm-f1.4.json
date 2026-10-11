@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan APS-C 23mm F1.4",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/aps-c-23mm-f1-4-black",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 3,
+  "id": "lens:ttartisan:canon-rf:aps-c-23mm-f1.4",
+  "make": "TTArtisan",
+  "model": "APS-C 23mm F1.4",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 23,
+    "maxMm": 23,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/aps-c-23mm-f1-4-black",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-aps-c-23mm-f1.4--canon-rf.png",
+    "width": 310,
+    "height": 310,
+    "assetId": "rf-lenses-07-4x4:3",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      940,
+      0,
+      1254,
+      328
+    ],
+    "trimBounds": [
+      0,
+      51,
+      286,
+      324
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b6afa4be4b059cb679f9df573a24ffd2ac05c1b2b181e73615cd9421f626a229",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 95122,
+    "cropWarnings": []
+  }
+}

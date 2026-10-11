@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 50mm F2 TRI-SIGHT Full Frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 12,
+  "id": "lens:brightin-star:canon-rf:50mm-f2-tri-sight-full-frame",
+  "make": "Brightin Star",
+  "model": "50mm F2 TRI-SIGHT Full Frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "f-number",
+    "raw": "F2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-50mm-f2-tri-sight-full-frame--canon-rf.png",
+    "width": 336,
+    "height": 336,
+    "assetId": "rf-lenses-09-4x4:12",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      931,
+      316,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      18,
+      312,
+      293
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "142173735a0203cf4cf477791e33cd3f89aebab23813f7dffa85c11f7e2c7603",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 136789,
+    "cropWarnings": []
+  }
+}

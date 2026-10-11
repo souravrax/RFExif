@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 14-30mm F4-6.3 IS STM PZ",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/shop/p/rf-s14-30mm-f4-6-3-is-stm-pz",
+  "aliases": [],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 2,
+  "id": "lens:canon:canon-rf:rf-s-14-30mm-f4-6.3-is-stm-pz",
+  "make": "Canon",
+  "model": "RF-S 14-30mm F4-6.3 IS STM PZ",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 14,
+    "maxMm": 30,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 6.3,
+    "unit": "f-number",
+    "raw": "F4-6.3",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/shop/p/rf-s14-30mm-f4-6-3-is-stm-pz",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-14-30mm-f4-6.3-is-stm-pz--canon-rf.png",
+    "width": 342,
+    "height": 342,
+    "assetId": "rf-lenses-04-4x4:2",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 2,
+    "sourceBounds": [
+      621,
+      0,
+      939,
+      313
+    ],
+    "trimBounds": [
+      0,
+      28,
+      318,
+      313
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "83dd01f5fa71c6a57b01b12456e72f364547b2c86afcd906446a0ce47704bfc6",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 136052,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

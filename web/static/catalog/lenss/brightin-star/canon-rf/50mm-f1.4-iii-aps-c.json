@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 50mm F1.4 III APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-50mm-f1-4-iii-aps-c-manual-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 9,
+  "id": "lens:brightin-star:canon-rf:50mm-f1.4-iii-aps-c",
+  "make": "Brightin Star",
+  "model": "50mm F1.4 III APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 50,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-50mm-f1-4-iii-aps-c-manual-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-50mm-f1.4-iii-aps-c--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-10-4x4:9",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      324,
+      626,
+      637,
+      917
+    ],
+    "trimBounds": [
+      6,
+      32,
+      313,
+      282
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "c6cb098a6d3647b219cb4ac2f36250c4f73c0818e4732d61c080a64bd283331d",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 102252,
+    "cropWarnings": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 9mm F5.6 Full Frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/brightin-star-9mm-f5-6-full-frame-camera-lens-for-sony-e-nikon-z-canon-rf-l-mount",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 13,
+  "id": "lens:brightin-star:canon-rf:9mm-f5.6-full-frame",
+  "make": "Brightin Star",
+  "model": "9mm F5.6 Full Frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 9,
+    "maxMm": 9,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/brightin-star-9mm-f5-6-full-frame-camera-lens-for-sony-e-nikon-z-canon-rf-l-mount",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-9mm-f5.6-full-frame--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-10-4x4:13",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      324,
+      917,
+      637,
+      1254
+    ],
+    "trimBounds": [
+      4,
+      6,
+      311,
+      275
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "d0e0338ff2267f623306abb111015ea35f4cfb87935edcf592ae539ad830f68c",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 108720,
+    "cropWarnings": []
+  }
+}

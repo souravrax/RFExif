@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Saturn 75mm T2.9 1.6x Anamorphic",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/saturn-35mm-50mm-75mm-full-frame-carbon-fiber-anamorphic-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-11-4x4.png",
+  "index": 6,
+  "id": "lens:sirui:canon-rf:saturn-75mm-t2.9-1.6x-anamorphic",
+  "make": "Sirui",
+  "model": "Saturn 75mm T2.9 1.6x Anamorphic",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 75,
+    "maxMm": 75,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "anamorphic"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/saturn-35mm-50mm-75mm-full-frame-carbon-fiber-anamorphic-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-saturn-75mm-t2.9-1.6x-anamorphic--canon-rf.png",
+    "width": 330,
+    "height": 330,
+    "assetId": "rf-lenses-11-4x4:6",
+    "sourceSheet": "rf-lenses-11-4x4.png",
+    "cell": 6,
+    "sourceBounds": [
+      629,
+      313,
+      936,
+      633
+    ],
+    "trimBounds": [
+      1,
+      0,
+      306,
+      306
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b63f154d46012b866cfa37cc5e392edd58b297026db591fda54f44f8463a33fe",
+    "sourceSha256": "387125a3d13f35cae41a79f34f4166d599fb0979cfa48f0fb0e0ffde2b4be9ef",
+    "bytes": 98535,
+    "cropWarnings": []
+  }
+}

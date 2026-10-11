@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon Speedmaster 90mm F1.5",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 15,
+  "id": "lens:mitakon:canon-rf:speedmaster-90mm-f1.5",
+  "make": "Mitakon",
+  "model": "Speedmaster 90mm F1.5",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 90,
+    "maxMm": 90,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.5,
+    "tele": 1.5,
+    "unit": "f-number",
+    "raw": "F1.5",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-speedmaster-90mm-f1.5--canon-rf.png",
+    "width": 357,
+    "height": 357,
+    "assetId": "rf-lenses-12-4x4:15",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      937,
+      908,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      13,
+      255,
+      346
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "53649acfe5ae204faee887eaaae91f2216a51c1b1b7384131663a4ad25cf04d1",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 109053,
+    "cropWarnings": []
+  }
+}

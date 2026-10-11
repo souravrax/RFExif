@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 55mm F1.8 Full Frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-55mm-f1-8-full-frame-prime-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 13,
+  "id": "lens:brightin-star:canon-rf:55mm-f1.8-full-frame",
+  "make": "Brightin Star",
+  "model": "55mm F1.8 Full Frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 55,
+    "maxMm": 55,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.8,
+    "tele": 1.8,
+    "unit": "f-number",
+    "raw": "F1.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-55mm-f1-8-full-frame-prime-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-55mm-f1.8-full-frame--canon-rf.png",
+    "width": 327,
+    "height": 327,
+    "assetId": "rf-lenses-09-4x4:13",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      316,
+      931,
+      628,
+      1254
+    ],
+    "trimBounds": [
+      8,
+      24,
+      311,
+      283
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "0eb3e36a8ca468e9914befb94ae7078944fca2b197df71cf334e71ec2ab08ec3",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 133615,
+    "cropWarnings": []
+  }
+}

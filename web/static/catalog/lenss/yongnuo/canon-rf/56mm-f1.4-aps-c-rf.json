@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 56mm F1.4 APS-C RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 0,
+  "id": "lens:yongnuo:canon-rf:56mm-f1.4-aps-c-rf",
+  "make": "Yongnuo",
+  "model": "56mm F1.4 APS-C RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 56,
+    "maxMm": 56,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-56mm-f1.4-aps-c-rf--canon-rf.png",
+    "width": 326,
+    "height": 326,
+    "assetId": "rf-lenses-06-4x4:0",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      303,
+      305
+    ],
+    "trimBounds": [
+      0,
+      38,
+      302,
+      305
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e199d845785aabee3390b829a90c42d3fda15d996f6281c5982ebb180f61504c",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 132568,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

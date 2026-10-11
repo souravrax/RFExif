@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan APS-C 35mm F0.95",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/aps-c-35mm-f0-95",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 11,
+  "id": "lens:ttartisan:canon-rf:aps-c-35mm-f0.95",
+  "make": "TTArtisan",
+  "model": "APS-C 35mm F0.95",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 0.95,
+    "tele": 0.95,
+    "unit": "f-number",
+    "raw": "F0.95",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/aps-c-35mm-f0-95",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-aps-c-35mm-f0.95--canon-rf.png",
+    "width": 314,
+    "height": 314,
+    "assetId": "rf-lenses-06-4x4:11",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      956,
+      620,
+      1254,
+      918
+    ],
+    "trimBounds": [
+      1,
+      8,
+      266,
+      298
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "9dd4cd7bdf7744b47f61c9da8cf521c191b471efd1478d656dad910418b8f48c",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 144174,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

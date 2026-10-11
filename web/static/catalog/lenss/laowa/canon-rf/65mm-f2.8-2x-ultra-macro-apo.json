@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Laowa",
+  "label": "Laowa 65mm F2.8 2X Ultra Macro APO",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://www.venuslens.net/product-tag/l/?product_view=list",
+  "aliases": [],
+  "sheet": "rf-lenses-13-v2-4x4.png",
+  "index": 3,
+  "id": "lens:laowa:canon-rf:65mm-f2.8-2x-ultra-macro-apo",
+  "make": "Laowa",
+  "model": "65mm F2.8 2X Ultra Macro APO",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 65,
+    "maxMm": 65,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.venuslens.net/product-tag/l/?product_view=list",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/laowa-65mm-f2.8-2x-ultra-macro-apo--canon-rf.png",
+    "width": 333,
+    "height": 333,
+    "assetId": "rf-lenses-13-v2-4x4:3",
+    "sourceSheet": "rf-lenses-13-v2-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      933,
+      0,
+      1254,
+      357
+    ],
+    "trimBounds": [
+      0,
+      93,
+      309,
+      338
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "301e9347ff7e1418410303cc44cf4cad84f3c9bdcccbdb79fa61dd02d1027fa6",
+    "sourceSha256": "5f25fdb2b78f09777cede6fd2b2e911d14de10f80fd0f28de50320a2ad359bba",
+    "bytes": 69562,
+    "cropWarnings": []
+  }
+}

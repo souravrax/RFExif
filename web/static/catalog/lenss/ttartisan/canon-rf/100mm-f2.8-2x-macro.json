@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 100mm F2.8 2X Macro",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/100mm-f2-8macro",
+  "aliases": [],
+  "sheet": "rf-lenses-06-4x4.png",
+  "index": 7,
+  "id": "lens:ttartisan:canon-rf:100mm-f2.8-2x-macro",
+  "make": "TTArtisan",
+  "model": "100mm F2.8 2X Macro",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 100,
+    "maxMm": 100,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/100mm-f2-8macro",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-100mm-f2.8-2x-macro--canon-rf.png",
+    "width": 338,
+    "height": 338,
+    "assetId": "rf-lenses-06-4x4:7",
+    "sourceSheet": "rf-lenses-06-4x4.png",
+    "cell": 7,
+    "sourceBounds": [
+      956,
+      302,
+      1254,
+      620
+    ],
+    "trimBounds": [
+      0,
+      0,
+      282,
+      314
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b66ba38c161b5353965059777362597d6f1fea534d9e7e6431b87f815c15bc62",
+    "sourceSha256": "bf7e8db262f5de0b0c31d02e0756a70a616cfdcacc7d1e94a1685b51e9ba00a7",
+    "bytes": 144948,
+    "cropWarnings": [
+      "rf-lenses-06-4x4.png: touching artwork near x quarter 2; least-ink seam 659 crosses 96 visible pixels"
+    ]
+  }
+}

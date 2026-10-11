@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "TTArtisan",
+  "label": "TTArtisan 21mm F1.5",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://ttartisan.store/products/ttartisan-21mm-f1-5",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 7,
+  "id": "lens:ttartisan:canon-rf:21mm-f1.5",
+  "make": "TTArtisan",
+  "model": "21mm F1.5",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 21,
+    "maxMm": 21,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.5,
+    "tele": 1.5,
+    "unit": "f-number",
+    "raw": "F1.5",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://ttartisan.store/products/ttartisan-21mm-f1-5",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/ttartisan-21mm-f1.5--canon-rf.png",
+    "width": 334,
+    "height": 334,
+    "assetId": "rf-lenses-07-4x4:7",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 7,
+    "sourceBounds": [
+      940,
+      328,
+      1254,
+      612
+    ],
+    "trimBounds": [
+      0,
+      0,
+      310,
+      283
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "4643a53dacaf1733a19c6808b67116e6ae8a4588eac8c355afd3deeb20323ca5",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 111031,
+    "cropWarnings": []
+  }
+}

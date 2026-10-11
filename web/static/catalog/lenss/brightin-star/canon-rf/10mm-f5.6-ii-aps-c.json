@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 10mm F5.6 II APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/brightin-star-10mm-f5-6-ii-aps-c-fisheye-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 15,
+  "id": "lens:brightin-star:canon-rf:10mm-f5.6-ii-aps-c",
+  "make": "Brightin Star",
+  "model": "10mm F5.6 II APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 10,
+    "maxMm": 10,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/brightin-star-10mm-f5-6-ii-aps-c-fisheye-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-10mm-f5.6-ii-aps-c--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-09-4x4:15",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      939,
+      938,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      3,
+      305,
+      276
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "52735e40e3400f4a1ff4080650f40712766591456a0f68a348ea06a9ae460bfe",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 112842,
+    "cropWarnings": []
+  }
+}

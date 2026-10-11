@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sigma",
+  "label": "Sigma 50-120mm F2.8 DC OS Contemporary",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+  "aliases": [
+    "Sigma 50-120mm F2.8 DC OS"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 0,
+  "id": "lens:sigma:canon-rf:50-120mm-f2.8-dc-os-contemporary",
+  "make": "Sigma",
+  "model": "50-120mm F2.8 DC OS Contemporary",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 50,
+    "maxMm": 120,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sigma-50-120mm-f2.8-dc-os-contemporary--canon-rf.png",
+    "width": 303,
+    "height": 303,
+    "assetId": "rf-lenses-05-v2-4x4:0",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      339,
+      385
+    ],
+    "trimBounds": [
+      95,
+      95,
+      338,
+      374
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "702b273d167cc4b066948b87c705a6069cc66f56c2381b9155316cf06e7052f3",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 71897,
+    "cropWarnings": []
+  }
+}

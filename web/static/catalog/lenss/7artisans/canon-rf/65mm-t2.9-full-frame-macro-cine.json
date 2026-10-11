@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 65mm T2.9 Full Frame Macro Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/65mm-t2-9-full-frame-macro-cine-lens-for-sony-e-nikon-z-canon-eos-r",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 13,
+  "id": "lens:7artisans:canon-rf:65mm-t2.9-full-frame-macro-cine",
+  "make": "7Artisans",
+  "model": "65mm T2.9 Full Frame Macro Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 65,
+    "maxMm": 65,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro",
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/65mm-t2-9-full-frame-macro-cine-lens-for-sony-e-nikon-z-canon-eos-r",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-65mm-t2.9-full-frame-macro-cine--canon-rf.png",
+    "width": 325,
+    "height": 325,
+    "assetId": "rf-lenses-07-4x4:13",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      322,
+      906,
+      627,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      11,
+      301,
+      302
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "c6e092e93cd8ddcd6eb1604f967aee25bc493e21a6ad316137c3a96ca902d6e0",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 112918,
+    "cropWarnings": []
+  }
+}

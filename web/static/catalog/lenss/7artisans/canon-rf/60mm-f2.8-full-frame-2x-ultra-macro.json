@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 60mm F2.8 Full-frame 2X Ultra-Macro",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/60mm-f-2-8-full-frame-2x-ultra-macro-lens-for-e-rf-z",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 2,
+  "id": "lens:7artisans:canon-rf:60mm-f2.8-full-frame-2x-ultra-macro",
+  "make": "7Artisans",
+  "model": "60mm F2.8 Full-frame 2X Ultra-Macro",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 60,
+    "maxMm": 60,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/60mm-f-2-8-full-frame-2x-ultra-macro-lens-for-e-rf-z",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-60mm-f2.8-full-frame-2x-ultra-macro--canon-rf.png",
+    "width": 335,
+    "height": 335,
+    "assetId": "rf-lenses-08-4x4:2",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 2,
+    "sourceBounds": [
+      630,
+      0,
+      935,
+      339
+    ],
+    "trimBounds": [
+      0,
+      9,
+      303,
+      320
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "dbcd080eb414bec1284356c7881e00a54eeed84f5d7e21ea6af21dc838d0b58b",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 87996,
+    "cropWarnings": []
+  }
+}

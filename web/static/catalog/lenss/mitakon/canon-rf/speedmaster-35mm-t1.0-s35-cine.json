@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon Speedmaster 35mm T1.0 S35 Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 11,
+  "id": "lens:mitakon:canon-rf:speedmaster-35mm-t1.0-s35-cine",
+  "make": "Mitakon",
+  "model": "Speedmaster 35mm T1.0 S35 Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "Super 35",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1,
+    "tele": 1,
+    "unit": "T-stop",
+    "raw": "T1.0",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-speedmaster-35mm-t1.0-s35-cine--canon-rf.png",
+    "width": 296,
+    "height": 296,
+    "assetId": "rf-lenses-12-4x4:11",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 11,
+    "sourceBounds": [
+      937,
+      620,
+      1254,
+      908
+    ],
+    "trimBounds": [
+      0,
+      6,
+      269,
+      278
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "31a70a290ce63bb1cb507d3bf2ac47133363b2464f8265a5d56acf52ec811d6b",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 105377,
+    "cropWarnings": []
+  }
+}

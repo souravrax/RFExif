@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 85mm F1.2 L USM DS",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-03-4x4.png",
+  "index": 6,
+  "id": "lens:canon:canon-rf:rf-85mm-f1.2-l-usm-ds",
+  "make": "Canon",
+  "model": "RF 85mm F1.2 L USM DS",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.2,
+    "tele": 1.2,
+    "unit": "f-number",
+    "raw": "F1.2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-85mm-f1.2-l-usm-ds--canon-rf.png",
+    "width": 329,
+    "height": 329,
+    "assetId": "rf-lenses-03-4x4:6",
+    "sourceSheet": "rf-lenses-03-4x4.png",
+    "cell": 6,
+    "sourceBounds": [
+      627,
+      308,
+      939,
+      638
+    ],
+    "trimBounds": [
+      25,
+      0,
+      310,
+      305
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "595d14647f092ea51e0d3e0138b7e0949fd5a2a6bb6c52bfb1a8eee8c7d89508",
+    "sourceSha256": "d818e52dcc5fa44f1b5ade37dd1c79d481976b46f17f18e68fd724776e6aee9b",
+    "bytes": 155369,
+    "cropWarnings": [
+      "rf-lenses-03-4x4.png: touching artwork near x quarter 2; least-ink seam 627 crosses 72 visible pixels"
+    ]
+  }
+}

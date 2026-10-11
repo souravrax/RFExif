@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Samyang",
+  "label": "Samyang AF 14mm F2.8 RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "historical",
+  "source": "https://www.lksamyang.com/upload/file/2022_SAMYANG_OPTICS_Catalogue_EN.pdf",
+  "aliases": [
+    "Rokinon AF 14mm F2.8 RF"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 5,
+  "id": "lens:samyang:canon-rf:af-14mm-f2.8-rf",
+  "make": "Samyang",
+  "model": "AF 14mm F2.8 RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 14,
+    "maxMm": 14,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.lksamyang.com/upload/file/2022_SAMYANG_OPTICS_Catalogue_EN.pdf",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/samyang-af-14mm-f2.8-rf--canon-rf.png",
+    "width": 273,
+    "height": 273,
+    "assetId": "rf-lenses-05-v2-4x4:5",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 5,
+    "sourceBounds": [
+      339,
+      378,
+      634,
+      679
+    ],
+    "trimBounds": [
+      62,
+      12,
+      290,
+      261
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "424cb17979004e08c22753f2b44006114e6ce45819408dceb6d72d981a889b2e",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 70453,
+    "cropWarnings": []
+  }
+}

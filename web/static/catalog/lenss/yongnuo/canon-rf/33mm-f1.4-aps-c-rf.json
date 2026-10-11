@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Yongnuo",
+  "label": "Yongnuo 33mm F1.4 APS-C RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 15,
+  "id": "lens:yongnuo:canon-rf:33mm-f1.4-aps-c-rf",
+  "make": "Yongnuo",
+  "model": "33mm F1.4 APS-C RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 33,
+    "maxMm": 33,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://th.hkyongnuo.com/pages/auto-focus-rf-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/yongnuo-33mm-f1.4-aps-c-rf--canon-rf.png",
+    "width": 283,
+    "height": 283,
+    "assetId": "rf-lenses-05-v2-4x4:15",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      929,
+      956,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      2,
+      0,
+      247,
+      259
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "bb15f88fe4dd035207ceee4f2f6ac81b2e4e7c8c20cb1a5c9a514afa099e2a88",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 66135,
+    "cropWarnings": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Venus 75mm T2.9 1.6x Anamorphic",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+  "aliases": [],
+  "sheet": "rf-lenses-11-4x4.png",
+  "index": 12,
+  "id": "lens:sirui:canon-rf:venus-75mm-t2.9-1.6x-anamorphic",
+  "make": "Sirui",
+  "model": "Venus 75mm T2.9 1.6x Anamorphic",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 75,
+    "maxMm": 75,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "anamorphic"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-venus-75mm-t2.9-1.6x-anamorphic--canon-rf.png",
+    "width": 307,
+    "height": 307,
+    "assetId": "rf-lenses-11-4x4:12",
+    "sourceSheet": "rf-lenses-11-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      926,
+      319,
+      1254
+    ],
+    "trimBounds": [
+      68,
+      0,
+      319,
+      283
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "b7b46c67279d863f0fea2218322105b35dc63ff40635477498044414698476a4",
+    "sourceSha256": "387125a3d13f35cae41a79f34f4166d599fb0979cfa48f0fb0e0ffde2b4be9ef",
+    "bytes": 90901,
+    "cropWarnings": []
+  }
+}

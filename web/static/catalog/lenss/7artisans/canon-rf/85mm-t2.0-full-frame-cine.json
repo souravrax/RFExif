@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 85mm T2.0 Full Frame Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/85mm-t2-0-full-frame-cine-lens-for-sony-e-nikon-z-panasonic-l",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 15,
+  "id": "lens:7artisans:canon-rf:85mm-t2.0-full-frame-cine",
+  "make": "7Artisans",
+  "model": "85mm T2.0 Full Frame Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "T-stop",
+    "raw": "T2.0",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/85mm-t2-0-full-frame-cine-lens-for-sony-e-nikon-z-panasonic-l",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-85mm-t2.0-full-frame-cine--canon-rf.png",
+    "width": 323,
+    "height": 323,
+    "assetId": "rf-lenses-08-4x4:15",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      935,
+      899,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      10,
+      299,
+      297
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "f224b98cfe6bad9b01cd00a1f15e12d0f3e5b9b3d85b2a5bd67580e7ce0701ac",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 116228,
+    "cropWarnings": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 10mm F2.8 Full-frame fisheye",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/7artisans-10mm-f2-8-full-frame-fisheye-lens-for-e-l-r-z-mount",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 7,
+  "id": "lens:7artisans:canon-rf:10mm-f2.8-full-frame-fisheye",
+  "make": "7Artisans",
+  "model": "10mm F2.8 Full-frame fisheye",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 10,
+    "maxMm": 10,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "fisheye"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/7artisans-10mm-f2-8-full-frame-fisheye-lens-for-e-l-r-z-mount",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-10mm-f2.8-full-frame-fisheye--canon-rf.png",
+    "width": 306,
+    "height": 306,
+    "assetId": "rf-lenses-09-4x4:7",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 7,
+    "sourceBounds": [
+      939,
+      331,
+      1254,
+      630
+    ],
+    "trimBounds": [
+      2,
+      0,
+      275,
+      282
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "22a36749d390b5a5a183df09779c215366b0a2d11c2a4da8d9addb8dd37c0386",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 111560,
+    "cropWarnings": []
+  }
+}

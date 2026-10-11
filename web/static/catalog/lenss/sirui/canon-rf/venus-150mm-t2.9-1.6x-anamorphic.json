@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Venus 150mm T2.9 1.6x Anamorphic",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+  "aliases": [],
+  "sheet": "rf-lenses-11-4x4.png",
+  "index": 14,
+  "id": "lens:sirui:canon-rf:venus-150mm-t2.9-1.6x-anamorphic",
+  "make": "Sirui",
+  "model": "Venus 150mm T2.9 1.6x Anamorphic",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 150,
+    "maxMm": 150,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "anamorphic"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-venus-150mm-t2.9-1.6x-anamorphic--canon-rf.png",
+    "width": 330,
+    "height": 330,
+    "assetId": "rf-lenses-11-4x4:14",
+    "sourceSheet": "rf-lenses-11-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      629,
+      907,
+      936,
+      1254
+    ],
+    "trimBounds": [
+      1,
+      8,
+      307,
+      309
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "61c54342b0e76e9649a3aaf53fed7d2bc0f85f6ae9aa9a4e2b7195b32d88b9b3",
+    "sourceSha256": "387125a3d13f35cae41a79f34f4166d599fb0979cfa48f0fb0e0ffde2b4be9ef",
+    "bytes": 100979,
+    "cropWarnings": []
+  }
+}

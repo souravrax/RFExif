@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 600mm F4 L IS USM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-03-4x4.png",
+  "index": 9,
+  "id": "lens:canon:canon-rf:rf-600mm-f4-l-is-usm",
+  "make": "Canon",
+  "model": "RF 600mm F4 L IS USM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 600,
+    "maxMm": 600,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-600mm-f4-l-is-usm--canon-rf.png",
+    "width": 340,
+    "height": 340,
+    "assetId": "rf-lenses-03-4x4:9",
+    "sourceSheet": "rf-lenses-03-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      311,
+      624,
+      627,
+      910
+    ],
+    "trimBounds": [
+      0,
+      14,
+      316,
+      286
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "539d5bbc6d0b98a9158e1e08b72d1fb22494dfe9d993316b14d007350207498b",
+    "sourceSha256": "d818e52dcc5fa44f1b5ade37dd1c79d481976b46f17f18e68fd724776e6aee9b",
+    "bytes": 147516,
+    "cropWarnings": [
+      "rf-lenses-03-4x4.png: touching artwork near x quarter 2; least-ink seam 627 crosses 72 visible pixels"
+    ]
+  }
+}

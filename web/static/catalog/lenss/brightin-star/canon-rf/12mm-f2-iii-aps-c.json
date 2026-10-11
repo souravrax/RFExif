@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 12mm F2 III APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/mf-12mm-f2-0-iii-aps-c-ultra-wide",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 10,
+  "id": "lens:brightin-star:canon-rf:12mm-f2-iii-aps-c",
+  "make": "Brightin Star",
+  "model": "12mm F2 III APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 12,
+    "maxMm": 12,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "f-number",
+    "raw": "F2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/mf-12mm-f2-0-iii-aps-c-ultra-wide",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-12mm-f2-iii-aps-c--canon-rf.png",
+    "width": 303,
+    "height": 303,
+    "assetId": "rf-lenses-10-4x4:10",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 10,
+    "sourceBounds": [
+      637,
+      624,
+      937,
+      922
+    ],
+    "trimBounds": [
+      0,
+      0,
+      279,
+      277
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "a24ca4662e49030d1e756656432dc846aeda96ab41fb414928a43d58db8fbd8a",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 104259,
+    "cropWarnings": []
+  }
+}

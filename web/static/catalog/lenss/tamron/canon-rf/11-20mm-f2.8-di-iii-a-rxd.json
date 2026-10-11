@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Tamron",
+  "label": "Tamron 11-20mm F2.8 Di III-A RXD",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.tamron.com/global/consumer/sp/rfmount_series/",
+  "aliases": [
+    "Tamron 11-20mm F2.8 Di III-A RXD B060"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 1,
+  "id": "lens:tamron:canon-rf:11-20mm-f2.8-di-iii-a-rxd",
+  "make": "Tamron",
+  "model": "11-20mm F2.8 Di III-A RXD",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 11,
+    "maxMm": 20,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.tamron.com/global/consumer/sp/rfmount_series/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/tamron-11-20mm-f2.8-di-iii-a-rxd--canon-rf.png",
+    "width": 319,
+    "height": 319,
+    "assetId": "rf-lenses-05-v2-4x4:1",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      339,
+      0,
+      634,
+      378
+    ],
+    "trimBounds": [
+      0,
+      73,
+      295,
+      340
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "e613c80c1c3f7f2c1dcfbfa9031bcde3648c93dd4a5072a669159a3f70f0f83f",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 64862,
+    "cropWarnings": []
+  }
+}

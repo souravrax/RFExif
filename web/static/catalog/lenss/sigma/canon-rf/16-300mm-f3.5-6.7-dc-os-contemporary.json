@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sigma",
+  "label": "Sigma 16-300mm F3.5-6.7 DC OS Contemporary",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+  "aliases": [
+    "Sigma 16-300mm F3.5-6.7 DC OS"
+  ],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 13,
+  "id": "lens:sigma:canon-rf:16-300mm-f3.5-6.7-dc-os-contemporary",
+  "make": "Sigma",
+  "model": "16-300mm F3.5-6.7 DC OS Contemporary",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 16,
+    "maxMm": 300,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 3.5,
+    "tele": 6.7,
+    "unit": "f-number",
+    "raw": "F3.5-6.7",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.sigma-global.com/en/special/sigma_rfmount_lenses/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sigma-16-300mm-f3.5-6.7-dc-os-contemporary--canon-rf.png",
+    "width": 376,
+    "height": 376,
+    "assetId": "rf-lenses-04-4x4:13",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      334,
+      874,
+      621,
+      1254
+    ],
+    "trimBounds": [
+      1,
+      0,
+      287,
+      352
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "8f945c98b707baeec08538fb34f7f44c0de0c1a5afaabe11b195b33ca31d42c2",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 160985,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

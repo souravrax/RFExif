@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 75mm F1.4 Full-frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/75mm-f-1-4-full-frame-lens-for-sony-e-canon-eos-r-nikon-z-panasonic-l-lumix-s",
+  "aliases": [],
+  "sheet": "rf-lenses-07-4x4.png",
+  "index": 15,
+  "id": "lens:7artisans:canon-rf:75mm-f1.4-full-frame",
+  "make": "7Artisans",
+  "model": "75mm F1.4 Full-frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 75,
+    "maxMm": 75,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/75mm-f-1-4-full-frame-lens-for-sony-e-canon-eos-r-nikon-z-panasonic-l-lumix-s",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-75mm-f1.4-full-frame--canon-rf.png",
+    "width": 351,
+    "height": 351,
+    "assetId": "rf-lenses-07-4x4:15",
+    "sourceSheet": "rf-lenses-07-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      940,
+      910,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      1,
+      300,
+      328
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "5815a19a64b861594834a7bbf386aac2099ed229f9d05ee0bf039fed30d51375",
+    "sourceSha256": "c36136196f60d299bdc2ab2387552dfeaf782dda89116360077260c86a7c6e83",
+    "bytes": 117835,
+    "cropWarnings": []
+  }
+}

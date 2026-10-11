@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 35mm F1.4 III Full-frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/35mm-f-1-4-full-frame-lens-for-e-eos-r-z-l",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 3,
+  "id": "lens:7artisans:canon-rf:35mm-f1.4-iii-full-frame",
+  "make": "7Artisans",
+  "model": "35mm F1.4 III Full-frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/35mm-f-1-4-full-frame-lens-for-e-eos-r-z-l",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-35mm-f1.4-iii-full-frame--canon-rf.png",
+    "width": 323,
+    "height": 323,
+    "assetId": "rf-lenses-08-4x4:3",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      935,
+      0,
+      1254,
+      332
+    ],
+    "trimBounds": [
+      14,
+      9,
+      283,
+      308
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "203c350deb944bae819f686081c4b9ffef9143e81005c911a0979624272a5888",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 87681,
+    "cropWarnings": []
+  }
+}

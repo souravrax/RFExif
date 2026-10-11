@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 7.8mm F4 STM Dual",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-03-4x4.png",
+  "index": 15,
+  "id": "lens:canon:canon-rf:rf-s-7.8mm-f4-stm-dual",
+  "make": "Canon",
+  "model": "RF-S 7.8mm F4 STM Dual",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 7.8,
+    "maxMm": 7.8,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-7.8mm-f4-stm-dual--canon-rf.png",
+    "width": 319,
+    "height": 319,
+    "assetId": "rf-lenses-03-4x4:15",
+    "sourceSheet": "rf-lenses-03-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      939,
+      922,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      4,
+      28,
+      299,
+      269
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "06becb8c5fe2afdc270de9071fe7e0b5f9433569c76f13dad36f65ea762f2713",
+    "sourceSha256": "d818e52dcc5fa44f1b5ade37dd1c79d481976b46f17f18e68fd724776e6aee9b",
+    "bytes": 132606,
+    "cropWarnings": [
+      "rf-lenses-03-4x4.png: touching artwork near x quarter 2; least-ink seam 627 crosses 72 visible pixels"
+    ]
+  }
+}

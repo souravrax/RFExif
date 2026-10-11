@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon 55mm F2.8 1-5X Macro",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/product/mitakon-55mm-f-2-8-1-5x-macro-lens/",
+  "aliases": [],
+  "sheet": "rf-lenses-13-v2-4x4.png",
+  "index": 1,
+  "id": "lens:mitakon:canon-rf:55mm-f2.8-1-5x-macro",
+  "make": "Mitakon",
+  "model": "55mm F2.8 1-5X Macro",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 55,
+    "maxMm": 55,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/product/mitakon-55mm-f-2-8-1-5x-macro-lens/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-55mm-f2.8-1-5x-macro--canon-rf.png",
+    "width": 337,
+    "height": 337,
+    "assetId": "rf-lenses-13-v2-4x4:1",
+    "sourceSheet": "rf-lenses-13-v2-4x4.png",
+    "cell": 1,
+    "sourceBounds": [
+      336,
+      0,
+      630,
+      348
+    ],
+    "trimBounds": [
+      3,
+      29,
+      293,
+      342
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "fe43c1b192f7933a18759f25eae391a973e4457765cf2ed2456e8e5f4fbaebff",
+    "sourceSha256": "5f25fdb2b78f09777cede6fd2b2e911d14de10f80fd0f28de50320a2ad359bba",
+    "bytes": 70615,
+    "cropWarnings": []
+  }
+}

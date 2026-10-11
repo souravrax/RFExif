@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Samyang",
+  "label": "Samyang AF 85mm F1.4 RF",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "historical",
+  "source": "https://www.lksamyang.com/upload/file/2022_SAMYANG_OPTICS_Catalogue_EN.pdf",
+  "aliases": [
+    "Rokinon AF 85mm F1.4 RF"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 7,
+  "id": "lens:samyang:canon-rf:af-85mm-f1.4-rf",
+  "make": "Samyang",
+  "model": "AF 85mm F1.4 RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.lksamyang.com/upload/file/2022_SAMYANG_OPTICS_Catalogue_EN.pdf",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/samyang-af-85mm-f1.4-rf--canon-rf.png",
+    "width": 327,
+    "height": 327,
+    "assetId": "rf-lenses-05-v2-4x4:7",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 7,
+    "sourceBounds": [
+      929,
+      377,
+      1254,
+      683
+    ],
+    "trimBounds": [
+      2,
+      4,
+      305,
+      306
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "d6e6e24c8114f14d8afb14c8ee5301b525a0223b3e31a0f054379b26a7e10314",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 73624,
+    "cropWarnings": []
+  }
+}

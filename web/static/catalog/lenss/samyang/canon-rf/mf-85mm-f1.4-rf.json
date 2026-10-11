@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "brand": "Samyang",
+  "label": "Samyang MF 85mm F1.4 RF",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://samyangus.com/collections/manual-focus/canon-rf",
+  "aliases": [
+    "Samyang 85mm F1.4 RF",
+    "Rokinon 85mm F1.4 RF"
+  ],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 8,
+  "id": "lens:samyang:canon-rf:mf-85mm-f1.4-rf",
+  "make": "Samyang",
+  "model": "MF 85mm F1.4 RF",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 85,
+    "maxMm": 85,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "f-number",
+    "raw": "F1.4",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://samyangus.com/collections/manual-focus/canon-rf",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/samyang-mf-85mm-f1.4-rf--canon-rf.png",
+    "width": 239,
+    "height": 239,
+    "assetId": "rf-lenses-05-v2-4x4:8",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 8,
+    "sourceBounds": [
+      0,
+      673,
+      339,
+      957
+    ],
+    "trimBounds": [
+      93,
+      42,
+      308,
+      247
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "6c678281a822e54a77223ab71a533116d97064bda583f122dad19cc85ed0dbbf",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 73167,
+    "cropWarnings": []
+  }
+}

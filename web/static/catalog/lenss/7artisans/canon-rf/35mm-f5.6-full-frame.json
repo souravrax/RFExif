@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 35mm F5.6 Full-frame",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/35mm-f5-6",
+  "aliases": [],
+  "sheet": "rf-lenses-09-4x4.png",
+  "index": 9,
+  "id": "lens:7artisans:canon-rf:35mm-f5.6-full-frame",
+  "make": "7Artisans",
+  "model": "35mm F5.6 Full-frame",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "full-frame",
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/35mm-f5-6",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-35mm-f5.6-full-frame--canon-rf.png",
+    "width": 331,
+    "height": 331,
+    "assetId": "rf-lenses-09-4x4:9",
+    "sourceSheet": "rf-lenses-09-4x4.png",
+    "cell": 9,
+    "sourceBounds": [
+      316,
+      650,
+      628,
+      931
+    ],
+    "trimBounds": [
+      4,
+      0,
+      311,
+      260
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "24d49ec3d959f2da7da22853c52f53697b3b083da7133ef96b9566642b4a17d1",
+    "sourceSha256": "89012ffb91059152d84be9e4e763c3c8da7aefc3c2f3c38100069b2da255f2b9",
+    "bytes": 103039,
+    "cropWarnings": []
+  }
+}

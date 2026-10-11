@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Samyang",
+  "label": "Samyang AF 12mm F2 RF-S",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://samyangus.com/collections/auto-focus/12mm",
+  "aliases": [],
+  "sheet": "rf-lenses-05-v2-4x4.png",
+  "index": 4,
+  "id": "lens:samyang:canon-rf:af-12mm-f2-rf-s",
+  "make": "Samyang",
+  "model": "AF 12mm F2 RF-S",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 12,
+    "maxMm": 12,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2,
+    "tele": 2,
+    "unit": "f-number",
+    "raw": "F2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://samyangus.com/collections/auto-focus/12mm",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/samyang-af-12mm-f2-rf-s--canon-rf.png",
+    "width": 261,
+    "height": 261,
+    "assetId": "rf-lenses-05-v2-4x4:4",
+    "sourceSheet": "rf-lenses-05-v2-4x4.png",
+    "cell": 4,
+    "sourceBounds": [
+      0,
+      385,
+      339,
+      673
+    ],
+    "trimBounds": [
+      93,
+      8,
+      328,
+      245
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "f08b3196945899e2d4369c7f8b6fe13b8b43fdcb2529cbbf1969c4995a478fd8",
+    "sourceSha256": "439539f049f3bcfab5afc3c3a472a824a3ef40f651816e0d17cc75b0adffac55",
+    "bytes": 66307,
+    "cropWarnings": []
+  }
+}

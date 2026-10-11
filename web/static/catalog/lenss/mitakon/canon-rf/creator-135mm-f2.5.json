@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon Creator 135mm F2.5",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/",
+  "aliases": [],
+  "sheet": "rf-lenses-13-v2-4x4.png",
+  "index": 0,
+  "id": "lens:mitakon:canon-rf:creator-135mm-f2.5",
+  "make": "Mitakon",
+  "model": "Creator 135mm F2.5",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 135,
+    "maxMm": 135,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.5,
+    "tele": 2.5,
+    "unit": "f-number",
+    "raw": "F2.5",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-creator-135mm-f2.5--canon-rf.png",
+    "width": 360,
+    "height": 360,
+    "assetId": "rf-lenses-13-v2-4x4:0",
+    "sourceSheet": "rf-lenses-13-v2-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      336,
+      367
+    ],
+    "trimBounds": [
+      0,
+      58,
+      336,
+      362
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "ff9e863e885913e0169d0ed0ca1ae5faa2a91c6371fbe5246368c279145e7a52",
+    "sourceSha256": "5f25fdb2b78f09777cede6fd2b2e911d14de10f80fd0f28de50320a2ad359bba",
+    "bytes": 77954,
+    "cropWarnings": []
+  }
+}

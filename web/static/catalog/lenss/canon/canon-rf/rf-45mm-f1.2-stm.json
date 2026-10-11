@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF 45mm F1.2 STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://personal.canon.jp/product/camera/rf/rf-lensworld/features/rf-lineup",
+  "aliases": [],
+  "sheet": "rf-lenses-04-4x4.png",
+  "index": 4,
+  "id": "lens:canon:canon-rf:rf-45mm-f1.2-stm",
+  "make": "Canon",
+  "model": "RF 45mm F1.2 STM",
+  "mountCode": "canon-rf",
+  "series": "RF",
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 45,
+    "maxMm": 45,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.2,
+    "tele": 1.2,
+    "unit": "f-number",
+    "raw": "F1.2",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://personal.canon.jp/product/camera/rf/rf-lensworld/features/rf-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-45mm-f1.2-stm--canon-rf.png",
+    "width": 340,
+    "height": 340,
+    "assetId": "rf-lenses-04-4x4:4",
+    "sourceSheet": "rf-lenses-04-4x4.png",
+    "cell": 4,
+    "sourceBounds": [
+      0,
+      303,
+      334,
+      616
+    ],
+    "trimBounds": [
+      0,
+      0,
+      316,
+      308
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "4345aafae95cfc6b73ad2582c634c78307f422a1bdbb441ea3414e28279f11b2",
+    "sourceSha256": "acdede16c7b8828f9ad27a58a6e45c93a124172ea01c29e4ef442ebb3777429c",
+    "bytes": 130445,
+    "cropWarnings": [
+      "rf-lenses-04-4x4.png column 2: touching artwork near y quarter 3; least-ink seam 874 crosses 53 visible pixels"
+    ]
+  }
+}

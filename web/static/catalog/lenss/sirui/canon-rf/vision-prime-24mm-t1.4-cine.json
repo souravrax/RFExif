@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Vision Prime 24mm T1.4 Cine",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/vision-prime-1-series-t1-4-full-frame-cine-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 3,
+  "id": "lens:sirui:canon-rf:vision-prime-24mm-t1.4-cine",
+  "make": "Sirui",
+  "model": "Vision Prime 24mm T1.4 Cine",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 24,
+    "maxMm": 24,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 1.4,
+    "tele": 1.4,
+    "unit": "T-stop",
+    "raw": "T1.4",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "cine"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/vision-prime-1-series-t1-4-full-frame-cine-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-vision-prime-24mm-t1.4-cine--canon-rf.png",
+    "width": 291,
+    "height": 291,
+    "assetId": "rf-lenses-12-4x4:3",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 3,
+    "sourceBounds": [
+      937,
+      0,
+      1254,
+      324
+    ],
+    "trimBounds": [
+      4,
+      60,
+      271,
+      308
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "27322388a1da602e8cae538b402f1caaf34a2c20adab39796af200ff73a822c8",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 103622,
+    "cropWarnings": []
+  }
+}

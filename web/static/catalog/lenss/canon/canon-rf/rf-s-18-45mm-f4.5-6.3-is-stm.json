@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Canon",
+  "label": "RF-S 18-45mm F4.5-6.3 IS STM",
+  "mount": "Canon RF",
+  "focus": "autofocus",
+  "status": "catalog-listed",
+  "source": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+  "aliases": [],
+  "sheet": "canon-lenses-4x4.png",
+  "index": 15,
+  "id": "lens:canon:canon-rf:rf-s-18-45mm-f4.5-6.3-is-stm",
+  "make": "Canon",
+  "model": "RF-S 18-45mm F4.5-6.3 IS STM",
+  "mountCode": "canon-rf",
+  "series": "RF-S",
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 18,
+    "maxMm": 45,
+    "type": "zoom",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4.5,
+    "tele": 6.3,
+    "unit": "f-number",
+    "raw": "F4.5-6.3",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://www.usa.canon.com/pro/rf-lens-world/advantages/lens-lineup",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/canon-rf-s-18-45mm-f4.5-6.3-is-stm--canon-rf.png",
+    "width": 299,
+    "height": 299,
+    "assetId": "canon-lenses-4x4:15",
+    "sourceSheet": "canon-lenses-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      949,
+      931,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      25,
+      2,
+      279,
+      277
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "021a2921d7e8a70934f7e862a5aa9c9945bc7e09b2b075ce841c1fa1fa4c55c6",
+    "sourceSha256": "87c51f11176ec7f0b93c28dd8cdc69f3d03f2687d0094a12b0b9d266cc66fe41",
+    "bytes": 83234,
+    "cropWarnings": []
+  }
+}

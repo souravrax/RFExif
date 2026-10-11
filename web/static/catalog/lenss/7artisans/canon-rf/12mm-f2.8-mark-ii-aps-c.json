@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "7Artisans",
+  "label": "7Artisans 12mm F2.8 Mark II APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://7artisans.store/products/12mm-f-2-8-aps-c-lens-for-e-eos-m-fx-m43-z",
+  "aliases": [],
+  "sheet": "rf-lenses-08-4x4.png",
+  "index": 12,
+  "id": "lens:7artisans:canon-rf:12mm-f2.8-mark-ii-aps-c",
+  "make": "7Artisans",
+  "model": "12mm F2.8 Mark II APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 12,
+    "maxMm": 12,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://7artisans.store/products/12mm-f-2-8-aps-c-lens-for-e-eos-m-fx-m43-z",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/7artisans-12mm-f2.8-mark-ii-aps-c--canon-rf.png",
+    "width": 347,
+    "height": 347,
+    "assetId": "rf-lenses-08-4x4:12",
+    "sourceSheet": "rf-lenses-08-4x4.png",
+    "cell": 12,
+    "sourceBounds": [
+      0,
+      922,
+      323,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      28,
+      323,
+      308
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "ca2eec0f7f9c341f6f1bf32e8e74835a9ac91e0f8715efe6f3cbd6e98e715adf",
+    "sourceSha256": "d94ae7faab21e7b03d8dd319eda6d16bdfe77a4d964f8d4b705a489914dceded",
+    "bytes": 97819,
+    "cropWarnings": []
+  }
+}

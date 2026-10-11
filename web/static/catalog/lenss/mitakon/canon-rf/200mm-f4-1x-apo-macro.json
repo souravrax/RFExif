@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon 200mm F4 1X APO Macro",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 13,
+  "id": "lens:mitakon:canon-rf:200mm-f4-1x-apo-macro",
+  "make": "Mitakon",
+  "model": "200mm F4 1X APO Macro",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 200,
+    "maxMm": 200,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 4,
+    "tele": 4,
+    "unit": "f-number",
+    "raw": "F4",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "macro"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-200mm-f4-1x-apo-macro--canon-rf.png",
+    "width": 321,
+    "height": 321,
+    "assetId": "rf-lenses-12-4x4:13",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 13,
+    "sourceBounds": [
+      320,
+      904,
+      626,
+      1254
+    ],
+    "trimBounds": [
+      79,
+      7,
+      305,
+      304
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "845224d356b4b0a8dc3b801c02b8bcc4f5051bc6fce1a8156e9fc000d783aa53",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 99802,
+    "cropWarnings": []
+  }
+}

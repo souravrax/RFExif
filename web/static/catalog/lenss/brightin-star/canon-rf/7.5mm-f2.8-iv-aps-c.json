@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Brightin Star",
+  "label": "Brightin Star 7.5mm F2.8 IV APS-C",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://brightinstar.com/products/brightin-star-7-5mm-f2-8-iv-fisheye-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-10-4x4.png",
+  "index": 0,
+  "id": "lens:brightin-star:canon-rf:7.5mm-f2.8-iv-aps-c",
+  "make": "Brightin Star",
+  "model": "7.5mm F2.8 IV APS-C",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": "APS-C",
+  "focalLength": {
+    "minMm": 7.5,
+    "maxMm": 7.5,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.8,
+    "tele": 2.8,
+    "unit": "f-number",
+    "raw": "F2.8",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://brightinstar.com/products/brightin-star-7-5mm-f2-8-iv-fisheye-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": "model-label",
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/brightin-star-7.5mm-f2.8-iv-aps-c--canon-rf.png",
+    "width": 318,
+    "height": 318,
+    "assetId": "rf-lenses-10-4x4:0",
+    "sourceSheet": "rf-lenses-10-4x4.png",
+    "cell": 0,
+    "sourceBounds": [
+      0,
+      0,
+      324,
+      323
+    ],
+    "trimBounds": [
+      63,
+      0,
+      314,
+      294
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "3701644f1533d85dedab7a4df7bd575bd9ce45d5027aaf69cd73126170a1b2f5",
+    "sourceSha256": "54900afa55d2c0064cfece0311f26f9aa4aa297549bf9118382581a3fb475902",
+    "bytes": 92355,
+    "cropWarnings": []
+  }
+}

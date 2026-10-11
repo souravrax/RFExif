@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "kind": "camera",
+  "brand": "Canon",
+  "make": "Canon",
+  "model": "EOS R100",
+  "label": "EOS R100",
+  "mount": "Canon RF",
+  "mountCode": "canon-rf",
+  "id": "camera:canon:canon-rf:eos-r100",
+  "source": null,
+  "aliases": [],
+  "metadataProvenance": {
+    "mount": "EOS R series"
+  },
+  "sheet": "canon-cameras-4x4.png",
+  "index": 15,
+  "equipmentType": "camera",
+  "catalogVerifiedAt": null,
+  "assetId": "canon-cameras-4x4:15",
+  "file": "cameras/canon-eos-r100--canon-rf.png",
+  "sourceSheet": "canon-cameras-4x4.png",
+  "cell": 15,
+  "row": 3,
+  "column": 3,
+  "sourceBounds": [
+    941,
+    918,
+    1254,
+    1254
+  ],
+  "trimBounds": [
+    8,
+    44,
+    291,
+    320
+  ],
+  "width": 307,
+  "height": 307,
+  "artwork": {
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "../README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "5d9a7efa925d925af3be468f221a416bbb8b765f973ef38729dfed532c8bfb34",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 124229,
+    "cropWarnings": []
+  },
+  "image": {
+    "path": "art/equipment/individual/cameras/canon-eos-r100--canon-rf.png",
+    "width": 307,
+    "height": 307,
+    "assetId": "canon-cameras-4x4:15",
+    "sourceSheet": "canon-cameras-4x4.png",
+    "cell": 15,
+    "sourceBounds": [
+      941,
+      918,
+      1254,
+      1254
+    ],
+    "trimBounds": [
+      8,
+      44,
+      291,
+      320
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/README.md",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "5d9a7efa925d925af3be468f221a416bbb8b765f973ef38729dfed532c8bfb34",
+    "sourceSha256": "afb2a736097cfdaf22f9287013b255c17e5542f4d161bd36117d75e1c1b3fab4",
+    "bytes": 124229,
+    "cropWarnings": []
+  }
+}

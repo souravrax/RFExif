@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "brand": "Sirui",
+  "label": "Sirui Saturn V2 35mm T2.9 1.6x Anamorphic",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens",
+  "aliases": [],
+  "sheet": "rf-lenses-11-4x4.png",
+  "index": 7,
+  "id": "lens:sirui:canon-rf:saturn-v2-35mm-t2.9-1.6x-anamorphic",
+  "make": "Sirui",
+  "model": "Saturn V2 35mm T2.9 1.6x Anamorphic",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 35,
+    "maxMm": 35,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 2.9,
+    "tele": 2.9,
+    "unit": "T-stop",
+    "raw": "T2.9",
+    "provenance": "model-label"
+  },
+  "categories": [
+    "anamorphic"
+  ],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/sirui-saturn-v2-35mm-t2.9-1.6x-anamorphic--canon-rf.png",
+    "width": 303,
+    "height": 303,
+    "assetId": "rf-lenses-11-4x4:7",
+    "sourceSheet": "rf-lenses-11-4x4.png",
+    "cell": 7,
+    "sourceBounds": [
+      936,
+      334,
+      1254,
+      623
+    ],
+    "trimBounds": [
+      1,
+      11,
+      280,
+      269
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "24c27780fd0780ffc490e26f8148a0b7f2f11ea20ada26e15ef589e7b5a50221",
+    "sourceSha256": "387125a3d13f35cae41a79f34f4166d599fb0979cfa48f0fb0e0ffde2b4be9ef",
+    "bytes": 95019,
+    "cropWarnings": []
+  }
+}

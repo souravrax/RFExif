@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "brand": "Mitakon",
+  "label": "Mitakon Creator 28mm F5.6",
+  "mount": "Canon RF",
+  "focus": "manual",
+  "status": "catalog-listed",
+  "source": "https://zyoptics.net/",
+  "aliases": [],
+  "sheet": "rf-lenses-12-4x4.png",
+  "index": 14,
+  "id": "lens:mitakon:canon-rf:creator-28mm-f5.6",
+  "make": "Mitakon",
+  "model": "Creator 28mm F5.6",
+  "mountCode": "canon-rf",
+  "series": null,
+  "sensorFormat": null,
+  "focalLength": {
+    "minMm": 28,
+    "maxMm": 28,
+    "type": "prime",
+    "provenance": "model-label"
+  },
+  "maximumAperture": {
+    "wide": 5.6,
+    "tele": 5.6,
+    "unit": "f-number",
+    "raw": "F5.6",
+    "provenance": "model-label"
+  },
+  "categories": [],
+  "specifications": {
+    "weightG": null,
+    "lengthMm": null,
+    "diameterMm": null,
+    "filterThreadMm": null,
+    "minimumFocusDistanceM": null,
+    "maximumMagnification": null,
+    "opticalStabilization": null,
+    "weatherSealed": null,
+    "apertureBlades": null,
+    "opticalElements": null,
+    "opticalGroups": null,
+    "releaseDate": null
+  },
+  "metadataProvenance": {
+    "catalog": "https://zyoptics.net/",
+    "numericValues": "parsed-from-model-label",
+    "sensorFormat": null,
+    "unknownSpecifications": "not-yet-researched"
+  },
+  "equipmentType": "lens",
+  "image": {
+    "path": "art/equipment/individual/lenses/mitakon-creator-28mm-f5.6--canon-rf.png",
+    "width": 335,
+    "height": 335,
+    "assetId": "rf-lenses-12-4x4:14",
+    "sourceSheet": "rf-lenses-12-4x4.png",
+    "cell": 14,
+    "sourceBounds": [
+      626,
+      935,
+      937,
+      1254
+    ],
+    "trimBounds": [
+      0,
+      4,
+      311,
+      261
+    ],
+    "type": "ai-generated-illustration",
+    "generator": "ImageGen",
+    "accuracy": "illustrative-not-product-accurate",
+    "prompts": "art/equipment/generation-prompts.json",
+    "format": "PNG",
+    "colorMode": "RGBA",
+    "transparent": true,
+    "sha256": "815a6f9d54d12c1d0bc241d54b8e78ce8cb8ebdf354e361f78f24ba6a429b217",
+    "sourceSha256": "3529bcf6901a5941f19298faa5018367116828700595e7c6208fe51113ca27d0",
+    "bytes": 89798,
+    "cropWarnings": []
+  }
+}

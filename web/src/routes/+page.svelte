@@ -23,6 +23,18 @@
   let cards = $state([]);
   let selectedId = $state(null);
   let view = $state("overview");
+  let heroTitle;
+  let heroArt;
+  let heroImmediate = true;
+  $effect(() => {
+    const compact = view !== "overview" && cards.length > 0;
+    if (!heroTitle || !heroArt) return;
+    const duration = heroImmediate || matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 0.24;
+    const options = { duration, ease: [0.23, 1, 0.32, 1] };
+    const titleMotion = animate(heroTitle, { transform: `scale(${compact ? 0.9 : 1})` }, options);
+    const artMotion = animate(heroArt, { transform: `scale(${compact ? 0.9 : 1})` }, options);
+    return () => { titleMotion.stop(); artMotion.stop(); };
+  });
   let metaQuery = $state("");
   let metaMode = $state("grouped");
   let metaCategory = $state("All");
@@ -33,6 +45,7 @@
   let fileInput = $state();
 
   function changeView(next, event) {
+    heroImmediate = event.detail === 0;
     view = next;
     const button = event.currentTarget;
     if (event.detail === 0 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -375,35 +388,18 @@
 </script>
 
 <div class="app">
-  <header class="floating-header" aria-label="ShutterDrop">
-    <div class="brand-row">
-      <span class="aperture" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28" role="img" aria-label="ShutterDrop aperture mark">
-          <circle cx="16" cy="16" r="13" fill="none" stroke="#ce4825" stroke-width="2.5" />
-          <g stroke="#ce4825" stroke-width="2" stroke-linecap="round">
-            <line x1="16" y1="3.5" x2="16" y2="12" />
-            <line x1="26.9" y1="9.5" x2="20.8" y2="14.5" />
-            <line x1="26.9" y1="22.5" x2="19" y2="20" />
-            <line x1="16" y1="28.5" x2="16" y2="20" />
-            <line x1="5.1" y1="22.5" x2="11.2" y2="17.5" />
-            <line x1="5.1" y1="9.5" x2="13" y2="12" />
-          </g>
-        </svg>
-      </span>
-      <span class="brand">ShutterDrop</span>
-    </div>
+  <header class="floating-header" aria-label="RF EXIF">
+    <img class="brand-wordmark" src={`${base}/brand/wordmark.svg`} alt="RF EXIF" width="144" height="36" />
   </header>
   <div class="maincol">
     <main>
-      {#if view === "overview" || !cards.length}
         <div class="poster-hero">
-          <h1>Small file.<br class="mobile-break" /> Big story.</h1>
-          <div class="hero-art" aria-hidden="true">
+          <h1 bind:this={heroTitle}>Small file.<br class="mobile-break" /> Big story.</h1>
+          <div class="hero-art" bind:this={heroArt} aria-hidden="true">
             <span class="local-sticker">LOCAL<br />ONLY</span>
             <img src={`${base}/art/camera-buddy.png`} alt="" width="210" height="210" />
           </div>
         </div>
-      {/if}
       {#if cards.length}<div class="photo-toolbar">    <nav class="header-nav" aria-label="Views">
       <button class:active={view === "overview"} aria-current={view === "overview" ? "page" : undefined} onclick={(event) => changeView("overview", event)}>
         Overview
@@ -418,7 +414,7 @@
 <div class="photo-actions"><button class="add" disabled={loadingPhoto} onclick={() => pickPhoto("compare")}>+ Compare</button><button class="ghost" disabled={loadingPhoto} onclick={() => pickPhoto()}>Replace photo</button><button class="ghost" onclick={clearAll}>Reset</button></div></div>{/if}
       {#if !cards.length}
         <section class="empty" aria-labelledby="empty-h">
-          <p class="kicker">Private · local-only shutter count</p>
+          <p class="kicker">Free camera insights · Canon EOS R</p>
           <h2 id="empty-h">Meet your camera’s story.</h2>
           <p class="sub">Drop an original, unedited photo straight from the camera. Counts are read in your browser — files never leave this device.</p>
           <div
@@ -484,12 +480,12 @@
               {/if}
             </article>
             <article class="minicard" aria-label="Camera">
-              {#if cameraArt}<img class="equipment-art" src={cameraArt.image} alt={cameraArt.label} title={cameraArt.credit || cameraArt.label} />{:else}<div class="mini-ic" aria-hidden="true">◉</div>{/if}
-              <div><strong>{firstValue(lookupOf(current), ["EXIF:Model", "IFD0:Model", "Model"]) || current.model}</strong><span class="muted small">Camera identification</span>{#if cameraArt}<span class="art-credit"><a href={cameraArt.source} target="_blank" rel="noreferrer">Photo: {cameraArt.credit}</a> · <a href={cameraArt.licenseUrl} target="_blank" rel="noreferrer">{cameraArt.license}</a> · grayscale treatment</span>{/if}</div>
+              {#if cameraArt?.sprite}<span class="equipment-art equipment-sprite" role="img" aria-label={cameraArt.label + " illustration"} style:background-image={`url("${cameraArt.image}")`} style:background-position={cameraArt.position}></span>{:else if cameraArt}<img class="equipment-art" src={cameraArt.image} alt={cameraArt.label} title={cameraArt.credit || cameraArt.label} />{:else}<div class="mini-ic" aria-hidden="true">◉</div>{/if}
+              <div><strong>{firstValue(lookupOf(current), ["EXIF:Model", "IFD0:Model", "Model"]) || current.model}</strong><span class="muted small">Camera identification</span>{#if cameraArt?.sprite}<span class="art-credit">Illustration</span>{:else if cameraArt}<span class="art-credit"><a href={cameraArt.source} target="_blank" rel="noreferrer">Photo: {cameraArt.credit}</a> · <a href={cameraArt.licenseUrl} target="_blank" rel="noreferrer">{cameraArt.license}</a> · grayscale treatment</span>{/if}</div>
             </article>
             <article class="minicard" aria-label="Lens">
-              {#if lensArt}<img class="equipment-art" src={lensArt.image} alt={lensArt.label} title={lensArt.credit || lensArt.label} />{:else}<div class="mini-ic" aria-hidden="true">◎</div>{/if}
-              <div><strong>{firstValue(lookupOf(current), ["EXIF:LensModel", "MakerNotes:LensModel", "Composite:Lens", "LensModel"]) || "Lens not in tags"}</strong><span class="muted small">From embedded metadata</span>{#if lensArt}<span class="art-credit"><a href={lensArt.source} target="_blank" rel="noreferrer">Photo: {lensArt.credit}</a> · <a href={lensArt.licenseUrl} target="_blank" rel="noreferrer">{lensArt.license}</a> · grayscale treatment</span>{/if}</div>
+              {#if lensArt?.sprite}<span class="equipment-art equipment-sprite" role="img" aria-label={lensArt.label + " illustration"} style:background-image={`url("${lensArt.image}")`} style:background-position={lensArt.position}></span>{:else if lensArt}<img class="equipment-art" src={lensArt.image} alt={lensArt.label} title={lensArt.credit || lensArt.label} />{:else}<div class="mini-ic" aria-hidden="true">◎</div>{/if}
+              <div><strong>{firstValue(lookupOf(current), ["EXIF:LensModel", "MakerNotes:LensModel", "Composite:Lens", "LensModel"]) || "Lens not in tags"}</strong><span class="muted small">From embedded metadata</span>{#if lensArt?.sprite}<span class="art-credit">Illustration</span>{:else if lensArt}<span class="art-credit"><a href={lensArt.source} target="_blank" rel="noreferrer">Photo: {lensArt.credit}</a> · <a href={lensArt.licenseUrl} target="_blank" rel="noreferrer">{lensArt.license}</a> · grayscale treatment</span>{/if}</div>
             </article>
             <article class="exposure span2" aria-label="Exposure settings">
               <h2>Exposure settings</h2>
@@ -636,7 +632,7 @@
       />
     </main>
 
-    <footer>ShutterDrop Web · local-only · full EXIF in-browser · no uploads</footer>
+    <footer>RF EXIF · Free · Photos stay on your device · Independent tool for Canon photographers</footer>
   </div>
 </div>
 

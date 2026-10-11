@@ -40,8 +40,8 @@
       // A native (non-experimental) count outranks an experimental fast hit.
       var upgrade = registry.read({ bytes, exif: merged, fileName: file.name }, "web");
       var patch = { enriching: false, engine: mod.ENGINE + " · " + full.tagCount + " tags" };
-      if (upgrade && !upgrade.result.experimental &&
-          (!fastHit || fastHit.result.experimental) && !upgrade.result.fileNumber) {
+      if (upgrade && !upgrade.result.experimental && !upgrade.result.fileNumber &&
+          (!fastHit || fastHit.result.experimental || fastHit.result.fileNumber)) {
         patch.shutter = upgrade.result.value;
         patch.badge = null;
         patch.note = upgrade.result.note;
@@ -67,7 +67,7 @@
           cards = [{
             id: file.name + Date.now(), name: file.name, model: file.name,
             shutter: null, fileNumber: false, badge: null, note: "",
-            rows: [["Hint", "Use an original CR3 or JPG straight from the camera — edited exports strip the MakerNote blob this reader needs."]],
+            rows: [["Hint", "No readable counter. Either this is an edited export (originals only — edits strip the MakerNote blob), or your body isn't mapped yet — see SAMPLES-WANTED.md to unlock it with 3 sample files."]],
           }, ...cards];
           continue;
         }

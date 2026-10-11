@@ -13,7 +13,7 @@
   "metadataProvenance": {
     "mount": "EOS R series",
     "sensorFormat": "canon-r-series-lineup",
-    "shutterSupport": null,
+    "shutterSupport": "cameras/canon-r3/camera.toml",
     "unknownSpecifications": "not-yet-researched"
   },
   "sheet": "canon-cameras-4x4.png",
@@ -112,7 +112,21 @@
     "cardSlots": "1x CFexpress Type B + 1x SD UHS-II",
     "supportedCards": "CFexpress Type B (VPG400) + SD/SDHC/SDXC UHS-II"
   },
-  "shutterSupport": null,
+  "shutterSupport": {
+    "manifestId": "canon-r3",
+    "ratedLife": null,
+    "strategies": [
+      {
+        "kind": "exif-tag",
+        "platforms": [
+          "web"
+        ],
+        "experimental": true,
+        "note": "Native EXIF ShutterCount. Experimental until 3+ consecutive originals confirm.",
+        "tag": "ShutterCount"
+      }
+    ]
+  },
   "image": {
     "path": "art/equipment/individual/cameras/canon-eos-r3--canon-rf.png",
     "width": 324,

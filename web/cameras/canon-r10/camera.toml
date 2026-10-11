@@ -13,12 +13,13 @@ version = 1
 # Total actuation counter (mechanical + EFCS + electronic).
 # CanonCameraInfo blob (CR3 CTMD rec.8 -> TIFF 0x000D, JPG MakerNote 0x0D),
 # magic BB CC 00 00, LE uint32 at blob-relative 0xC93.
+# Web-only: desktop is USB-only.
 [[strategy]]
 kind = "blob-scan"
 magic = "BBCC0000"
 offset = 0xC93
 format = "u32le"
 source = "r10-blob"
-platforms = ["web", "desktop"]
+platforms = ["web"]
 experimental = true
 note = "Total mechanical + electronic combined. Validated 22146-22165 on 14 consecutive shots."

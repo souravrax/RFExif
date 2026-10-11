@@ -6,11 +6,11 @@ rated_life = 0
 version = 1
 
 # Generic fallback, always tried last (no models filter).
-# Fires when a fuller EXIF backend supplies ShutterCount — desktop ExifTool
-# today (R5/R6/R6II/R8/R50/R3), web once ExifTool-WASM lands.
+# Fires when a fuller EXIF backend supplies ShutterCount — web once
+# ExifTool-WASM lands. Web-only: desktop is USB-only.
 [[strategy]]
 kind = "exif-tag"
 tag = "ShutterCount"
-platforms = ["web", "desktop"]
+platforms = ["web"]
 experimental = false
 note = "Native EXIF ShutterCount."

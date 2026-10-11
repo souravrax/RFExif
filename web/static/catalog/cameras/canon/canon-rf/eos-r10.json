@@ -119,8 +119,7 @@
       {
         "kind": "blob-scan",
         "platforms": [
-          "web",
-          "desktop"
+          "web"
         ],
         "experimental": true,
         "note": "Total mechanical + electronic combined. Validated 22146-22165 on 14 consecutive shots.",

@@ -13,7 +13,7 @@
   "metadataProvenance": {
     "mount": "Canon product manual",
     "sensorFormat": "canon-r-series-lineup",
-    "shutterSupport": null,
+    "shutterSupport": "cameras/canon-1d-x-mark-iii/camera.toml",
     "unknownSpecifications": "not-yet-researched"
   },
   "sheet": "canon-cameras-4x4.png",
@@ -112,7 +112,21 @@
     "cardSlots": "2x CFexpress",
     "supportedCards": "CFexpress Type B"
   },
-  "shutterSupport": null,
+  "shutterSupport": {
+    "manifestId": "canon-1d-x-mark-iii",
+    "ratedLife": 500000,
+    "strategies": [
+      {
+        "kind": "exif-tag",
+        "platforms": [
+          "web"
+        ],
+        "experimental": true,
+        "note": "Native EXIF ShutterCount (1-series, natively decoded). Experimental until 3+ consecutive originals confirm.",
+        "tag": "ShutterCount"
+      }
+    ]
+  },
   "image": {
     "path": "art/equipment/individual/cameras/canon-eos-1d-x-mark-iii--canon-ef.png",
     "width": 389,

@@ -13,7 +13,7 @@
   "metadataProvenance": {
     "mount": "EOS R series",
     "sensorFormat": "canon-r-series-lineup",
-    "shutterSupport": null,
+    "shutterSupport": "cameras/canon-r50/camera.toml",
     "unknownSpecifications": "not-yet-researched"
   },
   "sheet": "canon-cameras-4x4.png",
@@ -112,7 +112,21 @@
     "cardSlots": "Single SD UHS-I",
     "supportedCards": "SD/SDHC/SDXC"
   },
-  "shutterSupport": null,
+  "shutterSupport": {
+    "manifestId": "canon-r50",
+    "ratedLife": null,
+    "strategies": [
+      {
+        "kind": "exif-tag",
+        "platforms": [
+          "web"
+        ],
+        "experimental": true,
+        "note": "Native EXIF ShutterCount (CameraInfo 0x0D29). Experimental until 3+ consecutive originals confirm.",
+        "tag": "ShutterCount"
+      }
+    ]
+  },
   "image": {
     "path": "art/equipment/individual/cameras/canon-eos-r50--canon-rf.png",
     "width": 320,

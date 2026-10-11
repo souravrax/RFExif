@@ -13,7 +13,7 @@
   "metadataProvenance": {
     "mount": "EOS R series",
     "sensorFormat": "canon-r-series-lineup",
-    "shutterSupport": null,
+    "shutterSupport": "cameras/canon-r6-mark-iii/camera.toml",
     "unknownSpecifications": "not-yet-researched"
   },
   "sheet": "canon-cameras-4x4.png",
@@ -112,7 +112,21 @@
     "cardSlots": "CFexpress Type B + SD UHS-II",
     "supportedCards": "CFexpress 2.0 Type B VPG400 + SDXC/SDHC/SD UHS-II"
   },
-  "shutterSupport": null,
+  "shutterSupport": {
+    "manifestId": "canon-r6-mark-iii",
+    "ratedLife": 500000,
+    "strategies": [
+      {
+        "kind": "exif-tag",
+        "platforms": [
+          "web"
+        ],
+        "experimental": true,
+        "note": "ImageCount (0x086D) — resets on card format, not a lifetime count. Track lifetime via USB.",
+        "tag": "ImageCount"
+      }
+    ]
+  },
   "image": {
     "path": "art/equipment/individual/cameras/canon-eos-r6-mark-iii--canon-rf.png",
     "width": 318,

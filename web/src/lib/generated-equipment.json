@@ -1,0 +1,38 @@
+{
+  "camera": [
+    "EOS R1",
+    "EOS R3",
+    "EOS R5 Mark II",
+    "EOS R5",
+    "EOS R6 Mark III",
+    "EOS R6 Mark II",
+    "EOS R6",
+    "EOS R7",
+    "EOS R8",
+    "EOS R10",
+    "EOS R50",
+    "EOS R50 V",
+    "EOS-1D X Mark III",
+    "EOS R",
+    "EOS RP",
+    "EOS R100"
+  ],
+  "lens": [
+    "RF 16mm F2.8 STM",
+    "RF 24mm F1.8 Macro IS STM",
+    "RF 35mm F1.8 Macro IS STM",
+    "RF 50mm F1.8 STM",
+    "RF 85mm F2 Macro IS STM",
+    "RF 50mm F1.2 L USM",
+    "RF 85mm F1.2 L USM",
+    "RF 100mm F2.8 L Macro IS USM",
+    "RF 10-20mm F4 L IS STM",
+    "RF 14-35mm F4 L IS USM",
+    "RF 15-35mm F2.8 L IS USM",
+    "RF 24-70mm F2.8 L IS USM",
+    "RF 24-105mm F4 L IS USM",
+    "RF 70-200mm F2.8 L IS USM",
+    "RF 100-500mm F4.5-7.1 L IS USM",
+    "RF-S 18-45mm F4.5-6.3 IS STM"
+  ]
+}
